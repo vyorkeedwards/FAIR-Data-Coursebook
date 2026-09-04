@@ -3,6 +3,7 @@ title: Set up your own terms
 teaching: 10
 exercises: 15
 ---
+
 ::::::::::::::: questions
 
 - What are Data Terms of Use?
@@ -18,10 +19,6 @@ exercises: 15
 - The participant will be able to create basic data terms of use.
 
 ::::::::::::::::::::::::::
-
-
-
-::::::::::::::::::::::::::::
 
 ## FAIR principles used in Data Terms of Use:  
 **Accessible**   
