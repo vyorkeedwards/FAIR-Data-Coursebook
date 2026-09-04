@@ -24,7 +24,7 @@ exercises: 5
 No.    
 FAIR means human and machine-friendly data sources which aim for transparency in science and future reuse.  
 
-![FAIR and Open Science](fig/FAIRcoursebook-image0_1.png){alt="FAIR and Open Science" style="max-width: 80%; height: auto;"}
+![FAIR and Open Science](fig/FAIRcoursebook-image0_1.png){alt="FAIR and Open Science"}
 
 ## What does it mean to be machine-readable vs human-readable?  
 **Human Readable**: “Data in a format that can be conveniently read by a human. Some human-readable formats, such as PDF, are not machine-readable as they are not structured data, i.e., the representation of the data on disk does not represent the actual relationships present in the data.”  
@@ -45,7 +45,7 @@ A **Digital Object** is a bit sequence located in a digital memory or storage th
 - A Rich Metadata file
 - A README file containing Terms of use & Access Protocols
 
-![Digital Object Anatomy](https://storage.googleapis.com/jnl-up-j-dsj-files/journals/1/articles/1127/submission/proof/1127-10-7358-1-17-20200401.png){alt="Digital Object Anatomy" width=650 height=400}
+![Digital Object Anatomy](https://storage.googleapis.com/jnl-up-j-dsj-files/journals/1/articles/1127/submission/proof/1127-10-7358-1-17-20200401.png){alt="Digital Object Anatomy"}
 
 ## To learn more about FAIR Digital Objects
 **FAIR Digital Objects: Which Services Are Required?** [(Schwardmann, Ulrich 2020)](https://datascience.codata.org/articles/10.5334/dsj-2020-015/)
