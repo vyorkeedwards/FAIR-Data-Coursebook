@@ -46,10 +46,13 @@ A **Digital Object** is a bit sequence located in a digital memory or storage th
 
 ![Digital Object Anatomy](https://storage.googleapis.com/jnl-up-j-dsj-files/journals/1/articles/1127/submission/proof/1127-10-7358-1-17-20200401.png){alt="Digital Object Anatomy" width=650 height=400}
 
+::::::::::::::::: callout
 
 ## To learn more about FAIR Digital Objects
 **FAIR Digital Objects: Which Services Are Required?** [(Schwardmann, Ulrich 2020)](https://datascience.codata.org/articles/10.5334/dsj-2020-015/)
 **FAIR Digital Object Framework Documentation** [(BdSS, Luiz Olavo 2020)](https://datascience.codata.org/articles/10.5334/dsj-2020-015/)
+
+::::::::::::::::::
 
 A **Persistent Identifier (PID)** is a long-lasting reference to a (digital or physical) resource:
 
@@ -65,14 +68,19 @@ PIDs have community support, organizational commitment, and technical infrastruc
 
 In [Episode 6 (Data Archiving)](https://github-pages.arc.ucl.ac.uk/FAIR-Data-Coursebook/05-data-archiving/index.html), you will explore one type of PID, the DOI (Digital Object Identifier), which is usually the standard PID for Datasets and Publications.
 
-## Exercise - Level Easy
+:::::::::::::::: challenge
+
 1. arXiv is a preprint repository for physics, math, computer science, and related disciplines. 
 2. It allows researchers to share and access their work before it is formally published. 
 3. Visit the arXiv new papers page for [Machine Learning](https://arxiv.org/list/cs.LG/recent). 
 4. Choose any paper by clicking on the 'pdf' link. Now use <kbd>control</kbd> + <kbd>F</kbd> or <kbd>command</kbd> + <kbd>F</kbd> and search for 'HTTP'. Did the author use DOIs for their data?
  
-## Solution
+:::::::::::::: solution
+
 Authors will often link to platforms such as GitHub where they have shared their software, and/or they will link to their website hosting the data used in the paper. The danger is that platforms like GitHub and personal websites are not permanent. Instead, authors can use repositories to deposit and preserve their data and software while minting a DOI. Links to software sharing platforms or personal websites might move, but DOIs will always resolve to information about the software and/or data. See DataCite's [Best Practices for a Tombstone Page](https://support.datacite.org/docs/tombstone-pages).
+
+::::::::::::::::::::::::::
+:::::::::::::::::::::::::
 
 #### DOIs are everywhere, examples:
 - Resource IDs (articles, data, software, …)
@@ -84,9 +92,13 @@ Authors will often link to platforms such as GitHub where they have shared their
 - DMP IDs…
 - Media: videos, images, 3D models 
 
+:::::::::::::::::::::::::::: discussion
+
 ## How does your discipline share data?
 
 Does your discipline have a data journal? Or some other mechanism to share data? For example, the American Astronomical Society (AAS), via the publisher IOP Physics, offers a [supplement series](https://iopscience.iop.org/journal/0067-0049/page/article-data) as a way for astronomers to publish data. 
+
+::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::: keypoints
 
