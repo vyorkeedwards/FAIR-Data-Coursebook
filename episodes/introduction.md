@@ -32,5 +32,16 @@ FAIR means human and machine-friendly data sources which aim for transparency in
 
 ![Machine Friendly DO](fig/FAIRcoursebook-image0_2.png){alt="Machine Friendly DO"}
 
+## Machine friendly = Machine-readable + Machine-actionable + Machine-interoperable
+During this sourcebook, we will be using "Machine-readable" and "Machine friendly" interchangeably. We like the term "friendly" since it can also include "machine-actionability" and "machine-interoperability."
 
+### 2. What are Digital Objects and Persistent Identifiers?
 
+A **Digital Object** is a bit sequence located in a digital memory or storage that has, on its own, informational value. For example:  
+
+- A Scientific Publication
+- A Dataset
+- A Rich Metadata file
+- A README file containing Terms of use & Access Protocols
+
+![Digital Object Anatomy](https://storage.googleapis.com/jnl-up-j-dsj-files/journals/1/articles/1127/submission/proof/1127-10-7358-1-17-20200401.png){alt="Digital Object Anatomy" width=650 height=400}
