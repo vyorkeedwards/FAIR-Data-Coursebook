@@ -67,7 +67,7 @@ contact: 'arc.teaching@ucl.ac.uk' # FIXME
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.md
+- 01-introduction.md
 
 # Information for Learners
 learners: 
