@@ -189,12 +189,19 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         1. Introduction
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#what-does-it-mean-to-be-machine-readable-vs-human-readable">What does it mean to be machine-readable vs human-readable?</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
 
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -297,14 +304,31 @@ Science</li>
 FAIR means human and machine-friendly data sources which aim for
 transparency in science and future reuse.</p>
 <figure><img src="../fig/FAIRcoursebook-image0_1.png" style="max-width: 80%; height: auto;" alt="FAIR and Open Science" class="figure mx-auto d-block"><div class="figcaption">FAIR and Open Science</div>
+</figure></div>
+<section><h2 class="section-heading" id="what-does-it-mean-to-be-machine-readable-vs-human-readable">What does it mean to be machine-readable vs human-readable?<a class="anchor" aria-label="anchor" href="#what-does-it-mean-to-be-machine-readable-vs-human-readable"></a></h2>
+<hr class="half-width"><p><strong>Human Readable</strong>: “Data in a format that can be
+conveniently read by a human. Some human-readable formats, such as PDF,
+are not machine-readable as they are not structured data, i.e., the
+representation of the data on disk does not represent the actual
+relationships present in the data.”<br><strong>Machine Readable</strong>: “Data in a data format that can be
+automatically read and processed by a computer, such as CSV, JSON, XML,
+etc. Machine-readable data must be structured data. Compare
+human-readable. Non-digital material (for example, printed or
+hand-written documents) is not machine-readable by its non-digital
+nature. But even digital material need not be machine-readable. For
+example, consider a PDF document containing tables of data. These are
+definitely digital but are not machine-readable because a computer would
+struggle to access the tabular information - even though they are very
+human-readable. The equivalent tables in a format such as a spreadsheet
+would be machine-readable. As another example, scans (photographs) of
+text are not machine-readable (but are human-readable!) but the
+equivalent text in a format such as a simple ASCII text file can be
+machine-readable and processable.”</p>
+<figure><img src="../fig/FAIRcoursebook-image0_2.png" alt="Machine Friendly DO" class="figure mx-auto d-block"><div class="figcaption">Machine Friendly DO</div>
 </figure><!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
- --></div>
-
-
-
-      </div> <!-- / div.lesson-content -->
+ --></section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter Bottom"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/index.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
       </div>
