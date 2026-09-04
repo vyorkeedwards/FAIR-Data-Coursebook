@@ -1,5 +1,5 @@
 ---
-title: "0. Introduction"
+title: Introduction
 teaching: 10
 exercises: 5
 ---
@@ -19,11 +19,3 @@ exercises: 5
 
 :::::::::::::::::::::::::
 
-
-
-:::::::::::::::::::::::: keypoints
-
-- FAIR means human and machine-friendly data sources which aim for transparency in science and future reuse.
-- DOI (Digital Object Identifier) is a type of PID (Persistent Identifier)
-
-::::::::::::::::::::::::
