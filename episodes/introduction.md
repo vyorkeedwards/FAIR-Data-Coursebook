@@ -69,7 +69,7 @@ In [Episode 6 (Data Archiving)](https://github-pages.arc.ucl.ac.uk/FAIR-Data-Cou
 1. arXiv is a preprint repository for physics, math, computer science, and related disciplines. 
 2. It allows researchers to share and access their work before it is formally published. 
 3. Visit the arXiv new papers page for [Machine Learning](https://arxiv.org/list/cs.LG/recent). 
-4. Choose any paper by clicking on the 'pdf' link. Now use <kbd>control</kbd> + <kbd>F</kbd> or <kbd>command</kbd> + <kbd>F</kbd> and search for 'HTTP'. Did the author use DOIs for their data?
+4. Choose any paper by clicking on the 'pdf' link. Now use control + F or command + F and search for 'HTTP'. Did the author use DOIs for their data?
  
 ## Solution
 Authors will often link to platforms such as GitHub where they have shared their software, and/or they will link to their website hosting the data used in the paper. The danger is that platforms like GitHub and personal websites are not permanent. Instead, authors can use repositories to deposit and preserve their data and software while minting a DOI. Links to software sharing platforms or personal websites might move, but DOIs will always resolve to information about the software and/or data. See DataCite's [Best Practices for a Tombstone Page](https://support.datacite.org/docs/tombstone-pages).
