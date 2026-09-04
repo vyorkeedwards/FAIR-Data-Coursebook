@@ -202,6 +202,10 @@
         <ul><li><a href="#what-does-it-mean-to-be-machine-readable-vs-human-readable">What does it mean to be machine-readable vs human-readable?</a></li>
 <li><a href="#machine-friendly-machine-readable-machine-actionable-machine-interoperable">Machine friendly = Machine-readable + Machine-actionable +
 Machine-interoperable</a></li>
+<li><a href="#to-learn-more-about-fair-digital-objects">To learn more about FAIR Digital Objects</a></li>
+<li><a href="#exercise---level-easy">Exercise - Level Easy</a></li>
+<li><a href="#solution">Solution</a></li>
+<li><a href="#how-does-your-discipline-share-data">How does your discipline share data?</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
 
@@ -343,10 +347,93 @@ example:</p>
 <li>A Rich Metadata file</li>
 <li>A README file containing Terms of use &amp; Access Protocols</li>
 </ul><figure><img src="https://storage.googleapis.com/jnl-up-j-dsj-files/journals/1/articles/1127/submission/proof/1127-10-7358-1-17-20200401.png" width="650" height="400" alt="Digital Object Anatomy" class="figure mx-auto d-block"><div class="figcaption">Digital Object Anatomy</div>
-</figure><!--
+</figure></div>
+</section><section><h2 class="section-heading" id="to-learn-more-about-fair-digital-objects">To learn more about FAIR Digital Objects<a class="anchor" aria-label="anchor" href="#to-learn-more-about-fair-digital-objects"></a></h2>
+<hr class="half-width"><p><strong>FAIR Digital Objects: Which Services Are Required?</strong>
+<a href="https://datascience.codata.org/articles/10.5334/dsj-2020-015/" class="external-link">(Schwardmann,
+Ulrich 2020)</a> <strong>FAIR Digital Object Framework
+Documentation</strong> <a href="https://datascience.codata.org/articles/10.5334/dsj-2020-015/" class="external-link">(BdSS,
+Luiz Olavo 2020)</a></p>
+<p>A <strong>Persistent Identifier (PID)</strong> is a long-lasting
+reference to a (digital or physical) resource:</p>
+<ul><li>Designed to provide access to information about a resource even if
+the resource it describes has moved location on the web</li>
+<li>Requires technical, governance, and community support to provide the
+persistence</li>
+<li>There are many different PIDs available for many different types of
+scholarly resources, e.g., articles, data, samples, authors, grants,
+projects, conference papers, and so much more</li>
+</ul><p>Video: The FREYA project explains the significance of PID: <a href="https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm" class="external-link">LINK</a></p>
+<div class="section level3">
+<h3 id="different-types-of-pids">Different types of PIDs<a class="anchor" aria-label="anchor" href="#different-types-of-pids"></a></h3>
+<p>PIDs have community support, organizational commitment, and technical
+infrastructure to ensure the persistence of identifiers. They are often
+created to respond to a community’s needs. For instance, the
+International Standard Book Number or ISBN was created to assign unique
+numbers to books, is used by book publishers, and is managed by the
+International ISBN Agency. Another type of PID, the Open Researcher and
+Contributor ID or ORCID (iD), was created to help with author
+disambiguation by providing unique identifiers for authors. The <a href="https://project-thor.readme.io/docs/project-glossary" class="external-link">ODIN Project
+identifies additional PIDs</a> along with <a href="https://en.wikipedia.org/wiki/Persistent_identifier" class="external-link">Wikipedia’s
+page on PIDs</a>.</p>
+<p>In <a href="https://github-pages.arc.ucl.ac.uk/FAIR-Data-Coursebook/05-data-archiving/index.html" class="external-link">Episode
+6 (Data Archiving)</a>, you will explore one type of PID, the DOI
+(Digital Object Identifier), which is usually the standard PID for
+Datasets and Publications.</p>
+</div>
+</section><section><h2 class="section-heading" id="exercise---level-easy">Exercise - Level Easy<a class="anchor" aria-label="anchor" href="#exercise---level-easy"></a></h2>
+<hr class="half-width"><ol style="list-style-type: decimal"><li>arXiv is a preprint repository for physics, math, computer science,
+and related disciplines.</li>
+<li>It allows researchers to share and access their work before it is
+formally published.</li>
+<li>Visit the arXiv new papers page for <a href="https://arxiv.org/list/cs.LG/recent" class="external-link">Machine Learning</a>.</li>
+<li>Choose any paper by clicking on the ‘pdf’ link. Now use
+<kbd>control</kbd> + <kbd>F</kbd> or <kbd>command</kbd> + <kbd>F</kbd>
+and search for ‘HTTP’. Did the author use DOIs for their data?</li>
+</ol></section><section><h2 class="section-heading" id="solution">Solution<a class="anchor" aria-label="anchor" href="#solution"></a></h2>
+<hr class="half-width"><p>Authors will often link to platforms such as GitHub where they have
+shared their software, and/or they will link to their website hosting
+the data used in the paper. The danger is that platforms like GitHub and
+personal websites are not permanent. Instead, authors can use
+repositories to deposit and preserve their data and software while
+minting a DOI. Links to software sharing platforms or personal websites
+might move, but DOIs will always resolve to information about the
+software and/or data. See DataCite’s <a href="https://support.datacite.org/docs/tombstone-pages" class="external-link">Best Practices
+for a Tombstone Page</a>.</p>
+<div class="section level4">
+<h4 id="dois-are-everywhere-examples">DOIs are everywhere, examples:<a class="anchor" aria-label="anchor" href="#dois-are-everywhere-examples"></a></h4>
+<ul><li>Resource IDs (articles, data, software, …)</li>
+<li>Researcher IDs</li>
+<li>Organization IDs, Funder IDs</li>
+<li>Project IDs</li>
+<li>Instrument IDs</li>
+<li>Physical sample IDs,</li>
+<li>DMP IDs…</li>
+<li>Media: videos, images, 3D models</li>
+</ul></div>
+</section><section><h2 class="section-heading" id="how-does-your-discipline-share-data">How does your discipline share data?<a class="anchor" aria-label="anchor" href="#how-does-your-discipline-share-data"></a></h2>
+<hr class="half-width"><p>Does your discipline have a data journal? Or some other mechanism to
+share data? For example, the American Astronomical Society (AAS), via
+the publisher IOP Physics, offers a <a href="https://iopscience.iop.org/journal/0067-0049/page/article-data" class="external-link">supplement
+series</a> as a way for astronomers to publish data.</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul><li>FAIR means human and machine-friendly data sources which aim for
+transparency in science and future reuse.</li>
+<li>DOI (Digital Object Identifier) is a type of PID (Persistent
+Identifier)</li>
+</ul></div>
+</div>
+</div>
+<!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
- --></div>
+ -->
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter Bottom"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/index.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
