@@ -27,8 +27,12 @@ FAIR means human and machine-friendly data sources which aim for transparency in
 ![FAIR and Open Science](fig/FAIRcoursebook-image0_1.png){alt="FAIR and Open Science" style="max-width: 80%; height: auto;"}
 
 ## What does it mean to be machine-readable vs human-readable?  
-**Human Readable**: “Data in a format that can be conveniently read by a human. Some human-readable formats, such as PDF, are not machine-readable as they are not structured data, i.e., the representation of the data on disk does not represent the actual relationships present in the data.”  
-**Machine Readable**: “Data in a data format that can be automatically read and processed by a computer, such as CSV, JSON, XML, etc. Machine-readable data must be structured data. Compare human-readable. Non-digital material (for example, printed or hand-written documents) is not machine-readable by its non-digital nature. But even digital material need not be machine-readable. For example, consider a PDF document containing tables of data. These are definitely digital but are not machine-readable because a computer would struggle to access the tabular information - even though they are very human-readable. The equivalent tables in a format such as a spreadsheet would be machine-readable. As another example, scans (photographs) of text are not machine-readable (but are human-readable!) but the equivalent text in a format such as a simple ASCII text file can be machine-readable and processable.”
+
+**Human Readable**: 
+> “Data in a format that can be conveniently read by a human. Some human-readable formats, such as PDF, are not machine-readable as they are not structured data, i.e., the representation of the data on disk does not represent the actual relationships present in the data.”
+
+**Machine Readable**: 
+> “Data in a data format that can be automatically read and processed by a computer, such as CSV, JSON, XML, etc. Machine-readable data must be structured data. Compare human-readable. Non-digital material (for example, printed or hand-written documents) is not machine-readable by its non-digital nature. But even digital material need not be machine-readable. For example, consider a PDF document containing tables of data. These are definitely digital but are not machine-readable because a computer would struggle to access the tabular information - even though they are very human-readable. The equivalent tables in a format such as a spreadsheet would be machine-readable. As another example, scans (photographs) of text are not machine-readable (but are human-readable!) but the equivalent text in a format such as a simple ASCII text file can be machine-readable and processable.”
 
 ![Machine Friendly DO](fig/FAIRcoursebook-image0_2.png){alt="Machine Friendly DO"}
 
@@ -49,8 +53,9 @@ A **Digital Object** is a bit sequence located in a digital memory or storage th
 ::::::::::::::::: callout
 
 ## To learn more about FAIR Digital Objects
-**FAIR Digital Objects: Which Services Are Required?** [(Schwardmann, Ulrich 2020)](https://datascience.codata.org/articles/10.5334/dsj-2020-015/)
-**FAIR Digital Object Framework Documentation** [(BdSS, Luiz Olavo 2020)](https://datascience.codata.org/articles/10.5334/dsj-2020-015/)
+
+- **FAIR Digital Objects: Which Services Are Required?** [(Schwardmann, Ulrich 2020)](https://datascience.codata.org/articles/10.5334/dsj-2020-015/)
+- **FAIR Digital Object Framework Documentation** [(BdSS, Luiz Olavo 2020)](https://datascience.codata.org/articles/10.5334/dsj-2020-015/)
 
 ::::::::::::::::::
 
@@ -60,7 +65,7 @@ A **Persistent Identifier (PID)** is a long-lasting reference to a (digital or p
 - Requires technical, governance, and community support to provide the persistence
 - There are many different PIDs available for many different types of scholarly resources, e.g., articles, data, samples, authors, grants, projects, conference papers, and so much more
 
-Video: The FREYA project explains the significance of PID: [LINK](https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm)
+**Video:** The FREYA project explains the significance of PID: [LINK](https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm)
 
 ### Different types of PIDs
 
@@ -70,10 +75,15 @@ In [Episode 6 (Data Archiving)](https://github-pages.arc.ucl.ac.uk/FAIR-Data-Cou
 
 :::::::::::::::: challenge
 
-1. arXiv is a preprint repository for physics, math, computer science, and related disciplines. 
-2. It allows researchers to share and access their work before it is formally published. 
-3. Visit the arXiv new papers page for [Machine Learning](https://arxiv.org/list/cs.LG/recent). 
-4. Choose any paper by clicking on the 'pdf' link. Now use <kbd>control</kbd> + <kbd>F</kbd> or <kbd>command</kbd> + <kbd>F</kbd> and search for 'HTTP'. Did the author use DOIs for their data?
+### arXiv
+
+arXiv is a preprint repository for physics, math, computer science, and related disciplines. It allows researchers to share and access their work before it is formally published. 
+
+Visit the arXiv new papers page for [Machine Learning](https://arxiv.org/list/cs.LG/recent). 
+Choose any paper by clicking on the 'pdf' link. 
+Now use <kbd>control</kbd> + <kbd>F</kbd> or <kbd>command</kbd> + <kbd>F</kbd> and search for 'HTTP'. 
+
+**Did the author use DOIs for their data?**
  
 :::::::::::::: solution
 
