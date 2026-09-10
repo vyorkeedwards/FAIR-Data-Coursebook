@@ -260,6 +260,18 @@
 </div>
 <!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="04-access-protocols.html">4. Securely share</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -733,7 +745,7 @@ write it using Microsoft Word or Google Docs and save it as
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ul>
 <li>Refers to the public code on which the large city of Philadelphia
@@ -789,7 +801,7 @@ section to find out.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>Yes, it is possible. However, you can’t choose it at the beginning.
 After creating a dataset, go to the ‘Terms’ tab on your dataset page and
@@ -870,7 +882,7 @@ someone wants to use the simulation data for a startup, they can</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>Attribution-NoDerivatives 4.0 International</p>
 </div>
@@ -1124,7 +1136,7 @@ you.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Definition: Measurement of the amount of glucose, the monosaccharide
 sugar, C6H12O6, occurring widely in plant and animal tissues which is
@@ -1256,7 +1268,7 @@ attributes?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>There is no one single answer 🤓</p>
 </div>
@@ -1306,6 +1318,327 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
 </div>
+</section></section><section id="aio-04-access-protocols"><p>Content from <a href="04-access-protocols.html">Securely share</a></p>
+<hr>
+<p>Last updated on 2026-09-10 |
+
+        <a href="https://github.com/vyorkeedwards/FAIR-Data-Coursebook/edit/main/episodes/04-access-protocols.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>What are data access protocols?</li>
+<li>Is Open Access a data access protocol?</li>
+<li>Can I expose my data as a service using FAIR API protocols?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>The participant will learn what data access protocols are.</li>
+<li>The participant will explore the aspects of an access protocol for
+humans and machines.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="fair-principles-used-in-data-access-protocols">FAIR principles used in Data Access Protocols:<a class="anchor" aria-label="anchor" href="#fair-principles-used-in-data-access-protocols"></a>
+</h2>
+<hr class="half-width">
+<p><strong>Accessible</strong><br>
+FM-A1.1 (Access Protocol) → <a href="https://doi.org/10.25504/FAIRsharing.yDJci5" class="external-link">doi.org/10.25504/FAIRsharing.yDJci5</a><br>
+FM-A1.2 (Access Authorization) → <a href="https://doi.org/10.25504/FAIRsharing.EwnE1n" class="external-link">doi.org/10.25504/FAIRsharing.EwnE1n</a></p>
+<p><strong>Interoperable</strong><br>
+FM-I3 (Use Qualified References) → <a href="https://doi.org/10.25504/FAIRsharing.B2sbNh" class="external-link">doi.org/10.25504/FAIRsharing.B2sbNh</a></p>
+<div class="section level3">
+<h3 id="what-are-data-access-protocols">1. What are Data Access Protocols?<a class="anchor" aria-label="anchor" href="#what-are-data-access-protocols"></a>
+</h3>
+<p>Data Access Protocols are a set of formatting and processing rules
+for data communication. In practice, Data Access Protocols are the
+<strong>explicit instructions</strong> for humans and machines to access
+a data source.</p>
+<p>Imagine you enter a security room. You need to follow specific steps
+or possess specific keys for accessing the room. The same is with data.
+Moreover, if the door of the room is <em>open</em> we can say it is
+<strong>Open Access</strong>.</p>
+<figure><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Electronic_access_control_%28BSL3_Lab%29_using_personal_identification_number_%28PIN%29.jpg" width="800" alt="access" class="figure mx-auto d-block"><div class="figcaption">Access</div>
+</figure><p>Following the premise that “Data Access Protocols” are a common set
+of rules in a standard language, they exist in various ranges. For
+example, some messages are directed to humans, and some protocols are
+meant for machines.</p>
+<table class="table">
+<colgroup>
+<col width="33%">
+<col width="33%">
+<col width="33%">
+</colgroup>
+<thead><tr>
+<th>Access Protocol</th>
+<th>Example</th>
+<th>Note</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Communication between machines</td>
+<td><img src="https://study-ccna.com/wp-content/images/http_process_explained.jpg" class="figure"></td>
+<td>A PC requesting information using HTTP protocol</td>
+</tr>
+<tr>
+<td>Communication between humans</td>
+<td><img src="../fig/FAIRcoursebook-image3_1.png" alt="CbCM Protocol" width="300" height="300" class="figure"></td>
+<td>Data owner requesting users to contact directly for data access</td>
+</tr>
+</tbody>
+</table>
+<p>Image: <strong>Mapping EU Company Mobility &amp;
+Abuse-Detection</strong> → <a href="https://eu-corporate-mobility.org/" class="external-link">LINK TO EXAMPLE</a></p>
+<p>In a strict sense, data access protocols relate to network protocol
+definitions. However, regarding Research Data, the human factor plays a
+part. Therefore, we can explicitly mention the rules and instructions
+for accessing data depending on the use case. Sometimes the data can’t
+be publicly available, and there is no particular repository for it.
+Therefore, you request the user to contact you to get access. We could
+say it is a <strong>human-friendly</strong> access protocol.</p>
+<p>For example:<br><img src="/fig/FAIRcoursebook-image3_2.png" alt="UMC Utrecht Access Protocol" width="600" class="figure"></p>
+<p>In <strong>Data Request Form UMC Utrecht</strong> → <a href="https://preview.umcutrecht.nl/en/data-request-form-umc-utrecht" class="external-link">LINK
+TO EXAMPLE</a><br>
+The University Medical Center at Utrecht (UMC Utrecht) has an open
+<em>data request form</em> for users to access clinical data for
+research purposes. The form asks general things related to the
+researcher’s identification and affiliation, research context, and
+methodologies. Furthermore, they explicitly mention that the <em>Data
+Access Committee</em> will review and consider applications and respond
+within 4 weeks.</p>
+</div>
+</section><section><h2 class="section-heading" id="protocols-are-like-standard-rules-communicated-in-a-standard-language-for-humans-and-machines-">Protocols are like standard rules communicated in a standard
+language for humans and machines.<a class="anchor" aria-label="anchor" href="#protocols-are-like-standard-rules-communicated-in-a-standard-language-for-humans-and-machines-"></a>
+</h2>
+<hr class="half-width">
+<p>We humans predominantly use the English language for communication in
+science.</p>
+<p>Likewise, Machines need a “medium” to talk to each other such as an
+<strong>API <a href="https://en.wikipedia.org/wiki/Web_API" class="external-link">(Application
+Programming Interface)</a></strong>, and they use a “communication
+language” such as <strong>HTTP <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" class="external-link">Hypertext
+Transfer Protocol</a></strong> to share information between one
+another.</p>
+<p>Relevant API protocols are:</p>
+<ul>
+<li>
+<a href="https://en.wikipedia.org/wiki/SOAP" class="external-link">SOAP</a> API<br>
+</li>
+<li>
+<a href="https://en.wikipedia.org/wiki/SPARQL" class="external-link">SPARQL</a> API<br>
+</li>
+<li>
+<a href="https://en.wikipedia.org/wiki/Representational_state_transfer" class="external-link">REST</a>
+API</li>
+</ul>
+<div class="section level3">
+<h3 id="is-open-access-a-data-access-protocol">2. Is Open Access a data access protocol?<a class="anchor" aria-label="anchor" href="#is-open-access-a-data-access-protocol"></a>
+</h3>
+<p>Open Access is a policy framework in the strict sense but yes! We
+could say it’s a data access protocol. Within the Open Science
+recommendations, it is endorsed to standardize open access datasets when
+it is possible to make them publicly available and does not violate
+legal or ethical considerations. More information at <a href="https://www.openaccess.nl/en/what-is-open-access" class="external-link">Open
+Access</a>.</p>
+<p><a href="https://www.openaccess.nl/en/wat-is-open-access/open-data" class="external-link">openaccess.nl</a></p>
+<p>Depositing datasets in public data repositories can grant them open
+access protocol automatically. In addition, data repositories typically
+work as a data archiving instrument, which we cover in <a href="https://carpentries-incubator.github.io/FAIR-research-data-coursebook/05-data-archiving/index.html" class="external-link">Episode
+6 (Data Archiving)</a>.</p>
+<p>Moreover, Open Access data sources can be made available using FAIR
+protocols such as SPARQL API endpoints.</p>
+<p>An example is:</p>
+<p><strong>The European Union Public Data</strong> → <a href="https://data.europa.eu/data/sparql" class="external-link">LINK TO EXAMPLE</a><br>
+Which makes available all public datasets. The following endpoint
+(permanent link) <a href="https://data.europa.eu/sparql" class="external-link">https://data.europa.eu/sparql</a></p>
+<figure><img src="/fig/FAIRcoursebook-image3_3.png" width="800" alt="sparql" class="figure mx-auto d-block"><div class="figcaption">sparql</div>
+</figure><div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>Go to <a href="https://zenodo.org/communities/covid-19/" class="external-link">ZENODO Covid
+19 Community</a>.</p>
+<p>Can you tell what is the default “Data Access Protocol” for the
+Digital Objects displayed?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>It is <em>Open Access</em>. It is indicated in the green tag on top
+of the titles.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="open-access-is-a-human-and-machine-friendly-data-access-protocol">Open Access is a human and machine-friendly Data Access
+Protocol<a class="anchor" aria-label="anchor" href="#open-access-is-a-human-and-machine-friendly-data-access-protocol"></a>
+</h2>
+<hr class="half-width">
+<p>Humans see a “Download” button<br>
+Machines see an HTTPS request</p>
+</section><section><h2 class="section-heading" id="can-i-expose-my-data-as-a-service-using-fair-api-protocols">3. Can I expose my data as a service using FAIR API protocols?<a class="anchor" aria-label="anchor" href="#can-i-expose-my-data-as-a-service-using-fair-api-protocols"></a>
+</h2>
+<hr class="half-width">
+<p>Yes, it is possible; however, it is not an easy road and requires
+technical skills.<br>
+We must remember that exposing data as a service would mean we need a
+server to host it, which we don’t always have. Moreover, one of the main
+motivations to expose our data using FAIR protocols is to make it
+accessible for other data sources to integrate. But for that, you would
+need some basic understanding of <a href="https://en.wikipedia.org/wiki/Knowledge_graph" class="external-link">Knowledge
+Graphs</a> technologies. More information about this can be found in the
+<a href="https://faircookbook.elixir-europe.org/content/recipes/introduction/FAIR-and-knowledge-graphs.html" class="external-link">FAIR
+Elixir Cookbook</a>.</p>
+<table class="table">
+<colgroup>
+<col width="25%">
+<col width="25%">
+<col width="25%">
+<col width="25%">
+</colgroup>
+<thead><tr>
+<th>Tool</th>
+<th>Source</th>
+<th>GUI</th>
+<th>Note</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>TriplyDB</td>
+<td><a href="https://triplydb.com/" class="external-link">LINK</a></td>
+<td>✅</td>
+<td>Free account, you can expose your data on their servers for a
+limited time</td>
+</tr>
+<tr>
+<td>GraphDB</td>
+<td><a href="https://www.ontotext.com/products/graphdb/" class="external-link">LINK</a></td>
+<td>✅</td>
+<td>Nice interface; you need to rely on a server</td>
+</tr>
+<tr>
+<td>FAIR Data Point</td>
+<td><a href="https://github.com/fair-data/fairdatapoint" class="external-link">LINK</a></td>
+<td>❌</td>
+<td>Highly technical, requires programming language knowledge</td>
+</tr>
+<tr>
+<td>RDFlib Endpoint</td>
+<td><a href="https://pypi.org/project/rdflib-endpoint/" class="external-link">LINK</a></td>
+<td>❌</td>
+<td>Requires familiarity with terminal, but is the quickest way to get
+started</td>
+</tr>
+</tbody>
+</table></section><section><h2 class="section-heading" id="important">Important!<a class="anchor" aria-label="anchor" href="#important"></a>
+</h2>
+<hr class="half-width">
+<p>When you expose your data using FAIR API protocols, you must register
+your service in a registry for FAIR APIs such as <a href="https://www.smart-api.info/" class="external-link">SMART API</a></p>
+<div id="challenge2" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>Expose your RDF data to a service endpoint using a FAIR API
+protocol</p>
+<ol style="list-style-type: decimal">
+<li>Use the RDF data you generated in Episode 2 (data descriptions) else
+you can download it here</li>
+<li>In your terminal, install the following library using the default
+Python installation
+<code>pip install rdflib-endpoint@git+https://github.com/vemonet/rdflib-endpoint@main</code><br>
+</li>
+<li>Next, execute the following command to locally expose your data
+<code>rdflib-endpoint serve data-file.nt</code>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p>This exercise is optional</p>
+</div>
+</div>
+</div>
+</div>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>Data Access Scenario</p>
+<p>You are a researcher of Sustainable Investment from the Economics
+department. After your research, you ended up possessing sensitive
+financial information of company figures that cannot be disclosed since
+competitors could misuse this information. You will store the data in a
+secure environment but you would like to make it available for research
+purposes.<br>
+Note: The data is not about personal data.</p>
+<p>Discuss with your team what type of access protocols shall be
+considered in this case.</p>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Data Access Protocols are a set of formatting and processing rules
+for data communication. For example, imagine you enter a security room.
+You must follow certain steps or possess keys to access the room.</li>
+<li>When you expose your data using FAIR protocols, you must register
+your service in a registry for FAIR APIs such as <a href="https://www.smart-api.info/" class="external-link">SMART API</a>.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
 </section></section>
 </div>
     </main>
