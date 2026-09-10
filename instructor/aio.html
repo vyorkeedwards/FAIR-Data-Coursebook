@@ -273,6 +273,18 @@
 </div>
 <!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="05-data-archiving.html">5. Publish and preserve</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -496,7 +508,7 @@ any paper by clicking on the ‘pdf’ link. Now use <kbd>control</kbd> +
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Authors will often link to platforms such as GitHub where they have
 shared their software, and/or they will link to their website hosting
@@ -1141,7 +1153,7 @@ you.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Definition: Measurement of the amount of glucose, the monosaccharide
 sugar, C6H12O6, occurring widely in plant and animal tissues which is
@@ -1273,7 +1285,7 @@ attributes?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>There is no one single answer 🤓</p>
 </div>
@@ -1494,7 +1506,7 @@ Digital Objects displayed?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>It is <em>Open Access</em>. It is indicated in the green tag on top
 of the titles.</p>
@@ -1597,7 +1609,7 @@ Python installation
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>This exercise is optional</p>
 </div>
@@ -1645,6 +1657,295 @@ your service in a registry for FAIR APIs such as <a href="https://www.smart-api.
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
+</section></section><section id="aio-05-data-archiving"><p>Content from <a href="05-data-archiving.html">Publish and preserve</a></p>
+<hr>
+<p>Last updated on 2026-09-10 |
+
+        <a href="https://github.com/vyorkeedwards/FAIR-Data-Coursebook/edit/main/episodes/05-data-archiving.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 25 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>What is Data Archiving?</li>
+<li>What are Data Repositories?</li>
+<li>What is a DOI, and why is it important?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>The participant will understand the importance of archiving datasets
+on trusted data repositories.</li>
+<li>The participant will learn the significance of the Digital Object
+Identifier (DOI).</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="fair-principles-used-in-data-archiving">FAIR principles used in Data Archiving<a class="anchor" aria-label="anchor" href="#fair-principles-used-in-data-archiving"></a>
+</h2>
+<hr class="half-width">
+<p><strong>Findable</strong><br>
+FM-F1A (Identifier Uniqueness) → <a href="https://doi.org/10.25504/FAIRsharing.r49beq" class="external-link">doi.org/10.25504/FAIRsharing.r49beq</a><br>
+FM-F3 (Resource Identifier in Metadata) → <a href="https://doi.org/10.25504/FAIRsharing.o8TYnW" class="external-link">doi.org/10.25504/FAIRsharing.o8TYnW</a></p>
+<p><strong>Accessible</strong><br>
+FM-A2 (Metadata Longevity) → <a href="https://doi.org/10.25504/FAIRsharing.A2W4nz" class="external-link">doi.org/10.25504/FAIRsharing.A2W4nz</a></p>
+<div class="section level3">
+<h3 id="what-is-data-archiving">1. What is Data Archiving?<a class="anchor" aria-label="anchor" href="#what-is-data-archiving"></a>
+</h3>
+<p>‘Data Archiving’ is the practice of placing a digital source in a
+preservation phase, i.e., the long-term storage of research data.</p>
+<p>The various academic journals have different policies regarding how
+much of their data and methods researchers are required to store in a
+public archive. Similarly, the major grant-giving institutions have
+varying attitudes toward public archival of data. In general,
+publications must have attached sufficient information to allow fellow
+researchers to replicate and test the research.</p>
+</div>
+<div class="section level3">
+<h3 id="what-are-data-repositories">2. What are Data Repositories?<a class="anchor" aria-label="anchor" href="#what-are-data-repositories"></a>
+</h3>
+<p>Datasets are archived in <strong>Data repositories</strong>. They are
+storage locations for digital objects. <strong>Data
+repositories</strong> can help make a researcher’s data more
+discoverable by search engines (e.g., Google) and ultimately lead to
+potential reuse. Therefore, using storage can lead to increased
+citations of your work. Data repositories can also serve as backups
+during rare events where data are lost to the researcher and must be
+retrieved.</p>
+</div>
+</section><section><h2 class="section-heading" id="note">Note<a class="anchor" aria-label="anchor" href="#note"></a>
+</h2>
+<hr class="half-width">
+<p>Data Archiving is the long-term storage of research data. Data
+repositories can help make research data more discoverable by search
+engines (e.g., Googlebots).</p>
+<p>Examples of data repositories:</p>
+<table class="table">
+<colgroup>
+<col width="50%">
+<col width="50%">
+</colgroup>
+<thead><tr>
+<th>Data Repository</th>
+<th>About</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><a href="https://dataverse.nl/dataverse" class="external-link">DataverseNL</a></td>
+<td>DataverseNL is a community-specific repository that focuses on Dutch
+universities and research centers.</td>
+</tr>
+<tr>
+<td><a href="https://data.4tu.nl/" class="external-link">4TU Data</a></td>
+<td>4TU Data is a community repository that was originally created by
+three technical universities in the Netherlands.</td>
+</tr>
+<tr>
+<td><a href="https://pangaea.de/" class="external-link">PANGEA</a></td>
+<td>PANGEA is a community-specific repository that focuses on Earth
+&amp; Environmental Science.</td>
+</tr>
+<tr>
+<td><a href="https://figshare.com/" class="external-link">FigShare</a></td>
+<td>FigShare is an open generic data repository for general purposes; it
+can store data and other digital objects.</td>
+</tr>
+</tbody>
+</table>
+<p>Just like FigShare, many data repositories are for general use. They
+provide a low entry barrier to making data <strong>Findable</strong>,
+addressing FM-F1A (Identifier Uniqueness) and FM-F3 (Resource Identifier
+in Metadata).</p>
+</section><section><h2 class="section-heading" id="recommendations-for-general-purpose-data-repositories">Recommendations for general-purpose data repositories<a class="anchor" aria-label="anchor" href="#recommendations-for-general-purpose-data-repositories"></a>
+</h2>
+<hr class="half-width">
+<p><a href="https://zenodo.org/" class="external-link">ZENODO</a> administrated by <a href="https://home.cern/" class="external-link">CERN</a><br><a href="https://repository.surfsara.nl/" class="external-link">SURF Repository</a>
+administrated by <a href="https://www.surf.nl/" class="external-link">SURF</a><br><a href="https://dataverse.nl/" class="external-link">DataverseNL</a> administrated by <a href="https://dans.knaw.nl/en/" class="external-link">DANS</a></p>
+<p>Quick characteristics of general-purpose repositories:</p>
+<ul>
+<li>Safe — your research is stored safely for the future in a Data
+Centre for as long as CERN and/or DANS exist.</li>
+<li>Citeable — every upload is assigned a Digital Object Identifier
+(DOI) to make them citable and trackable.</li>
+<li>No waiting time — Uploads are made available online as soon as you
+hit publish, and your DOI is registered within seconds.</li>
+<li>Open or closed — Share, e.g., anonymized clinical trial data with
+only medical professionals via our restricted access mode.</li>
+<li>Versioning — Easily update your dataset with our versioning
+feature.</li>
+<li>GitHub integration — Easily preserve your GitHub repository in
+Zenodo.</li>
+<li>Usage statistics — All uploads display standards-compliant usage
+statistics.</li>
+</ul>
+<p><img src="https://datamanagement.hms.harvard.edu/sites/g/files/mcu941/files/assets/Images/2020-12-10-Repo-Matrix.png" alt="Harvard Medical School, RDM - Data Repositories" class="figure"> Image: Harvard
+Medical School, RDM - Data Repositories. Accessed Jul-2022 -
+<em>datamanagement.hms.harvard.edu/share/data-repositories</em></p>
+<div class="section level4">
+<h4 id="original-harvard-dataverse">
+<a href="https://dataverse.harvard.edu/dataverse/harvard" class="external-link">Original
+Harvard Dataverse</a><a class="anchor" aria-label="anchor" href="#original-harvard-dataverse"></a>
+</h4>
+</div>
+</section><section><h2 class="section-heading" id="some-public-registries-where-you-can-find-lists-of-trusted-repositories-for-data-archiving">Some public registries where you can find lists of trusted
+repositories for Data Archiving<a class="anchor" aria-label="anchor" href="#some-public-registries-where-you-can-find-lists-of-trusted-repositories-for-data-archiving"></a>
+</h2>
+<hr class="half-width">
+<p><strong>Registry of Research Data Repositories (re3data)</strong> →
+<a href="https://www.re3data.org/" class="external-link">re3data.org//</a><br><strong>PLOS ONE Recommended Repositories</strong> → <a href="https://journals.plos.org/plosone/s/recommended-repositories" class="external-link">journals.plos.org/plosone/s/recommended-repositories</a><br><strong>NIH Recommended Repositories:</strong> → <a href="https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data" class="external-link">sharing.nih.gov/repositories-for-sharing-scientific-data</a><br><strong>Nature - Scientific Data Guidelines:</strong> → <a href="https://www-nature-com.mu.idm.oclc.org/sdata/policies/repositories" class="external-link">nature-com.mu.idm.oclc.org/sdata/policies/repositories</a><br><strong>OpenDOAR - Directory of Open Access Repositories</strong> → <a href="https://v2.sherpa.ac.uk/opendoar/" class="external-link">v2.sherpa.ac.uk/opendoar/</a></p>
+<div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>Dataverse</p>
+<p>Go to <strong><a href="https://dataverse.org/" class="external-link">dataverse.org</a></strong> and scroll down
+until you see a map. Respond to the following:</p>
+<ol style="list-style-type: decimal">
+<li>How many installations of Dataverse are there?<br>
+</li>
+<li>How many Dataverse installations are in the Netherlands?<br>
+</li>
+<li>DataverseNL is the data repository hosted by DANS. It supports all
+higher education institutions in the Netherlands. How many datasets
+exist now in DataverseNL? (Aug 2022)</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<ol style="list-style-type: decimal">
+<li>There are 83 installations worldwide. This means that 83
+organizations have a copy of the original Harvard Dataverse layout and
+have hosted it on their own servers to support researchers.<br>
+</li>
+<li>There are 3 installations in the Netherlands: DataverseNL, IISH
+Dataverse, and NIOZ Dataverse.</li>
+<li>There are 6,075.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="what-is-a-doi-and-why-is-it-important">3. What is a DOI, and why is it important?<a class="anchor" aria-label="anchor" href="#what-is-a-doi-and-why-is-it-important"></a>
+</h3>
+<p>The DOI is a common identifier used for academic, professional, and
+governmental information such as articles, datasets, reports, and other
+supplemental information. The <a href="https://www.doi.org/" class="external-link">International DOI Foundation (IDF)</a> is
+the agency that oversees DOIs. <a href="https://www.crossref.org/" class="external-link">CrossRef</a> and <a href="https://datacite.org/" class="external-link">DataCite</a> are two prominent
+not-for-profit registries that provide services to create or mint DOIs.
+Both have membership models where their clients are able to mint DOIs
+distinguished by their prefix. For example, DataCite features a <a href="https://stats.datacite.org/" class="external-link">statistics page</a> where you can see
+registrations by members.</p>
+<p>A DOI has three main parts:</p>
+<ul>
+<li>Proxy or DOI resolver service</li>
+<li>Prefix which is unique to the registrant or member</li>
+<li>Suffix, a unique identifier assigned locally by the registrant to an
+object</li>
+</ul>
+<figure><img src="https://authorcarpentry.github.io/CODATA-RDA-Trieste-2016/Figure1.jpg" alt="Digital Object Anatomy" width="800" height="400" class="figure mx-auto d-block"></figure><p>In the example above, the prefix is used by the Australian National
+Data Service (ANDS), now called the Australia Research Data Commons
+(ARDC), and the suffix is a unique identifier for an object at Griffith
+University. DataCite provides DOI <a href="https://support.datacite.org/docs/datacite-doi-display-guidelines" class="external-link">display
+guidance</a> so that they are easy to recognize and use, for both humans
+and machines.</p>
+<div id="challenge2" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>Upload a dataset in the <a href="https://demo.dataverse.nl/" class="external-link">DEMO
+DataverseNL</a> repository.</p>
+<p>Download the following mock dataset: <a href="../data/MOCK_DATA_BOOTCAMP.xlsx">MOCK DATA</a>.</p>
+<p>What is the DOI of your dataset?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p>There is no one single answer 🤓</p>
+</div>
+</div>
+</div>
+</div>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>Archiving Scenario</p>
+<p>You are a researcher of Migration studies, and you conducted personal
+interviews. So naturally, you want your research data to be visible in
+your community, given the impact on the topic. Still, obviously, you
+can’t upload the transcripts, not even in a restricted form, since it’s
+an ethnographic study.</p>
+<p>Discuss with your team how it would be best to handle data archiving
+in situations like this type of data.</p>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>
+<strong>Data repositories</strong> can make research data more
+discoverable by machines (e.g., Google search engine).</li>
+<li>Always aim for a repository that fits your community (e.g.,
+DataverseNL). Else, deposit your dataset on generic repositories (e.g.,
+Zenodo).</li>
+<li>If the data is about human subjects or includes demographics, you
+can always choose to make it private or deposit an aggregated
+subset.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</div>
 </section></section>
 </div>
     </main>
