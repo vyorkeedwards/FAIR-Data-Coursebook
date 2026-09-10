@@ -248,6 +248,18 @@
 </div>
 <!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="03-data-descriptions.html">3. Speak the same language</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -469,7 +481,7 @@ any paper by clicking on the ‘pdf’ link. Now use <kbd>control</kbd> +
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Authors will often link to platforms such as GitHub where they have
 shared their software, and/or they will link to their website hosting
@@ -902,6 +914,389 @@ Use.</li>
 <li>If a standard License does not fit your project, then you can use
 Terms of Use layouts e.g. <a href="https://dataverse.org/best-practices/sample-dua" class="external-link">Sample Data Usage
 Agreement</a>.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</div>
+</section></section><section id="aio-03-data-descriptions"><p>Content from <a href="03-data-descriptions.html">Speak the same language</a></p>
+<hr>
+<p>Last updated on 2026-09-10 |
+
+        <a href="https://github.com/vyorkeedwards/FAIR-Data-Coursebook/edit/main/episodes/03-data-descriptions.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>What are Data Descriptions?</li>
+<li>How to reuse Data Descriptions?</li>
+<li>Are there standard ways for doing Data Descriptions?</li>
+<li>What is the relation between Data Descriptions and Linked Data?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>The participant will learn that Data Descriptions are named
+differently in various fields.</li>
+<li>The participant will be able to create a machine-friendly Data
+Descriptions file.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="fair-principles-used-in-data-descriptions">FAIR principles used in Data Descriptions:<a class="anchor" aria-label="anchor" href="#fair-principles-used-in-data-descriptions"></a>
+</h2>
+<hr class="half-width">
+<p><strong>Interoperable</strong><br>
+FM-I1 (Use a Knowledge Representation Language) → <a href="https://doi.org/10.25504/FAIRsharing.jLpL6i" class="external-link">doi.org/10.25504/FAIRsharing.jLpL6i</a><br>
+FM-I2 (Use FAIR Vocabularies) → <a href="https://doi.org/10.25504/FAIRsharing.0A9kNV" class="external-link">doi.org/10.25504/FAIRsharing.jLpL6i</a></p>
+<p><strong>Reusable</strong><br>
+FM-R1.3 (Meets Community Standards) → <a href="https://doi.org/10.25504/FAIRsharing.cuyPH9" class="external-link">doi.org/10.25504/FAIRsharing.cuyPH9</a></p>
+<div class="section level3">
+<h3 id="what-are-data-descriptions">1. What are Data Descriptions?<a class="anchor" aria-label="anchor" href="#what-are-data-descriptions"></a>
+</h3>
+<p>Data descriptions are a detailed explanation and documentation of
+each data attribute or variable in a dataset.</p>
+<p>Depending on the use case and field of research, these data
+descriptions are also known as:<br>
+- Codebooks (e.g., in Statistics or Social Sciences) - Data Dictionaries
+(e.g., in Computer and Data Science) - Labels or Data Tags (e.g., in
+Crowdsourcing or Humanities) - Data Glossary (e.g., in Business
+Administration &amp; Finance) - Metadata (wrong use of this term in this
+context)</p>
+<p>For example:</p>
+<table class="table">
+<thead><tr>
+<th>Variable Name</th>
+<th>Description</th>
+<th>Scale</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Weight</td>
+<td>Weight of a human</td>
+<td>kilograms</td>
+</tr>
+<tr>
+<td>Height</td>
+<td>Height of a human</td>
+<td>centimetres</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>Age of a human</td>
+<td>years</td>
+</tr>
+<tr>
+<td>Blood Glucose Level</td>
+<td>Blood glucose level of a human</td>
+<td>mg/dl</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section><section><h2 class="section-heading" id="data-descriptions-is-sometimes-named-differently-depending-on-the-field">“Data Descriptions” is sometimes named differently depending on the
+field<a class="anchor" aria-label="anchor" href="#data-descriptions-is-sometimes-named-differently-depending-on-the-field"></a>
+</h2>
+<hr class="half-width">
+<p>No matter what terminology you use, “Data Descriptions” always refers
+to a detailed explanation and documentation of each data attribute or
+variable in a dataset.</p>
+<div class="section level3">
+<h3 id="how-to-reuse-data-descriptions">2. How to reuse Data Descriptions?<a class="anchor" aria-label="anchor" href="#how-to-reuse-data-descriptions"></a>
+</h3>
+<p>Documentation of any kind always takes time. However, we shall always
+aim to reuse existing data descriptions generally accepted in the
+community. i.e., the variable <code>Weight</code> is a concept that has
+been widely used in research; therefore, we don’t need to redefine it
+every time.</p>
+<p>For example, in <a href="https://bioportal.bioontology.org/" class="external-link">BioPortal</a>, we can find
+existing descriptions of <code>Weight</code>. These descriptions belong
+to an <a href="https://en.wikipedia.org/wiki/Ontology_(information_science)" class="external-link">Ontology</a>,
+i.e., a community-accepted online dictionary for curated terms and
+definitions. Moreover, it provides a globally unique identifier to the
+description. → <a href="https://bioportal.bioontology.org/" class="external-link">LINK TO
+EXAMPLE</a></p>
+<figure><img src="/fig/FAIRcoursebook-image2_1.png" style="max-width: 60%; height: auto;" alt="bioportal 1" class="figure mx-auto d-block"><div class="figcaption">Bioportal</div>
+</figure><p>You will get several results when searching for a term and its
+definition. These results regard the different ontologies that define
+these terms. For example, think of the description of an apple. It might
+be defined differently in a British dictionary than in an American
+one.</p>
+<figure><img src="/fig/FAIRcoursebook-image2_2.png" style="max-width: 60%; height: auto;" alt="bioportal 2" class="figure mx-auto d-block"><div class="figcaption">Bioportal 2</div>
+</figure><p>Finally, using this Ontology, you can get a standard definition that
+community experts curate has a global identifier.</p>
+<figure><img src="/fig/FAIRcoursebook-image2_3.png" style="max-width: 60%; height: auto;" alt="bioportal 3" class="figure mx-auto d-block"><div class="figcaption">Bioportal 3</div>
+</figure>
+</div>
+</section><section><h2 class="section-heading" id="describe-your-data-by-reusing-ontology-terms">Describe your data by reusing Ontology terms<a class="anchor" aria-label="anchor" href="#describe-your-data-by-reusing-ontology-terms"></a>
+</h2>
+<hr class="half-width">
+<p>By reusing Ontology terms or community-accepted vocabularies, we aim
+to create a culture of recycling definitions by default.<br><strong>Advantages</strong><br>
+- We don’t have to redefine the terms every time - We get a permanent
+link to the resource - Since it uses a global identifier becomes easier
+for others to integrate with different data sources<br><strong>Disadvantages</strong><br>
+- Sometimes, you might not find an Ontology or vocabulary that fits your
+variable.</p>
+<div class="section level3">
+<h3 id="are-there-standard-ways-for-doing-data-descriptions">3. Are there standard ways for doing Data Descriptions?<a class="anchor" aria-label="anchor" href="#are-there-standard-ways-for-doing-data-descriptions"></a>
+</h3>
+<p>There are no standard ways of doing Data Descriptions.<br>
+The minimum elements you need to describe your dataset are the
+<strong>Variable Name</strong> and the <strong>Link to
+Description</strong>. You can do that in a tabular format. However,
+following the FAIR principles of Interoperability and Reusability, we
+must ensure that the data is described using community standard FAIR
+vocabularies. Here are some Ontologies for general use that can cover a
+wide variety of data attributes</p>
+<table class="table">
+<colgroup>
+<col width="50%">
+<col width="50%">
+</colgroup>
+<thead><tr>
+<th>Ontology</th>
+<th>Link</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Schema.org</td>
+<td><a href="https://schema.org/" class="external-link">LINK</a></td>
+</tr>
+<tr>
+<td>DBpedia</td>
+<td><a href="https://www.dbpedia.org/resources/lookup/" class="external-link">LINK</a></td>
+</tr>
+<tr>
+<td>Data Catalog Vocabulary (DCAT)</td>
+<td><a href="https://www.w3.org/TR/vocab-dcat-2/" class="external-link">LINK</a></td>
+</tr>
+<tr>
+<td>Dublin Core</td>
+<td><a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" class="external-link">LINK</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section><section><h2 class="section-heading" id="there-are-also-public-registries-where-you-can-find-ontologies">There are also public registries where you can find Ontologies<a class="anchor" aria-label="anchor" href="#there-are-also-public-registries-where-you-can-find-ontologies"></a>
+</h2>
+<hr class="half-width">
+<p><strong>Linked Open Vocabularies</strong> → <a href="https://lov.linkeddata.es/dataset/lov/" class="external-link">lov.linkeddata.es/dataset/lov/</a><br><strong>EU Vocabularies:</strong> → <a href="https://op.europa.eu/en/web/eu-vocabularies" class="external-link">op.europa.eu/en/web/eu-vocabularies</a><br><strong>BioPortal:</strong> → <a href="https://bioportal.bioontology.org/" class="external-link">bioportal.bioontology.org/</a><br><strong>AgroPortal:</strong> → <a href="http://agroportal.lirmm.fr/" class="external-link">agroportal.lirmm.fr/</a><br><strong>EcoPortal</strong> → <a href="https://ecoportal.lifewatchitaly.eu/" class="external-link">ecoportal.lifewatchitaly.eu/</a><br><strong>Ontology Lookup Service by the EBI</strong> → <a href="https://www.ebi.ac.uk/ols/index" class="external-link">ebi.ac.uk/ols/index</a><br><strong>Bioschemas</strong> → <a href="https://bioschemas.org/" class="external-link">bioschemas.org/</a></p>
+<div id="bioportal" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="bioportal" class="callout-inner">
+<h3 class="callout-title">Bioportal</h3>
+<div class="callout-content">
+<p>Visit <a href="https://bioportal.bioontology.org/" class="external-link">BioPortal</a>.
+BioPortal is the most known repository for biomedical ontologies.<br>
+Search for an Ontology term for <code>blood glucose level</code> In the
+“Search for a class” search box.<br>
+Select one result related to a clinical measurement that is sound to
+you.</p>
+<p>What are the definition and ID?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>Definition: Measurement of the amount of glucose, the monosaccharide
+sugar, C6H12O6, occurring widely in plant and animal tissues which is
+one of the three dietary monosaccharides that are absorbed directly into
+the bloodstream during digestion, is the end product of carbohydrate
+metabolism, and is the chief source of energy for living organisms, in a
+specified volume of blood, the fluid that circulates through the heart,
+arteries, capillaries and veins carrying nutrients and oxygen to the
+body tissues and metabolites away from them.<br>
+ID: <a href="https://purl.obolibrary.org/obo/CMO_0000046" class="external-link">http://purl.obolibrary.org/obo/CMO_0000046</a></p>
+</div>
+</div>
+</div>
+</div>
+<p>The <strong>Data Descriptions</strong> (or data dictionaries in some
+domains) are usually manually written in a tabular format. This document
+has the length and depth that the data owner sees fit. The general rule
+of thumb is to describe the dataset related to a publication. Any
+accessible format like <code>.csv</code>, <code>.xls</code>, or similar
+is acceptable.</p>
+<figure><img src="https://dataedo.com/asset/img/kb/glossary/data_vs_data_dictionary.png" alt="tabular" class="figure mx-auto d-block"><div class="figcaption">Data Description or Dictionary</div>
+</figure><p>In case it is a database, a data model must be included in
+machine-readable format (e.g., <code>.sql</code>) and a human-friendly
+diagram (e.g., ER model on <code>.pdf</code>).</p>
+<p>There are examples where data descriptions are made available in a
+human-relatable manner, such as the <em>dataset nutrition labels</em>
+style <a href="https://arxiv.org/abs/1805.03677" class="external-link">(Holland et al.,
+2018)</a>.<br>
+An example is <strong>A Statutory Article Retrieval Dataset</strong> →
+<a href="https://github.com/maastrichtlawtech/bsard/blob/master/docs/img/nutrition.png" class="external-link">LINK
+TO EXAMPLE</a><br>
+Moreover, there are tools and software packages to generate automated
+“Codebooks” by only looking at the dataset<br>
+An example is <strong>Automatic Codebooks from Metadata Encoded in
+Dataset Attributes</strong> → <a href="https://rubenarslan.github.io/codebook/" class="external-link">LINK TO EXAMPLE</a>.</p>
+<p>These initiatives are helping us standardize data descriptions and
+are “Human Friendly”, which works perfectly. However, the FAIR
+principles FM-I1, FM-I2 and FM-R1.3 explicitly mention the need for <a href="https://en.wikipedia.org/wiki/Linked_data" class="external-link">Linked Data</a> formats
+in order to gain the maximum level of
+<strong>Interoperability</strong>.</p>
+<div class="section level3">
+<h3 id="what-is-the-relation-between-data-descriptions-and-linked-data">4. What is the relation between Data Descriptions and Linked
+Data?<a class="anchor" aria-label="anchor" href="#what-is-the-relation-between-data-descriptions-and-linked-data"></a>
+</h3>
+<p>When we create comprehensive Data Descriptions reusing terminologies
+of existing Ontologies, we could make available our dataset in a <a href="https://lod-cloud.net/#" class="external-link">Linked Data</a> format which makes it
+<strong>Interoperable</strong> with other datasets out there.</p>
+<p>Imagine your dataset can be helpful to another researcher in the
+future. The future researcher can reuse your dataset and combine both by
+matching variable names with the Ontology identifiers.</p>
+<p>There are several tools that help you to convert your dataset from a
+conventional format into a Linked Data format (e.g., <a href="https://en.wikipedia.org/wiki/Resource_Description_Framework" class="external-link">RDF
+format</a>).</p>
+<table class="table">
+<colgroup>
+<col width="25%">
+<col width="25%">
+<col width="25%">
+<col width="25%">
+</colgroup>
+<thead><tr>
+<th>Tool</th>
+<th>Source</th>
+<th>GUI</th>
+<th>Note</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Open Refine</td>
+<td><a href="https://openrefine.org/" class="external-link">LINK</a></td>
+<td>✅</td>
+<td>Installation can be a hassle and takes a lot of memory</td>
+</tr>
+<tr>
+<td>RMLmapper</td>
+<td><a href="https://github.com/RMLio/rmlmapper-java/releases" class="external-link">LINK</a></td>
+<td>❌</td>
+<td>Highly technical you need to know command line tools, preferred
+option of data engineers</td>
+</tr>
+<tr>
+<td>SDM-RDFizer</td>
+<td><a href="https://github.com/SDM-TIB/SDM-RDFizer" class="external-link">LINK</a></td>
+<td>❌</td>
+<td>You need to be familiar with programming languages</td>
+</tr>
+<tr>
+<td>SPARQL-Generate</td>
+<td><a href="https://ci.mines-stetienne.fr/sparql-generate/" class="external-link">LINK</a></td>
+<td>✅</td>
+<td>It is a good option if you are going to invest time in it since you
+can learn SPARQL language</td>
+</tr>
+<tr>
+<td>Virtuoso Universal Serve</td>
+<td><a href="https://virtuoso.openlinksw.com/" class="external-link">LINK</a></td>
+<td>✅</td>
+<td>It’s nice but you have to pay for a license</td>
+</tr>
+<tr>
+<td>UM LDWizard</td>
+<td><a href="https://github.com/MaastrichtU-IDS/ldwizard-humanities" class="external-link">LINK</a></td>
+<td>✅</td>
+<td>It’s free, gets the job done quickly, and you can publish data if
+you have a <a href="https://triplydb.com/" class="external-link">TriplyDB</a> account →
+<strong>RECOMMENDED</strong>
+</td>
+</tr>
+</tbody>
+</table>
+<div id="challenge2" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>Transform a dataset from XLSX format to RDF format using <a href="https://github.com/MaastrichtU-IDS/ldwizard-humanities" class="external-link">UM
+LDWizard</a><br>
+Download the following mock dataset: <a href="data/MOCK_DATA_BOOTCAMP.xlsx">MOCK DATA</a></p>
+<p>What ontology terms did you reuse to describe the data
+attributes?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>There is no one single answer 🤓</p>
+</div>
+</div>
+</div>
+</div>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<span class="callout-header">Discussion</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>Marine Biology Scenario</p>
+<p>You are a marine biology researcher, your group has discovered new
+organisms, and it’s time to create data descriptions. However, there are
+no available Ontologies to describe the data records, given that they
+are new scientific discoveries.</p>
+<p>Discuss with your team what the researcher should do given that
+apparently there are no available Ontologies to describe their data.</p>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>‘Codebook’, ‘data glossary’, or ‘data dictionary’ are some other
+ways to name <strong>Data Descriptions</strong>.</li>
+<li>
+<strong>Ontologies</strong> (in information science) are like public
+online vocabularies of community curated terms and their
+definitions.</li>
+<li>By reusing <strong>Ontology terms</strong> or community accepted
+vocabularies, we aim to create a culture of recycling terminology by
+default.</li>
 </ul>
 </div>
 </div>
