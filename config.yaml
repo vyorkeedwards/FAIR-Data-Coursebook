@@ -69,6 +69,7 @@ contact: 'arc.teaching@ucl.ac.uk' # FIXME
 episodes: 
 - introduction.md
 - 02-terms-of-use.md
+- 03-data-descriptions.md
 
 # Information for Learners
 learners: 
