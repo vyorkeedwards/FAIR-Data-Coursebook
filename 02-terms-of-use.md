@@ -52,7 +52,7 @@ An example is:
 
 
 
-**Terms of Use** - [Numbeo.com](https://www.numbeo.com/common/terms_of_use.jsp)    
+**Numbeo.com** - [Terms of Use](https://www.numbeo.com/common/terms_of_use.jsp)    
 We can see that clause 3 of Licensing of content requests work attribution.
 
 ## 2 What must a Data Terms of Use statement contain?
