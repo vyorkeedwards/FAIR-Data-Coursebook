@@ -40,7 +40,7 @@ FAIR means human and machine-friendly data sources which aim for transparency in
 
 
 ### Machine friendly = Machine-readable + Machine-actionable + Machine-interoperable
-During this sourcebook, we will be using "Machine-readable" and "Machine friendly" interchangeably. We like the term "friendly" since it can also include "machine-actionability" and "machine-interoperability."
+During this courcebook, we will be using "Machine-readable" and "Machine friendly" interchangeably. We like the term "friendly" since it can also include "machine-actionability" and "machine-interoperability."
 
 ## 2. What are Digital Objects and Persistent Identifiers?
 
@@ -59,7 +59,7 @@ A **Digital Object** is a bit sequence located in a digital memory or storage th
 ### To learn more about FAIR Digital Objects
 
 - **FAIR Digital Objects: Which Services Are Required?** [(Schwardmann, Ulrich 2020)](https://datascience.codata.org/articles/10.5334/dsj-2020-015/)
-- **FAIR Digital Object Framework Documentation** [(BdSS, Luiz Olavo 2020)](https://datascience.codata.org/articles/10.5334/dsj-2020-015/)
+- **FAIR Digital Object Framework Documentation** [(Bonino da Silva Santos, Luiz Olavo 2020-22)](https://fairdigitalobjectframework.org/))
 
 ::::::::::::::::::
 
@@ -69,13 +69,13 @@ A **Persistent Identifier (PID)** is a long-lasting reference to a (digital or p
 - Requires technical, governance, and community support to provide the persistence
 - There are many different PIDs available for many different types of scholarly resources, e.g., articles, data, samples, authors, grants, projects, conference papers, and so much more
 
-**Video:** The FREYA project explains the significance of PID: [LINK](https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm)
+**Video:** The FREYA project explains the significance of PID: [An introduction to persistent identifiers as part of a FAIR data landscape, by the European Union-sponsored project FREYA](https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm)
 
 ### Different types of PIDs
 
 PIDs have community support, organizational commitment, and technical infrastructure to ensure the persistence of identifiers. They are often created to respond to a community's needs. For instance, the International Standard Book Number or ISBN was created to assign unique numbers to books, is used by book publishers, and is managed by the International ISBN Agency. Another type of PID, the Open Researcher and Contributor ID or ORCID (iD), was created to help with author disambiguation by providing unique identifiers for authors. The [ODIN Project identifies additional PIDs](https://project-thor.readme.io/docs/project-glossary) along with [Wikipedia's page on PIDs](https://en.wikipedia.org/wiki/Persistent_identifier).
 
-In [Episode 6 (Data Archiving)](https://github-pages.arc.ucl.ac.uk/FAIR-Data-Coursebook/05-data-archiving/index.html), you will explore one type of PID, the DOI (Digital Object Identifier), which is usually the standard PID for Datasets and Publications.
+In the final episode of the course ('Responsibly Reuse'), you will explore one type of PID, the DOI (Digital Object Identifier), which is usually the standard PID for Datasets and Publications.
 
 
 :::::::::::::::: challenge
