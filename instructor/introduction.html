@@ -189,12 +189,20 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         1. Introduction
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#does-fair-data-mean-open-data">1. Does FAIR data mean open data?</a></li>
+<li><a href="#what-are-digital-objects-and-persistent-identifiers">2. What are Digital Objects and Persistent Identifiers?</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
 
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -350,14 +358,13 @@ Science</li>
 </div>
 </div>
 </div>
-<div class="section level1">
-<h1 id="does-fair-data-mean-open-data">1. Does FAIR data mean open data?<a class="anchor" aria-label="anchor" href="#does-fair-data-mean-open-data"></a></h1>
-<p>No.<br>
+<section><h2 class="section-heading" id="does-fair-data-mean-open-data">1. Does FAIR data mean open data?<a class="anchor" aria-label="anchor" href="#does-fair-data-mean-open-data"></a></h2>
+<hr class="half-width"><p>No.<br>
 FAIR means human and machine-friendly data sources which aim for
 transparency in science and future reuse.</p>
 <figure><img src="../fig/FAIRcoursebook-image0_1.png" style="max-width: 80%; height: auto;" alt="FAIR and Open Science" class="figure mx-auto d-block"><div class="figcaption">FAIR and Open Science</div>
-</figure><div class="section level2">
-<h2 id="what-does-it-mean-to-be-machine-readable-vs-human-readable">What does it mean to be machine-readable vs human-readable?<a class="anchor" aria-label="anchor" href="#what-does-it-mean-to-be-machine-readable-vs-human-readable"></a></h2>
+</figure><div class="section level3">
+<h3 id="what-does-it-mean-to-be-machine-readable-vs-human-readable">What does it mean to be machine-readable vs human-readable?<a class="anchor" aria-label="anchor" href="#what-does-it-mean-to-be-machine-readable-vs-human-readable"></a></h3>
 <p><strong>Human Readable</strong>: &gt; “Data in a format that can be
 conveniently read by a human. Some human-readable formats, such as PDF,
 are not machine-readable as they are not structured data, i.e., the
@@ -379,18 +386,16 @@ equivalent text in a format such as a simple ASCII text file can be
 machine-readable and processable.”</p>
 <figure><img src="../fig/FAIRcoursebook-image0_2.png" alt="Machine Friendly DO" class="figure mx-auto d-block"><div class="figcaption">Machine Friendly DO</div>
 </figure></div>
-<div class="section level2">
-<h2 id="machine-friendly-machine-readable-machine-actionable-machine-interoperable">Machine friendly = Machine-readable + Machine-actionable +
-Machine-interoperable<a class="anchor" aria-label="anchor" href="#machine-friendly-machine-readable-machine-actionable-machine-interoperable"></a></h2>
+<div class="section level3">
+<h3 id="machine-friendly-machine-readable-machine-actionable-machine-interoperable">Machine friendly = Machine-readable + Machine-actionable +
+Machine-interoperable<a class="anchor" aria-label="anchor" href="#machine-friendly-machine-readable-machine-actionable-machine-interoperable"></a></h3>
 <p>During this sourcebook, we will be using “Machine-readable” and
 “Machine friendly” interchangeably. We like the term “friendly” since it
 can also include “machine-actionability” and
 “machine-interoperability.”</p>
 </div>
-</div>
-<div class="section level1">
-<h1 id="what-are-digital-objects-and-persistent-identifiers">2. What are Digital Objects and Persistent Identifiers?<a class="anchor" aria-label="anchor" href="#what-are-digital-objects-and-persistent-identifiers"></a></h1>
-<p>A <strong>Digital Object</strong> is a bit sequence located in a
+</section><section><h2 class="section-heading" id="what-are-digital-objects-and-persistent-identifiers">2. What are Digital Objects and Persistent Identifiers?<a class="anchor" aria-label="anchor" href="#what-are-digital-objects-and-persistent-identifiers"></a></h2>
+<hr class="half-width"><p>A <strong>Digital Object</strong> is a bit sequence located in a
 digital memory or storage that has, on its own, informational value. For
 example:</p>
 <ul><li>A Scientific Publication</li>
@@ -429,8 +434,8 @@ scholarly resources, e.g., articles, data, samples, authors, grants,
 projects, conference papers, and so much more</li>
 </ul><p><strong>Video:</strong> The FREYA project explains the significance
 of PID: <a href="https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm" class="external-link">LINK</a></p>
-<div class="section level2">
-<h2 id="different-types-of-pids">Different types of PIDs<a class="anchor" aria-label="anchor" href="#different-types-of-pids"></a></h2>
+<div class="section level3">
+<h3 id="different-types-of-pids">Different types of PIDs<a class="anchor" aria-label="anchor" href="#different-types-of-pids"></a></h3>
 <p>PIDs have community support, organizational commitment, and technical
 infrastructure to ensure the persistence of identifiers. They are often
 created to respond to a community’s needs. For instance, the
@@ -445,14 +450,15 @@ page on PIDs</a>.</p>
 6 (Data Archiving)</a>, you will explore one type of PID, the DOI
 (Digital Object Identifier), which is usually the standard PID for
 Datasets and Publications.</p>
-<div id="arxiv" class="callout challenge">
+<div id="challenge1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <span class="callout-header">Challenge</span>
-<div id="arxiv" class="callout-inner">
-<h3 class="callout-title">arXiv</h3>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
 <div class="callout-content">
+<p>arXiv</p>
 <p>arXiv is a preprint repository for physics, math, computer science,
 and related disciplines. It allows researchers to share and access their
 work before it is formally published.</p>
@@ -469,7 +475,7 @@ any paper by clicking on the ‘pdf’ link. Now use <kbd>control</kbd> +
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Authors will often link to platforms such as GitHub where they have
 shared their software, and/or they will link to their website hosting
@@ -480,6 +486,7 @@ minting a DOI. Links to software sharing platforms or personal websites
 might move, but DOIs will always resolve to information about the
 software and/or data. See DataCite’s <a href="https://support.datacite.org/docs/tombstone-pages" class="external-link">Best Practices
 for a Tombstone Page</a>.</p>
+</div>
 </div>
 </div>
 </div>
@@ -528,12 +535,7 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
 </div>
-</div>
-</div>
-
-
-
-      </div> <!-- / div.lesson-content -->
+</section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter Bottom"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/index.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="../instructor/02-terms-of-use.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
