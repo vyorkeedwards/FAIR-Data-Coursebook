@@ -20,13 +20,14 @@ exercises: 15
 
 ::::::::::::::::::::::::::
 
-## FAIR principles used in Data Terms of Use:  
-
-- **Accessible**   
-FM-A2 (Metadata Longevity) → [doi.org/10.25504/FAIRsharing.A2W4nz](https://doi.org/10.25504/FAIRsharing.A2W4nz)  
-
-- **Reusable**  
-FM-R1.1  (Accessible Usage License) → [doi.org/10.25504/FAIRsharing.fsB7NK](https://doi.org/10.25504/FAIRsharing.fsB7NK)  
+>[!NOTE]
+> ## FAIR principles used in Data Terms of Use:  
+>
+> - **Accessible**   
+> FM-A2 (Metadata Longevity) → [doi.org/10.25504/FAIRsharing.A2W4nz](https://doi.org/10.25504/FAIRsharing.A2W4nz)  
+>
+> - **Reusable**  
+> FM-R1.1  (Accessible Usage License) → [doi.org/10.25504/FAIRsharing.fsB7NK](https://doi.org/10.25504/FAIRsharing.fsB7NK)  
 
 
 ### 1 What are Data Terms of Use?
