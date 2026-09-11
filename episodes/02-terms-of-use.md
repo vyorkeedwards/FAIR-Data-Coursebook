@@ -20,8 +20,7 @@ exercises: 15
 
 ::::::::::::::::::::::::::
 
->[!NOTE]
-> ## FAIR principles used in Data Terms of Use:  
+> **FAIR principles used in Data Terms of Use:** 
 >
 > - **Accessible**   
 > FM-A2 (Metadata Longevity) → [doi.org/10.25504/FAIRsharing.A2W4nz](https://doi.org/10.25504/FAIRsharing.A2W4nz)  
@@ -30,7 +29,7 @@ exercises: 15
 > FM-R1.1  (Accessible Usage License) → [doi.org/10.25504/FAIRsharing.fsB7NK](https://doi.org/10.25504/FAIRsharing.fsB7NK)  
 
 
-### 1 What are Data Terms of Use?
+## 1 What are Data Terms of Use?
 
 Data Terms of Use is a textual statement that sets the rules, terms, conditions, actions, legal considerations, and licenses that delineate data use.  
 
@@ -52,7 +51,7 @@ An example is:
 **Terms of Use - Numbeo.com**   → [LINK TO EXAMPLE](https://www.numbeo.com/common/terms_of_use.jsp)    
 We can see that clause 3 of Licensing of content requests work attribution.
 
-### 2 What must a Data Terms of Use statement contain?
+## 2 What must a Data Terms of Use statement contain?
 
 As a general rule, a **Data Terms of Use** statement must contain at least the following:
 
@@ -75,15 +74,15 @@ An example is:
 
 This policy framework creates comprehensive guidelines on handling data for that specific study involving children's data. Therefore, the researchers working underneath the project do not have to make new Data Terms of Use.
 
-## "Data Terms of Use" statement is the legal basis of the referred data source
+### "Data Terms of Use" statement is the legal basis of the referred data source
 
 In the light of public law, you can make someone liable for not complying with specific clauses of the statement.  
 
-### 3 What format should Data Terms of Use be?
+## 3 What format should Data Terms of Use be?
 
 The **Data Terms of Use** is a plain text statement. This text has the length and depth that the data owner or data manager sees fit. There is no right or wrong when drafting it. Usually, it is recommended to store this textual statement in a `README` file, using an accessible format, for example, `.txt`, `.md`, or `.html` so that any user can read it without needing any additional software.
 
-## The Data Terms of Use is a plain text statement written in a machine-friendly format
+### The Data Terms of Use is a plain text statement written in a machine-friendly format
 
 The "Data Terms of Use" can be drafted using any application (e.g., MS Word). However, it's important to store it in a machine-friendly format such as `.txt` or `.md`
 
@@ -91,7 +90,7 @@ Any text editor software would do the trick, such as [Notepad++](https://notepad
 
 ::::::::::::::::::: challenge
 
-## Terms of Use
+### Terms of Use
 
 Visit the landing page of the following terms of use [github.com/CityOfPhiladelphia/terms-of-use/blob/master/LICENSE.md](https://github.com/CityOfPhiladelphia/terms-of-use/blob/master/LICENSE.md)   
 1. Can you tell what type of data it is about?   
@@ -118,7 +117,7 @@ By default, you get a waiver License [CC0 “No Rights Reserved”](https://crea
 
 :::::::::::::::: challenge
 
-## Editing Terms of Use
+### Editing Terms of Use
 
 Is it possible to edit the Terms of Use in DataverseNL?
 
@@ -135,7 +134,7 @@ Yes, it is possible. However, you can't choose it at the beginning. After creati
 Dataverse also provides **Sample Data Usage Agreement** →  [LINK](https://dataverse.org/best-practices/sample-dua)
 
 
-### 4 Are there standard Licenses we can pick from?
+## 4 Are there standard Licenses we can pick from?
 
 Yes, there are two general License frameworks that can work for data.  
 
@@ -155,7 +154,7 @@ Yes, there are two general License frameworks that can work for data.
 
 :::::::::::::::::: challenge
 
-## License Type
+### License Type
 
 Pick a License at [creativecommons.org](https://creativecommons.org/share-your-work/) with the following conditions:  
 - Others cannot make changes to the work since it's simulation data
@@ -171,8 +170,7 @@ Attribution-NoDerivatives 4.0 International
 :::::::::::::::::::
 
 :::::::::::::::::: discussion
-
-**Scenario:**  
+ 
 You are a sociology and statistics researcher, and now you are collaborating with a researcher from the hospital. Your collaborator researches Children's Mental Health. You will combine expertise and conduct a study on the Quality of Life in Children. In addition, you will lead a national survey in Dutch schools. You are thinking of collecting information about bullying, social media, and family structure.
 
 Discuss with your team what considerations need to be taken into account when drafting a Data Terms of Use for this study. Do you think a legal expert must write the terms of use, or can it be done by the researchers?
