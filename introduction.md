@@ -19,7 +19,7 @@ exercises: 5
 
 :::::::::::::::::::::::::
 
-### 1. Does FAIR data mean open data?
+# 1. Does FAIR data mean open data?
 
 No.    
 FAIR means human and machine-friendly data sources which aim for transparency in science and future reuse.  
@@ -39,7 +39,7 @@ FAIR means human and machine-friendly data sources which aim for transparency in
 ## Machine friendly = Machine-readable + Machine-actionable + Machine-interoperable
 During this sourcebook, we will be using "Machine-readable" and "Machine friendly" interchangeably. We like the term "friendly" since it can also include "machine-actionability" and "machine-interoperability."
 
-### 2. What are Digital Objects and Persistent Identifiers?
+# 2. What are Digital Objects and Persistent Identifiers?
 
 A **Digital Object** is a bit sequence located in a digital memory or storage that has, on its own, informational value. For example:  
 
@@ -67,7 +67,7 @@ A **Persistent Identifier (PID)** is a long-lasting reference to a (digital or p
 
 **Video:** The FREYA project explains the significance of PID: [LINK](https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm)
 
-### Different types of PIDs
+## Different types of PIDs
 
 PIDs have community support, organizational commitment, and technical infrastructure to ensure the persistence of identifiers. They are often created to respond to a community's needs. For instance, the International Standard Book Number or ISBN was created to assign unique numbers to books, is used by book publishers, and is managed by the International ISBN Agency. Another type of PID, the Open Researcher and Contributor ID or ORCID (iD), was created to help with author disambiguation by providing unique identifiers for authors. The [ODIN Project identifies additional PIDs](https://project-thor.readme.io/docs/project-glossary) along with [Wikipedia's page on PIDs](https://en.wikipedia.org/wiki/Persistent_identifier).
 
@@ -92,7 +92,7 @@ Authors will often link to platforms such as GitHub where they have shared their
 ::::::::::::::::::::::::::
 :::::::::::::::::::::::::
 
-#### DOIs are everywhere, examples:
+### DOIs are everywhere, examples:
 - Resource IDs (articles, data, software, …)
 - Researcher IDs
 - Organization IDs, Funder IDs
