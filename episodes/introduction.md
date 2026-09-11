@@ -24,17 +24,20 @@ exercises: 5
 No.    
 FAIR means human and machine-friendly data sources which aim for transparency in science and future reuse.  
 
-![FAIR and Open Science](fig/FAIRcoursebook-image0_1.png){alt="FAIR and Open Science" style="max-width: 80%; height: auto;"}
+![](fig/FAIRcoursebook-image0_1.png){alt="Diagram showing a mixture of text and icons with the message: When you do Research Data Management (RDM) following the FAIR Principles you aim to Open Science. Open not in the sense of Open Datasets but open in the sense of Transparent and Accessible Science" style="max-width: 80%; height: auto;"}
 
 ### What does it mean to be machine-readable vs human-readable?  
 
 **Human Readable**: 
+
 > “Data in a format that can be conveniently read by a human. Some human-readable formats, such as PDF, are not machine-readable as they are not structured data, i.e., the representation of the data on disk does not represent the actual relationships present in the data.”
 
 **Machine Readable**: 
-> “Data in a data format that can be automatically read and processed by a computer, such as CSV, JSON, XML, etc. Machine-readable data must be structured data. Compare human-readable. Non-digital material (for example, printed or hand-written documents) is not machine-readable by its non-digital nature. But even digital material need not be machine-readable. For example, consider a PDF document containing tables of data. These are definitely digital but are not machine-readable because a computer would struggle to access the tabular information - even though they are very human-readable. The equivalent tables in a format such as a spreadsheet would be machine-readable. As another example, scans (photographs) of text are not machine-readable (but are human-readable!) but the equivalent text in a format such as a simple ASCII text file can be machine-readable and processable.”
 
-![Machine Friendly DO](fig/FAIRcoursebook-image0_2.png){alt="Machine Friendly DO"}
+>“Data in a data format that can be automatically read and processed by a computer, such as CSV, JSON, XML, etc. Machine-readable data must be structured data. Compare human-readable. Non-digital material (for example, printed or hand-written documents) is not machine-readable by its non-digital nature. But even digital material need not be machine-readable. For example, consider a PDF document containing tables of data. These are definitely digital but are not machine-readable because a computer would struggle to access the tabular information - even though they are very human-readable. The equivalent tables in a format such as a spreadsheet would be machine-readable. As another example, scans (photographs) of text are not machine-readable (but are human-readable!) but the equivalent text in a format such as a simple ASCII text file can be machine-readable and processable.”
+
+![](fig/FAIRcoursebook-image0_2.png){alt="Diagram showing that FAIR equals Friendly DOs (Digital Objects) such as Data, Metadata, Code, Software and Protocols and is Human and Machine Friendly"}
+
 
 ### Machine friendly = Machine-readable + Machine-actionable + Machine-interoperable
 During this sourcebook, we will be using "Machine-readable" and "Machine friendly" interchangeably. We like the term "friendly" since it can also include "machine-actionability" and "machine-interoperability."
@@ -48,7 +51,8 @@ A **Digital Object** is a bit sequence located in a digital memory or storage th
 - A Rich Metadata file
 - A README file containing Terms of use & Access Protocols
 
-![Digital Object Anatomy](https://storage.googleapis.com/jnl-up-j-dsj-files/journals/1/articles/1127/submission/proof/1127-10-7358-1-17-20200401.png){alt="Digital Object Anatomy" width=650 height=400}
+![](https://storage.googleapis.com/jnl-up-j-dsj-files/journals/1/articles/1127/submission/proof/1127-10-7358-1-17-20200401.png){alt="Diagram showing a circle with the letters DO. There are arrows leading to and from it from boxes. The flow diagrams represent the following: 1 DO is represented by Bit Sequence is stored in Repository, 2 DO is described by Metatdata is a DO, 3 DO is referenced by Persistent ID, 4 Collection aggregates DO, Collection is a DO" width=650 height=400}
+
 
 ::::::::::::::::: callout
 
@@ -73,9 +77,10 @@ PIDs have community support, organizational commitment, and technical infrastruc
 
 In [Episode 6 (Data Archiving)](https://github-pages.arc.ucl.ac.uk/FAIR-Data-Coursebook/05-data-archiving/index.html), you will explore one type of PID, the DOI (Digital Object Identifier), which is usually the standard PID for Datasets and Publications.
 
+
 :::::::::::::::: challenge
 
-arXiv
+### arXiv
 
 arXiv is a preprint repository for physics, math, computer science, and related disciplines. It allows researchers to share and access their work before it is formally published. 
 
@@ -100,7 +105,8 @@ Authors will often link to platforms such as GitHub where they have shared their
 - Instrument IDs
 - Physical sample IDs,
 - DMP IDs…
-- Media: videos, images, 3D models 
+- Media: videos, images, 3D models
+
 
 :::::::::::::::::::::::::::: discussion
 
