@@ -64,11 +64,11 @@ For example, in [BioPortal](https://bioportal.bioontology.org/), we can find exi
 
 You will get several results when searching for a term and its definition. These results regard the different ontologies that define these terms. For example, think of the description of an apple. It might be defined differently in a British dictionary than in an American one.
 
-![Bioportal 2](fig/FAIRcoursebook-image2_2.png){alt="bioportal 2" style="max-width: 60%; height: auto;"}
+![](fig/FAIRcoursebook-image2_2.png){alt="Screenshot of results of search for 'weight' in bioportal.com, showing the top four matches in 54 ontologies"}
 
 Finally, using this Ontology, you can get a standard definition that community experts curate has a global identifier.  
 
-![Bioportal 3](fig/FAIRcoursebook-image2_3.png){alt="bioportal 3" style="max-width: 60%; height: auto;"}
+![](fig/FAIRcoursebook-image2_3.png){alt="Screenshot of part of the Details section of page for one of the ontologies in bioportal.com, showing ID, Preferred name, Synonyms and Type"}
 
 ### Describe your data by reusing Ontology terms  
 
