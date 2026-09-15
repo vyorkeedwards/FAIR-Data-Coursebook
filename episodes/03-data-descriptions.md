@@ -20,15 +20,16 @@ exercises: 15
 :::::::::::::::::::::::::
 
 
-## FAIR principles used in Data Descriptions:  
-**Interoperable**   
-FM-I1 (Use a Knowledge Representation Language) → [doi.org/10.25504/FAIRsharing.jLpL6i](https://doi.org/10.25504/FAIRsharing.jLpL6i)  
-FM-I2 (Use FAIR Vocabularies) → [doi.org/10.25504/FAIRsharing.jLpL6i](https://doi.org/10.25504/FAIRsharing.0A9kNV)  
+> **FAIR principles used in Data Descriptions**
+> 
+> - **Interoperable**   
+> FM-I1 (Use a Knowledge Representation Language) → [doi.org/10.25504/FAIRsharing.jLpL6i](https://doi.org/10.25504/FAIRsharing.jLpL6i)  
+> FM-I2 (Use FAIR Vocabularies) → [doi.org/10.25504/FAIRsharing.jLpL6i](https://doi.org/10.25504/FAIRsharing.0A9kNV)  
+>
+> - **Reusable**  
+> FM-R1.3 (Meets Community Standards) → [doi.org/10.25504/FAIRsharing.cuyPH9](https://doi.org/10.25504/FAIRsharing.cuyPH9)  
 
-**Reusable**  
-FM-R1.3 (Meets Community Standards) → [doi.org/10.25504/FAIRsharing.cuyPH9](https://doi.org/10.25504/FAIRsharing.cuyPH9)  
-
-### 1. What are Data Descriptions?
+## 1. What are Data Descriptions?
 
 Data descriptions are a detailed explanation and documentation of each data attribute or variable in a dataset.  
 
@@ -48,11 +49,11 @@ For example:
 |Age | Age of a human | years|
 |Blood Glucose Level |Blood glucose level of a human | mg/dl|
 
-## "Data Descriptions" is sometimes named differently depending on the field
+### "Data Descriptions" is sometimes named differently depending on the field
 
 No matter what terminology you use, "Data Descriptions" always refers to a detailed explanation and documentation of each data attribute or variable in a dataset.
 
-### 2. How to reuse Data Descriptions?
+## 2. How to reuse Data Descriptions?
 
 Documentation of any kind always takes time. However, we shall always aim to reuse existing data descriptions generally accepted in the community. i.e., the variable `Weight` is a concept that has been widely used in research; therefore, we don't need to redefine it every time.  
 
@@ -68,7 +69,7 @@ Finally, using this Ontology, you can get a standard definition that community e
 
 ![Bioportal 3](/fig/FAIRcoursebook-image2_3.png){alt="bioportal 3" style="max-width: 60%; height: auto;"}
 
-## Describe your data by reusing Ontology terms  
+### Describe your data by reusing Ontology terms  
 
 By reusing Ontology terms or community-accepted vocabularies, we aim to create a culture of recycling definitions by default.  
 **Advantages**  
@@ -78,24 +79,24 @@ By reusing Ontology terms or community-accepted vocabularies, we aim to create a
 **Disadvantages**  
 - Sometimes, you might not find an Ontology or vocabulary that fits your variable.  
 
-### 3. Are there standard ways for doing Data Descriptions?
+## 3. Are there standard ways for doing Data Descriptions?
 
 There are no standard ways of doing Data Descriptions.  
 The minimum elements you need to describe your dataset are the **Variable Name** and the **Link to Description**. You can do that in a tabular format. However, following the FAIR principles of Interoperability and Reusability, we must ensure that the data is described using community standard FAIR vocabularies. Here are some Ontologies for general use that can cover a wide variety of data attributes
 
 |Ontology | Link | About what?|
 | ---| ---|
-|Schema.org | [LINK](https://schema.org/)| Definitions of generic things e.g., "Computer"|
-|DBpedia | [LINK](https://www.dbpedia.org/resources/lookup/)| Definitions from Wikipedia |
-|Data Catalog Vocabulary (DCAT) | [LINK](https://www.w3.org/TR/vocab-dcat-2/)| Definitions about data things e.g., "accessURL"|
-|Dublin Core | [LINK](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)| Definitions about Metadata|
+|Schema.org | [https://schema.org/](https://schema.org/)| Definitions of generic things e.g., "Computer"|
+|DBpedia | [https://www.dbpedia.org/resources/lookup/](https://www.dbpedia.org/resources/lookup/)| Definitions from Wikipedia |
+|Data Catalog Vocabulary (DCAT) | [https://www.w3.org/TR/vocab-dcat-2/](https://www.w3.org/TR/vocab-dcat-2/)| Definitions about data things e.g., "accessURL"|
+|Dublin Core | [https://www.dublincore.org/specifications/dublin-core/dcmi-terms/](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)| Definitions about Metadata|
 
-## There are also public registries where you can find Ontologies
+### There are also public registries where you can find Ontologies
 
 **Linked Open Vocabularies**  → [lov.linkeddata.es/dataset/lov/](https://lov.linkeddata.es/dataset/lov/)  
 **EU Vocabularies:**  → [op.europa.eu/en/web/eu-vocabularies](https://op.europa.eu/en/web/eu-vocabularies)  
 **BioPortal:**  → [bioportal.bioontology.org/](https://bioportal.bioontology.org/)  
-**AgroPortal:**  → [agroportal.lirmm.fr/](http://agroportal.lirmm.fr/)  
+**AgroPortal:**  → [agroportal.lirmm.fr/](https://agroportal.lirmm.fr/)  
 **EcoPortal** → [ecoportal.lifewatchitaly.eu/](https://ecoportal.lifewatchitaly.eu/)  
 **Ontology Lookup Service by the EBI** → [ebi.ac.uk/ols/index](https://www.ebi.ac.uk/ols/index)  
 **Bioschemas** → [bioschemas.org/](https://bioschemas.org/)  
@@ -103,7 +104,7 @@ The minimum elements you need to describe your dataset are the **Variable Name**
 
 :::::::::::::::: challenge
 
-## Bioportal
+### Bioportal
 
 Visit [BioPortal](https://bioportal.bioontology.org/). BioPortal is the most known repository for biomedical ontologies.  
 Search for an Ontology term for `blood glucose level` In the "Search for a class" search box.  
@@ -132,7 +133,7 @@ An example is **Automatic Codebooks from Metadata Encoded in Dataset Attributes*
 
 These initiatives are helping us standardize data descriptions and are "Human Friendly", which works perfectly. However, the FAIR principles FM-I1, FM-I2 and FM-R1.3 explicitly mention the need for [Linked Data](https://en.wikipedia.org/wiki/Linked_data) formats in order to gain the maximum level of **Interoperability**.
 
-### 4. What is the relation between Data Descriptions and Linked Data?
+## 4. What is the relation between Data Descriptions and Linked Data?
 
 When we create comprehensive Data Descriptions reusing terminologies of existing Ontologies, we could make available our dataset in a [Linked Data](https://lod-cloud.net/#) format which makes it **Interoperable** with other datasets out there.
 
