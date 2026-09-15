@@ -59,15 +59,15 @@ Documentation of any kind always takes time. However, we shall always aim to reu
 
 For example, in [BioPortal](https://bioportal.bioontology.org/), we can find existing descriptions of `Weight`. These descriptions belong to an [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)), i.e., a community-accepted online dictionary for curated terms and definitions. Moreover, it provides a globally unique identifier to the description.  → [LINK TO EXAMPLE](https://bioportal.bioontology.org/)  
 
-![Bioportal](/fig/FAIRcoursebook-image2_1.png){alt="bioportal 1" style="max-width: 60%; height: auto;"}
+![Bioportal](fig/FAIRcoursebook-image2_1.png){alt="bioportal 1" style="max-width: 60%; height: auto;"}
 
 You will get several results when searching for a term and its definition. These results regard the different ontologies that define these terms. For example, think of the description of an apple. It might be defined differently in a British dictionary than in an American one.
 
-![Bioportal 2](/fig/FAIRcoursebook-image2_2.png){alt="bioportal 2" style="max-width: 60%; height: auto;"}
+![Bioportal 2](fig/FAIRcoursebook-image2_2.png){alt="bioportal 2" style="max-width: 60%; height: auto;"}
 
 Finally, using this Ontology, you can get a standard definition that community experts curate has a global identifier.  
 
-![Bioportal 3](/fig/FAIRcoursebook-image2_3.png){alt="bioportal 3" style="max-width: 60%; height: auto;"}
+![Bioportal 3](fig/FAIRcoursebook-image2_3.png){alt="bioportal 3" style="max-width: 60%; height: auto;"}
 
 ### Describe your data by reusing Ontology terms  
 
