@@ -49,6 +49,7 @@ For example:
 |Age | Age of a human | years|
 |Blood Glucose Level |Blood glucose level of a human | mg/dl|
 
+
 ### "Data Descriptions" is sometimes named differently depending on the field
 
 No matter what terminology you use, "Data Descriptions" always refers to a detailed explanation and documentation of each data attribute or variable in a dataset.
@@ -59,7 +60,7 @@ Documentation of any kind always takes time. However, we shall always aim to reu
 
 For example, in [BioPortal](https://bioportal.bioontology.org/), we can find existing descriptions of `Weight`. These descriptions belong to an [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)), i.e., a community-accepted online dictionary for curated terms and definitions. Moreover, it provides a globally unique identifier to the description.  → [LINK TO EXAMPLE](https://bioportal.bioontology.org/)  
 
-![Bioportal](fig/FAIRcoursebook-image2_1.png){alt="bioportal 1" style="max-width: 60%; height: auto;"}
+![](fig/FAIRcoursebook-image2_1.png){alt="Screenshot of part of the front page of the website bioportal.com showing a search box where the word 'weight' has been entered"}
 
 You will get several results when searching for a term and its definition. These results regard the different ontologies that define these terms. For example, think of the description of an apple. It might be defined differently in a British dictionary than in an American one.
 
