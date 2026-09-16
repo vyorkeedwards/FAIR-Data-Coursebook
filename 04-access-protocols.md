@@ -21,15 +21,17 @@ exercises: 15
 
 
 
-## FAIR principles used in Data Access Protocols:  
-**Accessible**   
-FM-A1.1 (Access Protocol) → [doi.org/10.25504/FAIRsharing.yDJci5](https://doi.org/10.25504/FAIRsharing.yDJci5)  
-FM-A1.2 (Access Authorization) → [doi.org/10.25504/FAIRsharing.EwnE1n](https://doi.org/10.25504/FAIRsharing.EwnE1n)  
+> **FAIR principles used in Data Access Protocols:**
+>
+> **Accessible**   
+> FM-A1.1 (Access Protocol) → [doi.org/10.25504/FAIRsharing.yDJci5](https://doi.org/10.25504/FAIRsharing.yDJci5)  
+> FM-A1.2 (Access Authorization) → [doi.org/10.25504/FAIRsharing.EwnE1n](https://doi.org/10.25504/FAIRsharing.EwnE1n)  
+>
+> **Interoperable**  
+> FM-I3 (Use Qualified References) → [doi.org/10.25504/FAIRsharing.B2sbNh](https://doi.org/10.25504/FAIRsharing.B2sbNh)  
 
-**Interoperable**  
-FM-I3 (Use Qualified References) → [doi.org/10.25504/FAIRsharing.B2sbNh](https://doi.org/10.25504/FAIRsharing.B2sbNh)  
 
-### 1. What are Data Access Protocols?
+## 1. What are Data Access Protocols?
 
 Data Access Protocols are a set of formatting and processing rules for data communication. In practice, Data Access Protocols are the **explicit instructions** for humans and machines to access a data source.
 
@@ -42,19 +44,19 @@ Following the premise that "Data Access Protocols" are a common set of rules in 
 |Access Protocol|Example|Note|
 |---|---|---|
 |Communication between machines|![](https://study-ccna.com/wp-content/images/http_process_explained.jpg)|A PC requesting information using HTTP protocol|
-|Communication between humans|<img src="../fig/FAIRcoursebook-image3_1.png" alt="CbCM Protocol" width=300 height=300>|Data owner requesting users to contact directly for data access|
+|Communication between humans|![](fig/FAIRcoursebook-image3_1.png){alt="CbCM Protocol"}|Data owner requesting users to contact directly for data access|
 
 Image: **Mapping EU Company Mobility & Abuse-Detection**   → [LINK TO EXAMPLE](https://eu-corporate-mobility.org/)
 
 In a strict sense, data access protocols relate to network protocol definitions. However, regarding Research Data, the human factor plays a part. Therefore, we can explicitly mention the rules and instructions for accessing data depending on the use case. Sometimes the data can't be publicly available, and there is no particular repository for it. Therefore, you request the user to contact you to get access. We could say it is a **human-friendly** access protocol.
 
 For example:   
-![](/fig/FAIRcoursebook-image3_2.png){alt="UMC Utrecht Access Protocol" width=600}
+![](/fig/FAIRcoursebook-image3_2.png){alt="UMC Utrecht Access Protocol"}
 
 In **Data Request Form UMC Utrecht**  → [LINK TO EXAMPLE](https://preview.umcutrecht.nl/en/data-request-form-umc-utrecht)    
 The University Medical Center at Utrecht (UMC Utrecht) has an open *data request form* for users to access clinical data for research purposes. The form asks general things related to the researcher's identification and affiliation, research context, and methodologies. Furthermore, they explicitly mention that the *Data Access Committee* will review and consider applications and respond within 4 weeks.
 
-## Protocols are like standard rules communicated in a standard language for humans and machines.
+### Protocols are like standard rules communicated in a standard language for humans and machines.
 We humans predominantly use the English language for communication in science.
 
 Likewise, Machines need a "medium" to talk to each other such as an **API [(Application Programming Interface)](https://en.wikipedia.org/wiki/Web_API)**, and they use a "communication language" such as **HTTP [Hypertext Transfer Protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)** to share information between one another.   
@@ -65,14 +67,14 @@ Relevant API protocols are:
 - [SPARQL](https://en.wikipedia.org/wiki/SPARQL) API  
 - [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) API   
 
-### 2. Is Open Access a data access protocol?
+## 2. Is Open Access a data access protocol?
 
 Open Access is a policy framework in the strict sense but yes! We could say it's a data access protocol.
 Within the Open Science recommendations, it is endorsed to standardize open access datasets when it is possible to make them publicly available and does not violate legal or ethical considerations. More information at [Open Access](https://www.openaccess.nl/en/what-is-open-access).
 
-[openaccess.nl](https://www.openaccess.nl/en/wat-is-open-access/open-data)
+[openaccess.nl](https://www.openaccess.nl/en/what-is-open-access/open-data)
 
-Depositing datasets in public data repositories can grant them open access protocol automatically. In addition, data repositories typically work as a data archiving instrument, which we cover in [Episode 6 (Data Archiving)](https://carpentries-incubator.github.io/FAIR-research-data-coursebook/05-data-archiving/index.html).  
+Depositing datasets in public data repositories can grant them open access protocol automatically. In addition, data repositories typically work as a data archiving instrument, which we cover in the Publish and Preserve Episode.  
 
 Moreover, Open Access data sources can be made available using FAIR protocols such as SPARQL API endpoints.  
 
@@ -81,13 +83,13 @@ An example is:
 **The European Union Public Data**   → [LINK TO EXAMPLE](https://data.europa.eu/data/sparql)  
 Which makes available all public datasets. The following endpoint (permanent link) [https://data.europa.eu/sparql](https://data.europa.eu/sparql)  
 
-![sparql](/fig/FAIRcoursebook-image3_3.png){alt="sparql" width=800}
+![sparql](fig/FAIRcoursebook-image3_3.png){alt="sparql" width=800}
 
 :::::::::::::: challenge
 
 Go to [ZENODO Covid 19 Community](https://zenodo.org/communities/covid-19/).  
 
-Can you tell what is the default "Data Access Protocol" for the Digital Objects displayed?  
+Can you tell what the default "Data Access Protocol" is for the Digital Objects displayed?  
 
 :::::::::::::::::: solution
 
@@ -96,7 +98,7 @@ It is *Open Access*. It is indicated in the green tag on top of the titles.
 ::::::::::::::::::
 ::::::::::::::::::::
 
-## Open Access is a human and machine-friendly Data Access Protocol
+### Open Access is a human and machine-friendly Data Access Protocol
 
 Humans see a "Download" button  
 Machines see an HTTPS request  
@@ -108,15 +110,17 @@ We must remember that exposing data as a service would mean we need a server to 
 
 |Tool | Source | GUI | Note|
 | ---| ---|---|---|
-|TriplyDB | [LINK](https://triplydb.com/)| ✅| Free account, you can expose your data on their servers for a limited time |
-|GraphDB | [LINK](https://www.ontotext.com/products/graphdb/)| ✅| Nice interface; you need to rely on a server    |
-|FAIR Data Point | [LINK](https://github.com/fair-data/fairdatapoint)| ❌ | Highly technical, requires programming language knowledge |
-|RDFlib Endpoint | [LINK](https://pypi.org/project/rdflib-endpoint/)| ❌|Requires familiarity with terminal, but is the quickest way to get started|
+|TriplyDB | [https://triplydb.com/](https://triplydb.com/)| ✅| Free account, you can expose your data on their servers for a limited time |
+|GraphDB | [https://www.ontotext.com/products/graphdb/](https://www.ontotext.com/products/graphdb/)| ✅| Nice interface; you need to rely on a server    |
+|FAIR Data Point | [https://github.com/fair-data/fairdatapoint](https://github.com/fair-data/fairdatapoint)| ❌ | Highly technical, requires programming language knowledge |
+|RDFlib Endpoint | [https://pypi.org/project/rdflib-endpoint/](https://pypi.org/project/rdflib-endpoint/)| ❌|Requires familiarity with terminal, but is the quickest way to get started|
 
 ## Important!
 When you expose your data using FAIR API protocols, you must register your service in a registry for FAIR APIs such as [SMART API](https://www.smart-api.info/)
 
 ::::::::::::::::::: challenge
+
+### Optional Exercise
 
 Expose your RDF data to a service endpoint using a FAIR API protocol  
 
@@ -124,16 +128,11 @@ Expose your RDF data to a service endpoint using a FAIR API protocol
 2. In your terminal, install the following library using the default Python installation `pip install rdflib-endpoint@git+https://github.com/vemonet/rdflib-endpoint@main`  
 3. Next, execute the following command to locally expose your data `rdflib-endpoint serve data-file.nt`
 
-:::::::::::::::: solution
-
-This exercise is optional
-
-:::::::::::::::::::::
 :::::::::::::::::::::
 
 ::::::::::::::::::::: discussion  
 
-Data Access Scenario
+### Data Access
 
 You are a researcher of Sustainable Investment from the Economics department. After your research, you ended up possessing sensitive financial information of company figures that cannot be disclosed since competitors could misuse this information. You will store the data in a secure environment but you would like to make it available for research purposes.   
 Note: The data is not about personal data.  
