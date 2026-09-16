@@ -94,11 +94,11 @@ The minimum elements you need to describe your dataset are the **Variable Name**
 
 ### There are also public registries where you can find Ontologies
 
-**Linked Open Vocabularies**  → [lov.linkeddata.es/dataset/lov/](https://lov.linkeddata.es/dataset/lov/)  
+**Linked Open Vocabularies**  → [lov.linkeddata.es/dataset](https://lov.linkeddata.es/dataset)  
 **EU Vocabularies:**  → [op.europa.eu/en/web/eu-vocabularies](https://op.europa.eu/en/web/eu-vocabularies)  
 **BioPortal:**  → [bioportal.bioontology.org/](https://bioportal.bioontology.org/)  
 **AgroPortal:**  → [agroportal.lirmm.fr/](https://agroportal.lirmm.fr/)  
-**EcoPortal** → [ecoportal.lifewatchitaly.eu/](https://ecoportal.lifewatchitaly.eu/)  
+**EcoPortal** → [ecoportal.lifewatch.eu/](https://ecoportal.lifewatch.eu/)  
 **Ontology Lookup Service by the EBI** → [ebi.ac.uk/ols/index](https://www.ebi.ac.uk/ols/index)  
 **Bioschemas** → [bioschemas.org/](https://bioschemas.org/)  
 
