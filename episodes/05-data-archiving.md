@@ -19,26 +19,26 @@ exercises: 15
 
 ::::::::::::::::::
 
-## FAIR principles used in Data Archiving  
-**Findable**   
-FM-F1A (Identifier Uniqueness) → [doi.org/10.25504/FAIRsharing.r49beq](https://doi.org/10.25504/FAIRsharing.r49beq)  
-FM-F3 (Resource Identifier in Metadata) → [doi.org/10.25504/FAIRsharing.o8TYnW](https://doi.org/10.25504/FAIRsharing.o8TYnW)  
+> **FAIR principles used in Data Archiving**  
+> **Findable**
+> FM-F1A (Identifier Uniqueness) → [doi.org/10.25504/FAIRsharing.r49beq](https://doi.org/10.25504/FAIRsharing.r49beq)  
+. FM-F3 (Resource Identifier in Metadata) → [doi.org/10.25504/FAIRsharing.o8TYnW](https://doi.org/10.25504/FAIRsharing.o8TYnW)  
+>
+> **Accessible**  
+> FM-A2 (Metadata Longevity) → [doi.org/10.25504/FAIRsharing.A2W4nz](https://doi.org/10.25504/FAIRsharing.A2W4nz)  
 
-**Accessible**  
-FM-A2 (Metadata Longevity) → [doi.org/10.25504/FAIRsharing.A2W4nz](https://doi.org/10.25504/FAIRsharing.A2W4nz)  
 
-
-### 1. What is Data Archiving?
+## 1. What is Data Archiving?
 
 'Data Archiving' is the practice of placing a digital source in a preservation phase, i.e., the long-term storage of research data. 
 
 The various academic journals have different policies regarding how much of their data and methods researchers are required to store in a public archive. Similarly, the major grant-giving institutions have varying attitudes toward public archival of data. In general, publications must have attached sufficient information to allow fellow researchers to replicate and test the research.
 
-### 2. What are Data Repositories?
+## 2. What are Data Repositories?
 
 Datasets are archived in **Data repositories**. They are storage locations for digital objects. **Data repositories** can help make a researcher's data more discoverable by search engines (e.g., Google) and ultimately lead to potential reuse. Therefore, using storage can lead to increased citations of your work. Data repositories can also serve as backups during rare events where data are lost to the researcher and must be retrieved.
 
-## Note
+### Note
 Data Archiving is the long-term storage of research data.
 Data repositories can help make research data more discoverable by search engines (e.g., Googlebots). 
 
@@ -54,7 +54,7 @@ Examples of data repositories:
 Just like FigShare, many data repositories are for general use. They provide a low entry barrier to making data **Findable**, addressing FM-F1A (Identifier Uniqueness) and FM-F3 (Resource Identifier in Metadata). 
 
 
-## Recommendations for general-purpose data repositories
+### Recommendations for general-purpose data repositories
 [ZENODO](https://zenodo.org/) administrated by [CERN](https://home.cern/)  
 [SURF Repository](https://repository.surfsara.nl/) administrated by [SURF](https://www.surf.nl/)  
 [DataverseNL](https://dataverse.nl/)  administrated by [DANS](https://dans.knaw.nl/en/)
@@ -72,9 +72,10 @@ Quick characteristics of general-purpose repositories:
 ![](https://datamanagement.hms.harvard.edu/sites/g/files/mcu941/files/assets/Images/2020-12-10-Repo-Matrix.png){alt="Harvard Medical School, RDM - Data Repositories"}
 Image: Harvard Medical School, RDM - Data Repositories. Accessed Jul-2022 - *datamanagement.hms.harvard.edu/share/data-repositories*
 
-#### [Original Harvard Dataverse](https://dataverse.harvard.edu/dataverse/harvard)
+### [Original Harvard Dataverse](https://dataverse.harvard.edu/dataverse/harvard)
 
-## Some public registries where you can find lists of trusted repositories for Data Archiving 
+### Some public registries where you can find lists of trusted repositories for Data Archiving
+
 **Registry of Research Data Repositories (re3data)**  → [re3data.org//](https://www.re3data.org/)  
 **PLOS ONE Recommended Repositories**  → [journals.plos.org/plosone/s/recommended-repositories](https://journals.plos.org/plosone/s/recommended-repositories)  
 **NIH Recommended Repositories:**  → [sharing.nih.gov/repositories-for-sharing-scientific-data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data)  
