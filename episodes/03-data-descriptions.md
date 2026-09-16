@@ -144,12 +144,12 @@ There are several tools that help you to convert your dataset from a conventiona
 
 |Tool | Source | GUI | Note|
 | ---| ---|---|---|
-|Open Refine | [LINK](https://openrefine.org/)| ✅| Installation can be a hassle and takes a lot of memory|
-|RMLmapper | [LINK](https://github.com/RMLio/rmlmapper-java/releases)| ❌| Highly technical you need to know command line tools, preferred option of data engineers   |
-|SDM-RDFizer | [LINK](https://github.com/SDM-TIB/SDM-RDFizer)| ❌ | You need to be familiar with programming languages |
-|SPARQL-Generate | [LINK](https://ci.mines-stetienne.fr/sparql-generate/)| ✅|It is a good option if you are going to invest time in it since you can learn SPARQL language
-|Virtuoso Universal Serve | [LINK](https://virtuoso.openlinksw.com/)| ✅|It's nice but you have to pay for a license|
-|UM LDWizard | [LINK](https://github.com/MaastrichtU-IDS/ldwizard-humanities)| ✅|It's free, gets the job done quickly, and you can publish data if you have a [TriplyDB](https://triplydb.com/) account → **RECOMMENDED**|
+|Open Refine | [https://openrefine.org/](https://openrefine.org/)| ✅| Installation can be a hassle and takes a lot of memory|
+|RMLmapper | [https://github.com/RMLio/rmlmapper-java/releases](https://github.com/RMLio/rmlmapper-java/releases)| ❌| Highly technical you need to know command line tools, preferred option of data engineers   |
+|SDM-RDFizer | [https://github.com/SDM-TIB/SDM-RDFizer](https://github.com/SDM-TIB/SDM-RDFizer)| ❌ | You need to be familiar with programming languages |
+|SPARQL-Generate | [https://ci.mines-stetienne.fr/sparql-generate/](https://ci.mines-stetienne.fr/sparql-generate/)| ✅|It is a good option if you are going to invest time in it since you can learn SPARQL language
+|Virtuoso Universal Serve | [https://virtuoso.openlinksw.com/](https://virtuoso.openlinksw.com/)| ✅|It's nice but you have to pay for a license|
+|UM LDWizard | [https://github.com/MaastrichtU-IDS/ldwizard-humanities](https://github.com/MaastrichtU-IDS/ldwizard-humanities)| ✅|It's free, gets the job done quickly, and you can publish data if you have a [TriplyDB](https://triplydb.com/) account → **RECOMMENDED**|
 
 ::::::::::::::::::: challenge
 
