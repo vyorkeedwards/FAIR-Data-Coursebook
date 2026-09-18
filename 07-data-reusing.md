@@ -43,13 +43,13 @@ The minimum citation elements recommended by [DataCite](https://datacite.org/) a
 
 For example:
 
-Neff, Roni A.; L. Spiker, Marie; L. Truant, Patricia (2016): Wasted Food: U.S. Consumers' Reported Awareness, Attitudes, and Behaviors. PLOS ONE. Dataset. [https://doi.org/10.1371/journal.pone.0127881](https://figshare.com/articles/dataset/_Wasted_Food_U_S_Consumers_Reported_Awareness_Attitudes_and_Behaviors_/1445199) 
+Neff, Roni A.; L. Spiker, Marie; L. Truant, Patricia (2016): Wasted Food: U.S. Consumers' Reported Awareness, Attitudes, and Behaviors. PLOS ONE. Dataset. [https://doi.org/10.1371/journal.pone.0127881](https://doi.org/10.1371/journal.pone.0127881) 
 
 Original dataset at **Wasted Food: U.S. Consumers' Reported Awareness, Attitudes, and Behaviors** → [LINK TO EXAMPLE](https://figshare.com/articles/dataset/_Wasted_Food_U_S_Consumers_Reported_Awareness_Attitudes_and_Behaviors_/1445199) 
 
 Nowadays, data repositories have a friendly interface on which one can export the data citation directly from the webpage, such as ZENODO, Dataverse, or FigShare.
 
-![](fig/FAIRcoursebook-image6_1.png){alt="cite" width=800}
+![](fig/FAIRcoursebook-image6_1.png){alt="cite"}
 
 ### Citing datasets increases publication visibility by 25%.
 
@@ -64,7 +64,7 @@ There are different available applications to test the discoverability of datase
 For example:   
 In **Google Rich Results** [search.google.com/test/rich-results](https://search.google.com/test/rich-results), you can test whether a dataset is discoverable by other machines (e.g. Google bots)→ [LINK TO EXAMPLE](https://search.google.com/test/rich-results?url=http%3A%2F%2Fdoi.org%2F10.1594%2FPANGAEA.750883)  
 
-![Google](fig/FAIRcoursebook-image6_2.png){alt="google"}
+![](fig/FAIRcoursebook-image6_2.png){alt="google"}
 
 After testing the URL of the data source, you will get the response from the Google bots. We aim to determine if the Google bots have found a structured dataset with the link we provided.
 
