@@ -18,13 +18,14 @@ exercises: 15
 
 ::::::::::::::::::
 
-## FAIR principles used in Data Reusing:  
-**Findable**   
-FM-F1B (Identifier persistence) → [doi.org/10.25504/FAIRsharing.TUq8Zj](https://doi.org/10.25504/FAIRsharing.TUq8Zj)  
-FM-F4 (Indexed in a Searchable Resource) → [doi.org/10.25504/FAIRsharing.Lcws1N](https://doi.org/10.25504/FAIRsharing.Lcws1N)  
-
-**Reusable**  
-FM-R1.2 (Detailed Provenance) → [doi.org/10.25504/FAIRsharing.qcziIV](https://doi.org/10.25504/FAIRsharing.qcziIV)  
+> **FAIR principles used in Data Reusing**  
+>
+> **Findable**   
+> FM-F1B (Identifier persistence) → [doi.org/10.25504/FAIRsharing.TUq8Zj](https://doi.org/10.25504/FAIRsharing.TUq8Zj)  
+> FM-F4 (Indexed in a Searchable Resource) → [doi.org/10.25504/FAIRsharing.Lcws1N](https://doi.org/10.25504/FAIRsharing.Lcws1N)  
+>
+> **Reusable**  
+> FM-R1.2 (Detailed Provenance) → [doi.org/10.25504/FAIRsharing.qcziIV](https://doi.org/10.25504/FAIRsharing.qcziIV)  
 
 ## 1. How to cite data when reusing a data source?
 
@@ -48,33 +49,35 @@ Original dataset at **Wasted Food: U.S. Consumers' Reported Awareness, Attitudes
 
 Nowadays, data repositories have a friendly interface on which one can export the data citation directly from the webpage, such as ZENODO, Dataverse, or FigShare.
 
-![](/fig/FAIRcoursebook-image6_1.png){alt="cite" width=800}
+![](fig/FAIRcoursebook-image6_1.png){alt="cite" width=800}
 
-## Citing datasets increases publication visibility by 25%.
+### Citing datasets increases publication visibility by 25%.
 
 When we cite a dataset using a standard format (e.g., recommended by DataCite), then we allow data aggregators to "pick up" on the citations just like publications. Therefore, they immediately become discoverable for scientific sources.
 
 ## 2. How do we make sure data can be reused?
 
-Remember that a dataset or a data source is a digital object. So Digital Objects "live" on the web. Imagine they are like fishes in the sea 🐠🐠. The way to get picked up by a "fisherman" 🎣 i.e. a search engine (e.g. Google), is by describing these Digital Objects with Rich Metadata [(Episode 5)](https://maastrichtu-library.github.io/FAIR-research-data-coursebook/06-rich-metadata/index.html). Moreover we can check the quality of discoverability of the Digital Objects by conducting automated tests.
+Remember that a dataset or a data source is a digital object. So Digital Objects "live" on the web. Imagine they are like fishes in the sea 🐠🐠. The way to get picked up by a "fisherman" 🎣 i.e. a search engine (e.g. Google), is by describing these Digital Objects with Rich Metadata, as discussed in the previous episode. Moreover we can check the quality of discoverability of the Digital Objects by conducting automated tests.
 
 There are different available applications to test the discoverability of datasets for future reuse.
 
 For example:   
 In **Google Rich Results** [search.google.com/test/rich-results](https://search.google.com/test/rich-results), you can test whether a dataset is discoverable by other machines (e.g. Google bots)→ [LINK TO EXAMPLE](https://search.google.com/test/rich-results?url=http%3A%2F%2Fdoi.org%2F10.1594%2FPANGAEA.750883)  
 
-![Google](/fig/FAIRcoursebook-image6_2.png){alt="google" style="width: 50%"}
+![Google](fig/FAIRcoursebook-image6_2.png){alt="google"}
 
 After testing the URL of the data source, you will get the response from the Google bots. We aim to determine if the Google bots have found a structured dataset with the link we provided.
 
-![](/fig/FAIRcoursebook-image6_3.png){alt="google2" style="width: 50%"}
+![](fig/FAIRcoursebook-image6_3.png){alt="google2"}
 
-## Following the FAIR principles, you ensure Rich Metadata
+### Following the FAIR principles, you ensure Rich Metadata
 
 Rich metadata is necessary to be discoverable on the internet. Without testing it, your data can be virtually invisible on the web
 
 
 ::::::::::::: challenge
+
+### Google's Rich Results Test
 
 The following website is a database of crime news related to cultural objects [news.culturecrime.org](https://news.culturecrime.org/all)
 Perform Google's rich test on this data source. You can copy the URL of the browser and put it on the [search.google.com/test/rich-results](https://search.google.com/test/rich-results)  
@@ -131,6 +134,8 @@ For example:
 ```
 
 :::::::::::::: challenge
+
+### Rich Metadata File Similarities
 
 Visit the dataset you uploaded in the Data Archiving episode. Download the Rich Metadata file (JSON-LD) format.
 
