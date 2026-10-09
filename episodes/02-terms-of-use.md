@@ -39,7 +39,7 @@ A Data Terms of Use is a textual statement that sets out the rules, conditions, 
 ![](fig/FAIRcoursebook-image1_1.png){alt="Screenshot of part of the Terms of Use for Datasets page on the World Bank Group's website" style="width: 33%; float: left; margin-right: 10px;"}
 
 
-**The World Bank** - [Terms of Use for Datasets](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets) 
+**The World Bank** - [Terms of Use for Datasets](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets)  
 
 
 
