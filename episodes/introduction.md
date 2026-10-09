@@ -56,6 +56,12 @@ Common uses of PIDs include those identifying:
 
 DOI is one well-known PID type and is commonly used for datasets and publications. ORCID is another example, focused on researcher identity.
 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+When playing the Freya video, stop at around the 3 minute point, when Rob says thank you, to save more time for discussion
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 For a short explainer of the importance of PIDs, see the [FREYA project video](https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm)
 
 :::::::::::::::: challenge
