@@ -8,7 +8,7 @@ exercises: 5
 
 - Does FAIR data mean open data?
 - What are Digital Objects and Persistent Identifiers?
-- Different types of PIDs
+- What kinds of persistent identifiers are commonly used?
 
 ::::::::::::::::::::::
 
