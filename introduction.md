@@ -58,15 +58,6 @@ DOI is one well-known PID type and is commonly used for datasets and publication
 
 For a short explainer of the importance of PIDs, see the [FREYA project video](https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm)
 
-::::::::::::::::: callout
-
-### To learn more about FAIR Digital Objects
-
-- **FAIR Digital Objects: Which Services Are Required?** [(Schwardmann, Ulrich 2020)](https://datascience.codata.org/articles/10.5334/dsj-2020-015/)
-- **FAIR Digital Object Framework Documentation** [(Bonino da Silva Santos, Luiz Olavo 2020-22)](https://fairdigitalobjectframework.org/))
-
-::::::::::::::::::
-
 :::::::::::::::: challenge
 
 ### arXiv
