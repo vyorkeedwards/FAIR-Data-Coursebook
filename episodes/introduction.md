@@ -82,9 +82,12 @@ Authors often link to GitHub repositories, project pages, or other web pages for
 
 How does your discipline usually share data? Is there a data journal, domain repository, or another community-specific mechanism for making research outputs findable and reusable? 
 
-For example, the American Astronomical Society (AAS), via the publisher IOP Physics, offers a [supplement series](https://iopscience.iop.org/journal/0067-0049/page/article-data) as a way for astronomers to publish data. 
-
 ::::::::::::::::::::::::::::
+
+A few examples:
+
+- The American Astronomical Society (AAS), via the publisher IOP Physics, offers a [supplement series](https://iopscience.iop.org/journal/0067-0049/page/article-data) as a way for astronomers to publish data.
+- In archaeology there is a UK-based repository called the [Archaeology Data Service](https://archaeologydataservice.ac.uk/) and the [Journal of Open Archaeology Data](https://openarchaeologydata.metajnl.com/) which publishes data papers
 
 :::::::::::::::::::::::: keypoints
 
