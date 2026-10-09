@@ -6,34 +6,35 @@ exercises: 15
 
 ::::::::::::::: questions
 
-- What are Data Terms of Use?
-- What must a Data Terms of Use statement contain?
-- What format should Data Terms of Use be?
-- Are there standard Licenses we can pick from?
+- What are data terms of use?
+- What should a data terms of use statement contain?
+- What format should terms of use use?
+- What standard licenses are available for data?
 
 :::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::: objectives
 
-- The participant will understand what data terms of use are with examples.
-- The participant will be able to create basic data terms of use.
+- Understand what data terms of use are and why they matter.
+- Identify the minimum components of a basic terms of use statement.
+- Recognize when a standard license is sufficient and when a custom agreement is needed.
 
 ::::::::::::::::::::::::::
 
 > **FAIR principles used in Data Terms of Use:** 
 >
-> - **Accessible**   
-> FM-A2 (Metadata Longevity) → [doi.org/10.25504/FAIRsharing.A2W4nz](https://doi.org/10.25504/FAIRsharing.A2W4nz)  
+> **Accessible**
+> 
+> - FM-A2 Metadata Longevity: [doi.org/10.25504/FAIRsharing.A2W4nz](https://doi.org/10.25504/FAIRsharing.A2W4nz)  
 >
-> - **Reusable**  
-> FM-R1.1  (Accessible Usage License) → [doi.org/10.25504/FAIRsharing.fsB7NK](https://doi.org/10.25504/FAIRsharing.fsB7NK)  
+> **Reusable**
+> 
+> - FM-R1.1 Accessible Usage License: [doi.org/10.25504/FAIRsharing.fsB7NK](https://doi.org/10.25504/FAIRsharing.fsB7NK)  
 
 
-## 1 What are Data Terms of Use?
+## 1 What are data terms of use?
 
-Data Terms of Use is a textual statement that sets the rules, terms, conditions, actions, legal considerations, and licenses that delineate data use.  
-
-An example is:
+A Data Terms of Use is a textual statement that sets out the rules, conditions, licenses, and legal considerations that govern reuse of a data source.
 
 ![](fig/FAIRcoursebook-image1_1.png){alt="Screenshot of part of the Terms of Use for Datasets page on the World Bank Group's website" style="width: 33%; float: left; margin-right: 10px;"}
 
@@ -41,150 +42,151 @@ An example is:
 **The World Bank** - [Terms of Use for Datasets](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets) 
 
 
-
-Looking at the example, we can identify general elements in the **Data Terms of Use** statement. For instance, a broad description of the data is referred to, but also under what type of license the user is allowed to reuse.  
-
-Sometimes as part of our research, we use commercial databases. We should be careful always to read the conditions for using it for research purposes.  
-
-An example is:  
-
 ![](fig/FAIRcoursebook-image1_2.png){alt="Screenshot of part of the Terms of Use page on NUMBEO.com's website" style="width: 33%; float: left; margin-right: 10px;"}
 
 
-
 **Numbeo.com** - [Terms of Use](https://www.numbeo.com/common/terms_of_use.jsp)    
-We can see that clause 3 of Licensing of content requests work attribution.
 
-## 2 What must a Data Terms of Use statement contain?
 
-As a general rule, a **Data Terms of Use** statement must contain at least the following:
+
+These examples show that terms of use usually describe the resource, the conditions under which it may be reused, and any expectations around attribution or restrictions.
+
+
+## 2 What must a Terms of Use Statement contain?
+
+As a minimum, a data terms of use statement should cover the following elements:
 
 |Section| Description|Example|
 |---|---|---|
-|**Description**| What is this statement about and what Digital Objects are referred to |*The following Terms of Use statement is about my happy dataset*|
-|**License**|Statement under which conditions a requester is allowed to use the data source|*The happy dataset is of Public Domain*|
-|**Work attribution**|Statement requesting citation of the data source used |*Could you please cite my happy dataset?*|
-|**Disclaimer**| Any consideration that the requester should be aware of|*The last 100 records of my happy dataset might have selection bias*|
+|**Description**| What the statement refers to and what Digital Objects it covers |*These terms apply to the HAPPY dataset*|
+|**License**| Under which conditions reuse is allowed |*The HAPPY dataset is in the Public Domain*|
+|**Attribution**| How the data should be cited or acknowledged |*Please cite the HAPPY dataset*|
+|**Disclaimer**| Important limitations or caveats |*The last 100 records may contain selection bias*|
 
-Nevertheless, depending on the use case, the "Data Terms of Use" statement can be extended by adding specific clauses when complex data, multiple databases, or sensitive data are involved. After all, the "Data Terms of Use" statement is the legal basis of the referred data source. i.e., in the light of public law, you can make someone liable for not complying with specific clauses of the statement. 
+Depending on the context, the statement may need additional clauses for multiple databases, sensitive data, embargoes, or obligations coming from a larger project that the dataset was created within (see callout).
 
-Moreover, sometimes our work is conducted within the context of a greater scientific funded project. Therefore, it is always recommended to check with the Principal Investigator or Project Manager whether the **Data Terms of Use** statement is to be defined or if there is already a **Data Policy** framework.
+::::::::::::::::::::::::::::::::::::: callout
 
-An example is:  
+### Terms of use are part of the legal basis for reuse
 
-**Policy for use and oversight of samples and data arising from the Biomedical Resource of the 1958 Birth Cohort (National Child Development Study)**   → [LINK TO EXAMPLE](https://fairsharing.org/FAIRsharing.z09fg9) 
+The terms of use statement is the formal basis on which others may access and reuse a data source. If your work sits inside a larger project or policy framework, check whether terms already exist before drafting a new statement.
 
-- Link to the original [Data Policy](https://cpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/7/314/files/2015/07/POLICY-DOCUMENT-FINAL-Vsn-4.0-DEC-2014.pdf)
+An example of a broader policy framework is the FAIRsharing record for the 1958 Birth Cohort policy:  
 
-This policy framework creates comprehensive guidelines on handling data for that specific study involving children's data. Therefore, the researchers working underneath the project do not have to make new Data Terms of Use.
+- FAIRsharing entry: <https://fairsharing.org/FAIRsharing.z09fg9>
+- Original policy document: <https://cpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/7/314/files/2015/07/POLICY-DOCUMENT-FINAL-Vsn-4.0-DEC-2014.pdf>
 
-### "Data Terms of Use" statement is the legal basis of the referred data source
+::::::::::::::::::::::::::::::::::::::::::::::::
+ 
 
-In the light of public law, you can make someone liable for not complying with specific clauses of the statement.  
+## 3 What format should terms of use use?
 
-## 3 What format should Data Terms of Use be?
+Terms of use should be stored as plain text in a machine-friendly format such as `.txt`, `.md`, or `.html`. The exact length and level of detail will vary by project, but the statement should be easy for people to read and for systems to preserve.
 
-The **Data Terms of Use** is a plain text statement. This text has the length and depth that the data owner or data manager sees fit. There is no right or wrong when drafting it. Usually, it is recommended to store this textual statement in a `README` file, using an accessible format, for example, `.txt`, `.md`, or `.html` so that any user can read it without needing any additional software.
-
-### The Data Terms of Use is a plain text statement written in a machine-friendly format
-
-The "Data Terms of Use" can be drafted using any application (e.g., MS Word). However, it's important to store it in a machine-friendly format such as `.txt` or `.md`
-
-Any text editor software would do the trick, such as [Notepad++](https://notepad-plus-plus.org/) or [Sublime Text](https://www.sublimetext.com/), but also you can write it using Microsoft Word or Google Docs and save it as `.txt` 
+Keep the statement in an accessible text format. You can draft terms of use in almost any editor, but the final version should be stored in a format that does not depend on proprietary software to read it. Many projects place the statement in a `README`, `LICENSE`, or similar documentation file.
 
 ::::::::::::::::::: challenge
 
 ### Terms of Use
 
-Visit the landing page of the following terms of use [github.com/CityOfPhiladelphia/terms-of-use/blob/master/LICENSE.md](https://github.com/CityOfPhiladelphia/terms-of-use/blob/master/LICENSE.md)   
-1. Can you tell what type of data it is about?   
-2. Can you tell in what format the terms of use are written?    
-3. What platform are they using to put it?     
+Visit the City of Philadelphia terms-of-use file: [github.com/CityOfPhiladelphia/terms-of-use/blob/master/LICENSE.md](https://github.com/CityOfPhiladelphia/terms-of-use/blob/master/LICENSE.md)  
+
+Answer the following:
+
+- What kind of resource is it about?   
+- In what format is the statement written?    
+- On which platform is it published?     
 
 :::::::::::::::: solution
 
-- Refers to the public code on which the large city of Philadelphia government is based (https://www.phila.gov/)    
-- The format is Markdown (`.md`)   
-- They used Github to put the `LICENSE.md` file, which is the Data Terms of Use.
+- It is a terms-of-use style statement published for city-maintained digital resources.
+- The file format is Markdown (`.md`).
+- It is published on GitHub.
 
 ::::::::::::::::::
 ::::::::::::::::::
 
-The **Data Terms of Use** needs to be in the same root folder as the data source. When it comes to a database - like the World Bank example - it should be findable on the project's website. Moreover, if there is no official project website, you should include it in `.md` format in a Github repository like the following example: → [LINK TO EXAMPLE](https://github.com/MaastrichtU-IDS/clean-technologies-nlp/blob/master/data/README.md)  
+The statement itself often lives next to the data documentation:
 
-![](fig/FAIRcoursebook-image1_3.png){alt="Terms of Use folder"}
+![](fig/FAIRcoursebook-image1_3.png){alt="Folder structure containing a README or license file"}
 
-In the Publish and Preserve episode, we will explore that some data repositories such as [DataverseNL](dataverse.nl/) allow you to create a Data Terms of Use statement directly on the platform when you create a data project.   
-By default, you get a waiver License [CC0 “No Rights Reserved”](https://creativecommons.org/share-your-work/public-domain/cc0/). Putting a database or dataset in the public domain under CC0 is a way to remove any legal doubt about whether researchers can use the data in their projects. Although CC0 doesn’t legally require data users to cite the source, it does not affect the ethical norms for attribution in scientific and research communities. Moreover, you can change this waiver to a tailored Terms of Use you have created for your data.
+Some repositories let you define tailored reuse conditions directly on the platform. Dataverse, for example, defaults to a CC0 waiver but also allows custom terms after dataset creation.
 
-![](fig/FAIRcoursebook-image1_4.png){alt="License is part of the Terms of Use"}
+![](fig/FAIRcoursebook-image1_4.png){alt="Repository interface showing license and terms options"}
 
 :::::::::::::::: challenge
 
 ### Editing Terms of Use
 
-Is it possible to edit the Terms of Use in DataverseNL?
+Is it possible to edit the Terms of Use in the Harvard Dataverse?
 
-Go to [DataverseNL/](https://dataverse.nl/) to the FAQ section to find out.
-
+Check the [Harvard Dataverse](https://dataverse.harvard.edu/) documentation to find the answer.
 
 ::::::::::::::::: solution
 
-Yes, it is possible. However, you can't choose it at the beginning. After creating a dataset, go to the ‘Terms’ tab on your dataset page and click ‘Edit Terms requirements’. Next, select the radio button ‘No, do not apply CC0 public domain dedication’, and fill in the text fields with your terms and conditions.
+Yes. After uploading a dataset, you can go to the Terms tab, click on "Edit Terms Requirements" and choose a license from the dropdown or select 'Custom Dataset Terms' to provide your own terms and conditions. 
+
+If you don't do this your data will be given a default license. Different Dataverse installations assign different default licenses. In the case of the Harvard Dataverse that default license is CC0.
 
 :::::::::::::::
 :::::::::::::::
 
-Dataverse also provides **Sample Data Usage Agreement** →  [LINK](https://dataverse.org/best-practices/sample-dua)
+Useful reference:
+
+- Sample Data Usage Agreement: <https://dataverse.org/best-practices/sample-dua>
 
 
 ## 4 Are there standard Licenses we can pick from?
 
-Yes, there are two general License frameworks that can work for data.  
+Two commonly used licensing families for data are:
 
 - [Creative Commons (CC)](https://creativecommons.org/about/cclicenses/)
 - [Open Data Commons (ODC)](https://opendatacommons.org/licenses/index.html)  
 
-[Creative Commons (CC)](https://creativecommons.org/about/cclicenses/) provides several licenses that can be used with a wide variety of creations that might otherwise fall under copyright restrictions, including music, art, books, and photographs. Although not tailored for data, CC licenses can be used as data licenses because they are easy to understand. Its website includes a summary page [HERE](https://creativecommons.org/about/cclicenses/) outlining all the available licenses, explained with simple visual symbols.
+Creative Commons licenses are easy to understand and widely recognized, even if they were not designed only for data. Below are the marks they use and what they mean:
 
-|Permission Mark|What can I do with the data?|
-|---|---|
-|BY|Creator must be credited|
-|SA|Derivatives or redistributions must have an identical license|
-|NC|Only non-commercial uses are allowed|
-|ND|No derivatives are allowed|
+| Mark | Meaning |
+| --- | --- |
+| 0 | All rights are waived under copyright law |
+| BY | Creator must be credited |
+| SA | Derivatives or redistributions must use the same license |
+| NC | Only non-commercial uses are allowed |
+| ND | No derivatives are allowed |
 
-[Open Data Commons (ODC)](https://opendatacommons.org/licenses/index.html) provides three licenses that can be explicitly applied to data. The web pages of each of these licenses include human-readable summaries, with the ramifications of the legalese explained in a concise format.
+Open Data Commons licenses are more explicitly data-oriented and give very detailed explanations of what can and cannot be done with the data.
+
 
 :::::::::::::::::: challenge
 
 ### License Type
 
-Pick a License at [creativecommons.org](https://creativecommons.org/share-your-work/) with the following conditions:  
-- Others cannot make changes to the work since it's simulation data
-- If someone wants to use the simulation data for a startup, they can
+Choose a license at [creativecommons.org](https://creativecommons.org/share-your-work/) with the following conditions: 
 
-**What type of license is it?**
+- Others cannot modify the work
+- Commercial reuse is allowed
+
+**Which license fits?**
 
 :::::::::::::::::: solution
 
-Attribution-NoDerivatives 4.0 International
+Attribution-NoDerivatives 4.0 International, or CC BY-ND 4.0
 
 :::::::::::::::::::
 :::::::::::::::::::
 
 :::::::::::::::::: discussion
  
-You are a sociology and statistics researcher, and now you are collaborating with a researcher from the hospital. Your collaborator researches Children's Mental Health. You will combine expertise and conduct a study on the Quality of Life in Children. In addition, you will lead a national survey in Dutch schools. You are thinking of collecting information about bullying, social media, and family structure.
+You are collaborating on a study of quality of life in children and plan to collect potentially sensitive information about bullying, social media, and family structure.
 
-Discuss with your team what considerations need to be taken into account when drafting a Data Terms of Use for this study. Do you think a legal expert must write the terms of use, or can it be done by the researchers?
+What should be considered when drafting terms of use for this study? Should the statement be drafted only by the researchers, or should legal and governance support be involved?
 
 ::::::::::::::::::::::::::
 
 :::::::::::::::: keypoints
 
-- The Data Terms of Use statement is the legal basis of the referred data source.
-- A License is the bare minimum requirement for Data Terms of Use.
-- If a standard License does not fit your project, then you can use Terms of Use layouts e.g. [Sample Data Usage Agreement](https://dataverse.org/best-practices/sample-dua).
+- A data terms of use statement defines the legal and practical basis for reuse.
+- A license is the minimum requirement, but some projects need richer terms or a custom agreement.
+- Store terms of use in an accessible text format such as `.md` or `.txt`.
+- If a standard license does not fit the project, a tailored terms-of-use statement or usage agreement may be necessary.
 
 ::::::::::::::::::::
