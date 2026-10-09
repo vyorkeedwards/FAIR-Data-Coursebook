@@ -36,19 +36,13 @@ exercises: 15
 
 A Data Terms of Use is a textual statement that sets out the rules, conditions, licenses, and legal considerations that govern reuse of a data source.
 
-![](fig/FAIRcoursebook-image1_1.png){alt="Screenshot of part of the Terms of Use for Datasets page on the World Bank Group's website" style="width: 33%; float: left; margin-right: 10px;"}
+![](fig/FAIRcoursebook-image1_1.png){alt="Screenshot of part of the Terms of Use for Datasets page on the World Bank Group's website"}
 
 
 **The World Bank** - [Terms of Use for Datasets](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets)  
-</br> 
+ 
 
-</br> 
-
-</br> 
-
-</br> 
-
-![](fig/FAIRcoursebook-image1_2.png){alt="Screenshot of part of the Terms of Use page on NUMBEO.com's website" style="width: 33%; float: left; margin-right: 10px;"}
+![](fig/FAIRcoursebook-image1_2.png){alt="Screenshot of part of the Terms of Use page on NUMBEO.com's website"}
 
 
 **Numbeo.com** - [Terms of Use](https://www.numbeo.com/common/terms_of_use.jsp)    
