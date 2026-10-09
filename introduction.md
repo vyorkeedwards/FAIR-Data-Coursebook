@@ -1,7 +1,7 @@
 ---
 title: Introduction
 teaching: 10
-exercises: 5
+exercises: 10
 ---
 
 :::::::::::::::::::::: questions
@@ -27,7 +27,7 @@ FAIR means that data and related research objects are designed to be easy for hu
 
 ![](fig/FAIRcoursebook-image0_1.png){alt="Diagram showing a mixture of text and icons with the message: When you do Research Data Management (RDM) following the FAIR Principles you aim to Open Science. Open not in the sense of Open Datasets but open in the sense of Transparent and Accessible Science" style="max-width: 80%; height: auto;"}
 
-### What does it mean to be machine-readable vs human-friendly?  
+### Human-readable vs machine-friendly
 
 Human-readable content is easy for a person to inspect directly, but that does not guarantee that software can parse and reuse it automatically (for example, pdfs of scans of text can be very readable to a human, but very difficult for a machine to process). Machine readable content uses explicit structure, such as CSV, JSON, or XML, so a computer can interpret relationships and values without guessing.
 
