@@ -44,15 +44,26 @@ During this courcebook, we will be using "Machine-readable" and "Machine friendl
 
 ## 2. What are Digital Objects and Persistent Identifiers?
 
-A **Digital Object** is a bit sequence located in a digital memory or storage that has, on its own, informational value. For example:  
+A **Digital Object** is a bit sequence located in a digital memory or storage that has informational value on its own. For example:  
 
-- A Scientific Publication
-- A Dataset
-- A Rich Metadata file
-- A README file containing Terms of use & Access Protocols
+- A scientific publication
+- A dataset
+- A rich metadata file
+- A README file describing access and reuse conditions
 
-![](https://storage.googleapis.com/jnl-up-j-dsj-files/journals/1/articles/1127/submission/proof/1127-10-7358-1-17-20200401.png){alt="Diagram showing a circle with the letters DO. There are arrows leading to and from it from boxes. The flow diagrams represent the following: 1 DO is represented by Bit Sequence is stored in Repository, 2 DO is described by Metatdata is a DO, 3 DO is referenced by Persistent ID, 4 Collection aggregates DO, Collection is a DO" width=650 height=400}
+A **Persistent Identifier**, or PID, is a durable reference to a digital or physical resource. PIDs are backed by technical infrastructure and governance arrangements that help them continue resolving even when the resource itself changes location.
 
+Common uses of PIDs include those identifying:
+
+- articles, datasets, and software
+- researchers
+- organizations and funders
+- projects and instruments
+- physical samples and media objects
+
+DOI is one well-known PID type and is commonly used for datasets and publications. ORCID is another example, focused on researcher identity.
+
+For a short explainer of the importance of PIDs, see the [FREYA project video](https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm)
 
 ::::::::::::::::: callout
 
@@ -63,21 +74,6 @@ A **Digital Object** is a bit sequence located in a digital memory or storage th
 
 ::::::::::::::::::
 
-A **Persistent Identifier (PID)** is a long-lasting reference to a (digital or physical) resource:
-
-- Designed to provide access to information about a resource even if the resource it describes has moved location on the web
-- Requires technical, governance, and community support to provide the persistence
-- There are many different PIDs available for many different types of scholarly resources, e.g., articles, data, samples, authors, grants, projects, conference papers, and so much more
-
-**Video:** The FREYA project explains the significance of PID: [An introduction to persistent identifiers as part of a FAIR data landscape, by the European Union-sponsored project FREYA](https://en.wikipedia.org/wiki/File:FREYA-The-power-of-PIDs-V05-1.webm)
-
-### Different types of PIDs
-
-PIDs have community support, organizational commitment, and technical infrastructure to ensure the persistence of identifiers. They are often created to respond to a community's needs. For instance, the International Standard Book Number or ISBN was created to assign unique numbers to books, is used by book publishers, and is managed by the International ISBN Agency. Another type of PID, the Open Researcher and Contributor ID or ORCID (iD), was created to help with author disambiguation by providing unique identifiers for authors. The [ODIN Project identifies additional PIDs](https://project-thor.readme.io/docs/project-glossary) along with [Wikipedia's page on PIDs](https://en.wikipedia.org/wiki/Persistent_identifier).
-
-In the final episode of the course ('Responsibly Reuse'), you will explore one type of PID, the DOI (Digital Object Identifier), which is usually the standard PID for Datasets and Publications.
-
-
 :::::::::::::::: challenge
 
 ### arXiv
@@ -85,34 +81,24 @@ In the final episode of the course ('Responsibly Reuse'), you will explore one t
 arXiv is a preprint repository for physics, math, computer science, and related disciplines. It allows researchers to share and access their work before it is formally published. 
 
 Visit the arXiv new papers page for [Machine Learning](https://arxiv.org/list/cs.LG/recent). 
-Choose any paper by clicking on the 'pdf' link. 
-Now use <kbd>control</kbd> + <kbd>F</kbd> or <kbd>command</kbd> + <kbd>F</kbd> and search for 'HTTP'. 
+Pick a paper, open its PDF, and search for `http` or `doi`.
 
-**Did the author use DOIs for their data?**
+What kinds of links do the authors use for data or software references, and why is a DOI usually more robust than a personal website or repository link alone?
  
 :::::::::::::: solution
 
-Authors will often link to platforms such as GitHub where they have shared their software, and/or they will link to their website hosting the data used in the paper. The danger is that platforms like GitHub and personal websites are not permanent. Instead, authors can use repositories to deposit and preserve their data and software while minting a DOI. Links to software sharing platforms or personal websites might move, but DOIs will always resolve to information about the software and/or data. See DataCite's [Best Practices for a Tombstone Page](https://support.datacite.org/docs/tombstone-pages).
+Authors often link to GitHub repositories, project pages, or other web pages for software and data. Those locations may move or disappear over time. A DOI is more robust because it resolves through persistent infrastructure and points to current metadata about the object even if the storage location changes.
 
 ::::::::::::::::::::::::::
 :::::::::::::::::::::::::
-
-### DOIs are everywhere, examples:
-- Resource IDs (articles, data, software, …)
-- Researcher IDs
-- Organization IDs, Funder IDs
-- Project IDs
-- Instrument IDs
-- Physical sample IDs,
-- DMP IDs…
-- Media: videos, images, 3D models
-
 
 :::::::::::::::::::::::::::: discussion
 
 ### How does your discipline share data?
 
-Does your discipline have a data journal? Or some other mechanism to share data? For example, the American Astronomical Society (AAS), via the publisher IOP Physics, offers a [supplement series](https://iopscience.iop.org/journal/0067-0049/page/article-data) as a way for astronomers to publish data. 
+How does your discipline usually share data? Is there a data journal, domain repository, or another community-specific mechanism for making research outputs findable and reusable? 
+
+For example, the American Astronomical Society (AAS), via the publisher IOP Physics, offers a [supplement series](https://iopscience.iop.org/journal/0067-0049/page/article-data) as a way for astronomers to publish data. 
 
 ::::::::::::::::::::::::::::
 
