@@ -14,8 +14,9 @@ exercises: 5
 
 ::::::::::::::::::::::::: objectives
 
-- Understand that the FAIR principles are fundamental for Sustainable Science
-- Know what human and machine-friendly digital objects are
+- Understand that FAIR does not simply mean open.
+- Explain the difference between human-readable and machine-friendly digital objects.
+- Recognize DOI as one type of PID used to identify digital objects.
 
 :::::::::::::::::::::::::
 
