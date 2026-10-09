@@ -88,8 +88,10 @@ For example, the American Astronomical Society (AAS), via the publisher IOP Phys
 
 :::::::::::::::::::::::: keypoints
 
-- FAIR means human and machine-friendly data sources which aim for transparency in science and future reuse.
-- DOI (Digital Object Identifier) is a type of PID (Persistent Identifier)
+- FAIR means making research objects more usable by humans and machines, not automatically making them open.
+- Machine-friendly objects are structured so software can interpret and reuse them reliably.
+- Digital objects include datasets, publications, metadata records, and related documentation.
+- DOI is a common PID used for datasets and publications.
 
 ::::::::::::::::::::::::
 
