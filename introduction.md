@@ -22,7 +22,7 @@ exercises: 5
 ## 1. Does FAIR data mean open data?
 
 No.    
-FAIR means human and machine-friendly data sources which aim for transparency in science and future reuse.  
+FAIR means that data and related research objects are designed to be easy for humans and machines to find, understand, access, and reuse. Some FAIR data can also be open, but openness and FAIRness are not the same thing. Sometimes data cannot be shared openly (for example where it is health data relating to individual patients), but it can be made FAIR.
 
 ![](fig/FAIRcoursebook-image0_1.png){alt="Diagram showing a mixture of text and icons with the message: When you do Research Data Management (RDM) following the FAIR Principles you aim to Open Science. Open not in the sense of Open Datasets but open in the sense of Transparent and Accessible Science" style="max-width: 80%; height: auto;"}
 
