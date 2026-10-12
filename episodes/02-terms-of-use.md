@@ -110,9 +110,9 @@ The statement itself often lives next to the data documentation:
 
 ![](fig/FAIRcoursebook-image1_3.png){alt="Folder structure containing a README or license file"}
 
-Some repositories let you define tailored reuse conditions directly on the platform.
+Some repositories let you define tailored reuse conditions directly on the platform. Zenodo, for example, defaults to Creative Commons Attribution 4.0 International but allows other licenses to be chosen or for a custom license to be added.
 
-![](fig/FAIRcoursebook-image1_4.png){alt="Repository interface showing license and terms options"}
+![](fig/FAIRcoursebook-image1_4.png){alt="Zenodo repository interface showing the default license, a button to add a standard license, and another button to add a custom license"}
 
 :::::::::::::::: challenge
 
