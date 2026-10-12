@@ -6,16 +6,18 @@ exercises: 15
 
 :::::::::::::::::::: questions
 
-- What are Data Descriptions?
-- How to reuse Data Descriptions?
-- Are there standard ways for doing Data Descriptions?
-- What is the relation between Data Descriptions and Linked Data?
+- What are data descriptions?
+- How can data descriptions be reused?
+- Are there standard ways to create data descriptions?
+- What is the relationship between data descriptions and linked data?
 
 :::::::::::::::::::::
   
 :::::::::::::::::::: objectives
-- The participant will learn that Data Descriptions are named differently in various fields.
-- The participant will be able to create a machine-friendly Data Descriptions file.
+
+- Recognize that different communities use different names for data descriptions.
+- Learn how to build machine-friendly data description files.
+- Understand why reusing ontology terms improves interoperability.
 
 :::::::::::::::::::::::::
 
@@ -31,76 +33,81 @@ exercises: 15
 
 ## 1. What are Data Descriptions?
 
-Data descriptions are a detailed explanation and documentation of each data attribute or variable in a dataset.  
+Data descriptions document the meaning of each data attribute or variable in a dataset.
 
-Depending on the use case and field of research, these data descriptions are also known as:  
-- Codebooks (e.g., in Statistics or Social Sciences)
-- Data Dictionaries (e.g., in Computer and Data Science)
-- Labels or Data Tags (e.g., in Crowdsourcing or Humanities)
-- Data Glossary (e.g., in Business Administration & Finance)
-- Metadata (wrong use of this term in this context)
+Depending on the discipline, similar documents may be called:
+
+- codebooks
+- data dictionaries
+- labels or data tags
+- data glossaries
 
 For example:  
 
 |Variable Name | Description| Scale|
 |---|---|---|
-|Weight | Weight of a human | kilograms|
-|Height | Height of a human | centimetres |
-|Age | Age of a human | years|
-|Blood Glucose Level |Blood glucose level of a human | mg/dl|
+| Weight | Weight of patient | kilograms |
+| Height | Height of patient | centimetres |
+| Age | Age of patient | years |
+| Blood Glucose Level | Blood glucose level | mg/dl |
 
 
-### "Data Descriptions" is sometimes named differently depending on the field
+### Different fields use different names for data descriptions
 
-No matter what terminology you use, "Data Descriptions" always refers to a detailed explanation and documentation of each data attribute or variable in a dataset.
+No matter what the document is called, the goal is the same: to describe what the dataset variables mean so others can interpret and reuse the data correctly.
 
-## 2. How to reuse Data Descriptions?
+## 2. How can data descriptions be reused?
 
-Documentation of any kind always takes time. However, we shall always aim to reuse existing data descriptions generally accepted in the community. i.e., the variable `Weight` is a concept that has been widely used in research; therefore, we don't need to redefine it every time.  
+Writing documentation takes time, so when possible you should reuse accepted community definitions instead of inventing a new description every time.
 
-For example, in [BioPortal](https://bioportal.bioontology.org/), we can find existing descriptions of `Weight`. These descriptions belong to an [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)), i.e., a community-accepted online dictionary for curated terms and definitions. Moreover, it provides a globally unique identifier to the description.  → [LINK TO EXAMPLE](https://bioportal.bioontology.org/)  
+**Ontologies** (in information science) are vocabularies of curated terms and their definitions.
 
-![](fig/FAIRcoursebook-image2_1.png){alt="Screenshot of part of the front page of the website bioportal.com showing a search box where the word 'weight' has been entered"}
+BioPortal is a good example of a registry where community-maintained ontology terms can be searched and reused: 
 
-You will get several results when searching for a term and its definition. These results regard the different ontologies that define these terms. For example, think of the description of an apple. It might be defined differently in a British dictionary than in an American one.
+- Bioportal: <https://bioportal.bioontology.org/>
 
-![](fig/FAIRcoursebook-image2_2.png){alt="Screenshot of results of search for 'weight' in bioportal.com, showing the top four matches in 54 ontologies"}
+![Searching for a term in BioPortal](fig/FAIRcoursebook-image2_1.png){alt='BioPortal search results interface'}
+![Comparing ontology definitions in BioPortal](fig/FAIRcoursebook-image2_2.png){alt='Different ontology matches for the same concept'}
+![Selected ontology term with identifier](fig/FAIRcoursebook-image2_3.png){alt='Ontology entry with persistent identifier'}
 
-Finally, using this Ontology, you can get a standard definition that community experts curate has a global identifier.  
+### Reuse ontology terms when possible 
 
-![](fig/FAIRcoursebook-image2_3.png){alt="Screenshot of part of the Details section of page for one of the ontologies in bioportal.com, showing ID, Preferred name, Synonyms and Type"}
+Advantages:
 
-### Describe your data by reusing Ontology terms  
+- you do not need to redefine common concepts repeatedly
+- you gain a persistent identifier for the concept
+- other systems can align variables across datasets more easily
 
-By reusing Ontology terms or community-accepted vocabularies, we aim to create a culture of recycling definitions by default.  
-**Advantages**  
-- We don't have to redefine the terms every time
-- We get a permanent link to the resource
-- Since it uses a global identifier becomes easier for others to integrate with different data sources  
-**Disadvantages**  
-- Sometimes, you might not find an Ontology or vocabulary that fits your variable.  
+Disadvantages:
 
-## 3. Are there standard ways for doing Data Descriptions?
+- sometimes no existing ontology fits the exact concept you need
 
-There are no standard ways of doing Data Descriptions.  
-The minimum elements you need to describe your dataset are the **Variable Name** and the **Link to Description**. You can do that in a tabular format. However, following the FAIR principles of Interoperability and Reusability, we must ensure that the data is described using community standard FAIR vocabularies. Here are some Ontologies for general use that can cover a wide variety of data attributes
+## 3. Are there standard ways to create data descriptions?
 
-|Ontology | Link | About what?|
+There is no single universal format, but the minimum useful description usually includes:
+
+- the variable name
+- a definition
+- ideally, a link to the reused ontology term or community definition
+
+Some general-purpose vocabularies and metadata schemas include:
+
+|Ontology | Link | Use|
 | ---| ---|
-|Schema.org | [https://schema.org/](https://schema.org/)| Definitions of generic things e.g., "Computer"|
-|DBpedia | [https://www.dbpedia.org/resources/lookup/](https://www.dbpedia.org/resources/lookup/)| Definitions from Wikipedia |
-|Data Catalog Vocabulary (DCAT) | [https://www.w3.org/TR/vocab-dcat-2/](https://www.w3.org/TR/vocab-dcat-2/)| Definitions about data things e.g., "accessURL"|
-|Dublin Core | [https://www.dublincore.org/specifications/dublin-core/dcmi-terms/](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)| Definitions about Metadata|
+|Schema.org | [https://schema.org/](https://schema.org/)| Generic web concepts |
+|DBpedia | [https://www.dbpedia.org/resources/lookup/](https://www.dbpedia.org/resources/lookup/)| Concepts derived from Wikipedia |
+|Data Catalog Vocabulary (DCAT) | [https://www.w3.org/TR/vocab-dcat-2/](https://www.w3.org/TR/vocab-dcat-2/)| Data catalogue concepts |
+|Dublin Core | [https://www.dublincore.org/specifications/dublin-core/dcmi-terms/](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)| General metadata terms |
 
-### There are also public registries where you can find Ontologies
+Public registries that help locate vocabularies include:
 
-**Linked Open Vocabularies**  → [lov.linkeddata.es/dataset](https://lov.linkeddata.es/dataset)  
-**EU Vocabularies:**  → [op.europa.eu/en/web/eu-vocabularies](https://op.europa.eu/en/web/eu-vocabularies)  
-**BioPortal:**  → [bioportal.bioontology.org/](https://bioportal.bioontology.org/)  
-**AgroPortal:**  → [agroportal.lirmm.fr/](https://agroportal.lirmm.fr/)  
-**EcoPortal** → [ecoportal.lifewatch.eu/](https://ecoportal.lifewatch.eu/)  
-**Ontology Lookup Service by the EBI** → [ebi.ac.uk/ols/index](https://www.ebi.ac.uk/ols/index)  
-**Bioschemas** → [bioschemas.org/](https://bioschemas.org/)  
+- Linked Open Vocabularies: <https://lov.linkeddata.es/dataset/lov/>
+- EU Vocabularies: <https://op.europa.eu/en/web/eu-vocabularies>
+- BioPortal: <https://bioportal.bioontology.org/>
+- AgroPortal: <https://agroportal.lirmm.fr/>
+- EcoPortal: <https://ecoportal.lifewatchitaly.eu/>
+- Ontology Lookup Service: <https://www.ebi.ac.uk/ols/index>
+- Bioschemas: <https://bioschemas.org/>
 
 
 :::::::::::::::: challenge
@@ -108,59 +115,50 @@ The minimum elements you need to describe your dataset are the **Variable Name**
 ### Bioportal
 
 Visit [BioPortal](https://bioportal.bioontology.org/). BioPortal is the most known repository for biomedical ontologies.  
-Search for an Ontology term for `blood glucose level` In the "Search for a class" search box.  
-Select one result related to a clinical measurement that is sound to you.   
+Search for a term describing `blood glucose level` in the 'search for a class box'.
 
-What are the definition and ID?  
+What ontology term would you reuse, and what persistent identifier does it provide?
 
 ::::::::::::::: solution
 
-Definition: Measurement of the amount of glucose, the monosaccharide sugar, C6H12O6, occurring widely in plant and animal tissues which is one of the three dietary monosaccharides that are absorbed directly into the bloodstream during digestion, is the end product of carbohydrate metabolism, and is the chief source of energy for living organisms, in a specified volume of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them.  
-ID: [http://purl.obolibrary.org/obo/CMO_0000046](https://purl.obolibrary.org/obo/CMO_0000046)
+There is more than one possible match, but a valid answer is to identify a term such as the clinical measurement concept and record its ontology URI or other persistent identifier provided by the registry.
 
 ::::::::::::::::::
 ::::::::::::::::::
 
-The **Data Descriptions** (or data dictionaries in some domains) are usually manually written in a tabular format. This document has the length and depth that the data owner sees fit. The general rule of thumb is to describe the dataset related to a publication. Any accessible format like `.csv`, `.xls`, or similar is acceptable.  
+Data descriptions are often maintained as tables in `.csv`, `.xlsx`, or similar formats. For databases, it is also useful to provide both a machine-readable schema and a human-readable diagram.
 
-![Data Description or Dictionary](https://dataedo.com/asset/img/kb/glossary/data_vs_data_dictionary.png){alt="tabular"}
+![Example of a data dictionary in tabular format](https://dataedo.com/asset/img/kb/glossary/data_vs_data_dictionary.png){alt="tabular"}
 
-In case it is a database, a data model must be included in machine-readable format (e.g., `.sql`) and a human-friendly diagram (e.g., ER model on `.pdf`).
+Other human-friendly approaches include dataset nutrition labels and automated codebook tools, but the FAIR principles push further toward structured, machine-actionable formats.
 
-There are examples where data descriptions are made available in a human-relatable manner, such as the *dataset nutrition labels* style [(Holland et al., 2018)](https://arxiv.org/abs/1805.03677).   
-An example is **A Statutory Article Retrieval Dataset**   → [LINK TO EXAMPLE](https://github.com/maastrichtlawtech/bsard/blob/master/docs/img/nutrition.png)   
-Moreover, there are tools and software packages to generate automated "Codebooks" by only looking at the dataset  
-An example is **Automatic Codebooks from Metadata Encoded in Dataset Attributes**   → [LINK TO EXAMPLE](https://rubenarslan.github.io/codebook/).  
+## 4. What is the relationship between data descriptions and linked data?
 
-These initiatives are helping us standardize data descriptions and are "Human Friendly", which works perfectly. However, the FAIR principles FM-I1, FM-I2 and FM-R1.3 explicitly mention the need for [Linked Data](https://en.wikipedia.org/wiki/Linked_data) formats in order to gain the maximum level of **Interoperability**.
+When data descriptions reuse ontology terms and stable identifiers, datasets can be transformed into linked data formats such as RDF and become easier to combine with other resources (or 'interoperable').
 
-## 4. What is the relation between Data Descriptions and Linked Data?
-
-When we create comprehensive Data Descriptions reusing terminologies of existing Ontologies, we could make available our dataset in a [Linked Data](https://lod-cloud.net/#) format which makes it **Interoperable** with other datasets out there.
-
-Imagine your dataset can be helpful to another researcher in the future. The future researcher can reuse your dataset and combine both by matching variable names with the Ontology identifiers. 
-
-There are several tools that help you to convert your dataset from a conventional format into a Linked Data format (e.g., [RDF format](https://en.wikipedia.org/wiki/Resource_Description_Framework)).
+Tools that can help with this include:
 
 |Tool | Source | GUI | Note|
 | ---| ---|---|---|
-|Open Refine | [https://openrefine.org/](https://openrefine.org/)| ✅| Installation can be a hassle and takes a lot of memory|
-|RMLmapper | [https://github.com/RMLio/rmlmapper-java/releases](https://github.com/RMLio/rmlmapper-java/releases)| ❌| Highly technical you need to know command line tools, preferred option of data engineers   |
+|Open Refine | [https://openrefine.org/](https://openrefine.org/)| ✅| Installation can be a hassle and takes a lot of memory |
+|RMLmapper | [https://github.com/RMLio/rmlmapper-java/releases](https://github.com/RMLio/rmlmapper-java/releases)| ❌| Highly technical as you need to know command line tools; preferred option of data engineers   |
 |SDM-RDFizer | [https://github.com/SDM-TIB/SDM-RDFizer](https://github.com/SDM-TIB/SDM-RDFizer)| ❌ | You need to be familiar with programming languages |
-|SPARQL-Generate | [https://ci.mines-stetienne.fr/sparql-generate/](https://ci.mines-stetienne.fr/sparql-generate/)| ✅|It is a good option if you are going to invest time in it since you can learn SPARQL language
-|Virtuoso Universal Serve | [https://virtuoso.openlinksw.com/](https://virtuoso.openlinksw.com/)| ✅|It's nice but you have to pay for a license|
-|UM LDWizard | [https://github.com/MaastrichtU-IDS/ldwizard-humanities](https://github.com/MaastrichtU-IDS/ldwizard-humanities)| ✅|It's free, gets the job done quickly, and you can publish data if you have a [TriplyDB](https://triplydb.com/) account → **RECOMMENDED**|
+|SPARQL-Generate | [https://ci.mines-stetienne.fr/sparql-generate/](https://ci.mines-stetienne.fr/sparql-generate/)| ✅| Good option if you want to learn SPARQL language |
+|Virtuoso Universal Serve | [https://virtuoso.openlinksw.com/](https://virtuoso.openlinksw.com/)| ✅| Commercial licensing may apply |
+|UM LDWizard | [https://github.com/MaastrichtU-IDS/ldwizard-humanities](https://github.com/MaastrichtU-IDS/ldwizard-humanities)| ✅| Quick route to publishable linked data |
 
 ::::::::::::::::::: challenge
 
-Transform a dataset from XLSX format to RDF format using [UM LDWizard](https://github.com/MaastrichtU-IDS/ldwizard-humanities)  
-Download the following mock dataset: [MOCK DATA](../data/MOCK_DATA_BOOTCAMP.xlsx)  
+###Transforming to RDF
+
+Download the mock dataset if you haven't already and save to your Desktop: [MOCK DATA](../data/MOCK_DATA_BOOTCAMP.xlsx)  
+Convert the dataset into RDF using [UM LDWizard](https://github.com/MaastrichtU-IDS/ldwizard-humanities)  
 
 What ontology terms did you reuse to describe the data attributes?  
 
 ::::::::::::::::::: solution
 
-There is no one single answer 🤓
+There is no single correct answer. The important part is to reuse existing ontology terms where possible and document the choices you made.
 
 :::::::::::::::
 ::::::::::::::
@@ -169,16 +167,17 @@ There is no one single answer 🤓
 
 Marine Biology Scenario
 
-You are a marine biology researcher, your group has discovered new organisms, and it's time to create data descriptions. However, there are no available Ontologies to describe the data records, given that they are new scientific discoveries.
+Your marine biology group has discovered new organisms, but you cannot find an existing ontology that fits the concepts you need.
 
-Discuss with your team what the researcher should do given that apparently there are no available Ontologies to describe their data.
+What should you do? Should you adapt an existing vocabulary, create local terms, or work with the community toward a new ontology extension?
 
 :::::::::::::::::::::::
 
 :::::::::::::::::: keypoints
 
-- 'Codebook', 'data glossary', or 'data dictionary' are some other ways to name **Data Descriptions**.
-- **Ontologies** (in information science) are like public online vocabularies of community curated terms and their definitions.
-- By reusing **Ontology terms** or community accepted vocabularies, we aim to create a culture of recycling terminology by default.
+- Data descriptions may appear under names such as codebook or data dictionary.
+- Reusing ontology terms reduces ambiguity and improves interoperability.
+- A useful description links dataset variables to accepted community concepts.
+- Linked data becomes more feasible when descriptions are structured and identifier-based.
 
 ::::::::::::::::::::::::
