@@ -99,7 +99,7 @@ Answer the following:
 
 :::::::::::::::: solution
 
-- It is a terms-of-use style statement published for city-maintained digital resources.
+- It is a terms-of-use style statement published for city-maintained digital resources: "GIS or other data or information, or any other materials and items, that are displayed or made available for download from this site"
 - The file format is Markdown (`.md`).
 - It is published on GitHub.
 
