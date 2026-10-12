@@ -110,7 +110,7 @@ The statement itself often lives next to the data documentation:
 
 ![](fig/FAIRcoursebook-image1_3.png){alt="Folder structure containing a README or license file"}
 
-Some repositories let you define tailored reuse conditions directly on the platform. Dataverse, for example, defaults to a CC0 waiver but also allows custom terms after dataset creation.
+Some repositories let you define tailored reuse conditions directly on the platform.
 
 ![](fig/FAIRcoursebook-image1_4.png){alt="Repository interface showing license and terms options"}
 
