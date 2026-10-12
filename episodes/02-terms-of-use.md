@@ -73,7 +73,7 @@ The terms of use statement is the formal basis on which others may access and re
 
 An example of a broader policy framework is the FAIRsharing record for the 1958 Birth Cohort policy:  
 
-- FAIRsharing entry: <https://fairsharing.org/FAIRsharing.z09fg9>
+- FAIRsharing entry: [<https://fairsharing.org/FAIRsharing.z09fg9>](https://fairsharing.org/5085)
 - Original policy document: <https://cpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/7/314/files/2015/07/POLICY-DOCUMENT-FINAL-Vsn-4.0-DEC-2014.pdf>
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
