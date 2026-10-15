@@ -7,15 +7,16 @@ exercises: 15
 :::::::::::::::::::::: questions
 
 - What are data access protocols?
-- Is Open Access a data access protocol?
-- Can I expose my data as a service using FAIR API protocols?
+- Is open access a data access protocol?
+- Can data be exposed as a service through FAIR API protocols?
 
 :::::::::::::::::::::::::::
   
 :::::::::::::::::::: objectives
 
-- The participant will learn what data access protocols are.
-- The participant will explore the aspects of an access protocol for humans and machines.
+- Learn what data access protocols are.
+- Distinguish between human-facing and machine-facing access instructions.
+- Explore how FAIR API protocols can expose data as a service.
 
 ::::::::::::::::::::::::
 
@@ -33,117 +34,114 @@ exercises: 15
 
 ## 1. What are Data Access Protocols?
 
-Data Access Protocols are a set of formatting and processing rules for data communication. In practice, Data Access Protocols are the **explicit instructions** for humans and machines to access a data source.
-
-Imagine you enter a security room. You need to follow specific steps or possess specific keys for accessing the room. The same is with data. Moreover, if the door of the room is *open* we can say it is **Open Access**.
+Data access protocols are the explicit rules and steps that tell humans or machines how to access a data source.
 
 ![Access](https://upload.wikimedia.org/wikipedia/commons/3/3b/Electronic_access_control_%28BSL3_Lab%29_using_personal_identification_number_%28PIN%29.jpg){alt="access" width=800}
 
-Following the premise that "Data Access Protocols" are a common set of rules in a standard language, they exist in various ranges. For example, some messages are directed to humans, and some protocols are meant for machines.  
+Just as you need the correct key, code, or procedure to enter a secure room, data access often depends on following the correct process.  
 
-|Access Protocol|Example|Note|
-|---|---|---|
-|Communication between machines|![](https://study-ccna.com/wp-content/images/http_process_explained.jpg)|A PC requesting information using HTTP protocol|
-|Communication between humans|![](fig/FAIRcoursebook-image3_1.png){alt="CbCM Protocol"}|Data owner requesting users to contact directly for data access|
+| Access Protocol | Example | Note |
+| --- | --- | --- |
+| Communication between machines | HTTP request or API call | A machine requests information using a standard network protocol |
+| Communication between humans | Data request form or email workflow | A person follows explicit instructions to request access |
 
-Image: **Mapping EU Company Mobility & Abuse-Detection**   → [LINK TO EXAMPLE](https://eu-corporate-mobility.org/)
+![Example of a human-facing access protocol](fig/FAIRcoursebook-image3_1.png){alt='screenshot of a statement about the availability of data, giving an email address to contact'} 
+![Example of a data request form](fig/FAIRcoursebook-image3_2.png){alt='Screenshot of a human-facing data request form'} 
 
-In a strict sense, data access protocols relate to network protocol definitions. However, regarding Research Data, the human factor plays a part. Therefore, we can explicitly mention the rules and instructions for accessing data depending on the use case. Sometimes the data can't be publicly available, and there is no particular repository for it. Therefore, you request the user to contact you to get access. We could say it is a **human-friendly** access protocol.
+### Protocols are rules communicated in a shared language
 
-For example:   
-![](/fig/FAIRcoursebook-image3_2.png){alt="UMC Utrecht Access Protocol"}
-
-In **Data Request Form UMC Utrecht**  → [LINK TO EXAMPLE](https://preview.umcutrecht.nl/en/data-request-form-umc-utrecht)    
-The University Medical Center at Utrecht (UMC Utrecht) has an open *data request form* for users to access clinical data for research purposes. The form asks general things related to the researcher's identification and affiliation, research context, and methodologies. Furthermore, they explicitly mention that the *Data Access Committee* will review and consider applications and respond within 4 weeks.
-
-### Protocols are like standard rules communicated in a standard language for humans and machines.
-We humans predominantly use the English language for communication in science.
-
-Likewise, Machines need a "medium" to talk to each other such as an **API [(Application Programming Interface)](https://en.wikipedia.org/wiki/Web_API)**, and they use a "communication language" such as **HTTP [Hypertext Transfer Protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)** to share information between one another.   
-
-Relevant API protocols are:  
-
-- [SOAP](https://en.wikipedia.org/wiki/SOAP) API  
-- [SPARQL](https://en.wikipedia.org/wiki/SPARQL) API  
-- [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) API   
+Humans may use a written access policy or form written in English, while machines use Application Programming Interfaces (APIs) and network protocols such as [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol). Common [API](https://en.wikipedia.org/wiki/Web_API) styles include [SOAP](https://en.wikipedia.org/wiki/SOAP), [REST](https://en.wikipedia.org/wiki/Representational_state_transfer), and [SPARQL](https://en.wikipedia.org/wiki/SPARQL).
 
 ## 2. Is Open Access a data access protocol?
 
-Open Access is a policy framework in the strict sense but yes! We could say it's a data access protocol.
-Within the Open Science recommendations, it is endorsed to standardize open access datasets when it is possible to make them publicly available and does not violate legal or ethical considerations. More information at [Open Access](https://www.openaccess.nl/en/what-is-open-access).
+Strictly speaking, open access is a policy framework rather than a network protocol, but in practice it functions as an access model with explicit rules: the data can be retrieved openly without individual authorization.
 
-[openaccess.nl](https://www.openaccess.nl/en/what-is-open-access/open-data)
+Depositing data in a public repository often gives the resource an open-access access route automatically. Some open datasets also expose machine-readable access through APIs or SPARQL endpoints. 
 
-Depositing datasets in public data repositories can grant them open access protocol automatically. In addition, data repositories typically work as a data archiving instrument, which we cover in the Publish and Preserve Episode.  
+Example:  
 
-Moreover, Open Access data sources can be made available using FAIR protocols such as SPARQL API endpoints.  
+- EU public data SPARQL interface:
+  <https://data.europa.eu/data/sparql>
+- Endpoint:
+  <https://data.europa.eu/sparql>
 
-An example is:  
-
-**The European Union Public Data**   → [LINK TO EXAMPLE](https://data.europa.eu/data/sparql)  
-Which makes available all public datasets. The following endpoint (permanent link) [https://data.europa.eu/sparql](https://data.europa.eu/sparql)  
-
-![sparql](fig/FAIRcoursebook-image3_3.png){alt="sparql" width=800}
+![EU public data SPARQL example](fig/FAIRcoursebook-image3_3.png){alt='Screenshot of a SPARQL endpoint example'}
 
 :::::::::::::: challenge
 
-Go to [ZENODO Covid 19 Community](https://zenodo.org/communities/covid-19/).  
+### Zenodo
 
-Can you tell what the default "Data Access Protocol" is for the Digital Objects displayed?  
+Visit the Zenodo COVID-19 community: <https://zenodo.org/communities/covid-19/>
+
+What is the default data access protocol visible for the displayed records?
 
 :::::::::::::::::: solution
 
-It is *Open Access*. It is indicated in the green tag on top of the titles.
+The records are presented as open access resources, which is visible through the repository interface and download behaviour.
 
 ::::::::::::::::::
 ::::::::::::::::::::
 
-### Open Access is a human and machine-friendly Data Access Protocol
+### Open Access can be human-friendly and machine-friendly
 
-Humans see a "Download" button  
-Machines see an HTTPS request  
+Humans see direct download options. Machines see stable web requests and, insome systems, structured service endpoints. 
 
-## 3. Can I expose my data as a service using FAIR API protocols?
+## 3. Can data be exposed as a service through FAIR API protocols?
 
-Yes, it is possible; however, it is not an easy road and requires technical skills.  
-We must remember that exposing data as a service would mean we need a server to host it, which we don't always have. Moreover, one of the main motivations to expose our data using FAIR protocols is to make it accessible for other data sources to integrate. But for that, you would need some basic understanding of [Knowledge Graphs](https://en.wikipedia.org/wiki/Knowledge_graph) technologies. More information about this can be found in the [FAIR Elixir Cookbook](https://faircookbook.elixir-europe.org/content/recipes/introduction/FAIR-and-knowledge-graphs.html).
+Yes, but it requires technical infrastructure and some familiarity with linked data or [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_graph) tooling.
+More information about this can be found in the [FAIR Elixir Cookbook](https://faircookbook.elixir-europe.org/content/recipes/introduction/FAIR-and-knowledge-graphs.html).
 
-|Tool | Source | GUI | Note|
-| ---| ---|---|---|
-|TriplyDB | [https://triplydb.com/](https://triplydb.com/)| ✅| Free account, you can expose your data on their servers for a limited time |
-|GraphDB | [https://www.ontotext.com/products/graphdb/](https://www.ontotext.com/products/graphdb/)| ✅| Nice interface; you need to rely on a server    |
-|FAIR Data Point | [https://github.com/fair-data/fairdatapoint](https://github.com/fair-data/fairdatapoint)| ❌ | Highly technical, requires programming language knowledge |
-|RDFlib Endpoint | [https://pypi.org/project/rdflib-endpoint/](https://pypi.org/project/rdflib-endpoint/)| ❌|Requires familiarity with terminal, but is the quickest way to get started|
+Useful tools include:
 
-## Important!
-When you expose your data using FAIR API protocols, you must register your service in a registry for FAIR APIs such as [SMART API](https://www.smart-api.info/)
+| Tool | Source | GUI | Note|
+| --- | --- | --- | --- |
+| TriplyDB | [https://triplydb.com/](https://triplydb.com/)| ✅| Quick hosted option for exposing data |
+| GraphDB | [https://www.ontotext.com/products/graphdb/](https://www.ontotext.com/products/graphdb/)| ✅| Requires a server or managed deployment |
+| FAIR Data Point | [https://github.com/fair-data/fairdatapoint](https://github.com/fair-data/fairdatapoint)| ❌ | Powerful but technical |
+| RDFlib Endpoint | [https://pypi.org/project/rdflib-endpoint/](https://pypi.org/project/rdflib-endpoint/)| ❌| Fast local route for experimentation |
+
+::::::::::::::::::::::::::::::::::::: callout
+
+### Register FAIR APIs where others can find them
+
+If you expose a FAIR API or similar service endpoint, register it in an appropriate service registry such as SMART API: <https://www.smart-api.info/>
+
+::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::: challenge
 
-### Optional Exercise
+### Optional API Exercise
 
-Expose your RDF data to a service endpoint using a FAIR API protocol  
+1. Register for `TriplyDB` using a google or github account
+2. Click on Create Dataset. Name your dataset TEST and then click "Add Dataset"
+3. Using the option to add data from files, upload the RDF data you generated in the data descriptions episode (it is a .ttl file), clicking "Import from files".
+4. Once uploaded, copy the URL from the browser and then log out of your account. You should be able to return to that page and still see the data.
+5. Click on Triples in the menu on the left-hand side of the page and search for all the entries for "Pink" in the object box
 
-1. Use the RDF data you generated in Episode 2 (data descriptions) else you can download it here
-2. In your terminal, install the following library using the default Python installation `pip install rdflib-endpoint@git+https://github.com/vemonet/rdflib-endpoint@main`  
-3. Next, execute the following command to locally expose your data `rdflib-endpoint serve data-file.nt`
+How many entries were there for the colour pink?
 
-:::::::::::::::::::::
+::::::::::::::::::::: solution
+
+There are three. Well done for exposing your data through a public API!
+
+::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::
 
 ::::::::::::::::::::: discussion  
 
 ### Data Access
 
-You are a researcher of Sustainable Investment from the Economics department. After your research, you ended up possessing sensitive financial information of company figures that cannot be disclosed since competitors could misuse this information. You will store the data in a secure environment but you would like to make it available for research purposes.   
-Note: The data is not about personal data.  
+You have sensitive financial information that cannot be openly disclosed, but still want to enable legitimate research access.
 
-Discuss with your team what type of access protocols shall be considered in this case. 
+What kind of human and machine access protocols would you design? What should be openly visible, and what should only be available behind review or controlled authorization?
 
 ::::::::::::::::
 
 ::::::::::::::: keypoints
 
-- Data Access Protocols are a set of formatting and processing rules for data communication. For example, imagine you enter a security room. You must follow certain steps or possess keys to access the room.
-- When you expose your data using FAIR protocols, you must register your service in a registry for FAIR APIs such as [SMART API](https://www.smart-api.info/).
+- Data access protocols describe how humans and machines gain access to data.
+- Open access is an access model that can still be expressed through explicit rules and interfaces.
+- Human-facing request forms and machine-facing APIs are both important access patterns in FAIR data practice.
+- FAIR service endpoints are more useful when they are registered and discoverable.
 
 ::::::::::::::::::
