@@ -40,15 +40,17 @@ Data access protocols are the explicit rules and steps that tell humans or machi
 
 Just as you need the correct key, code, or procedure to enter a secure room, data access often depends on following the correct process.  
 
-| Access Protocol | Example | | Note |
-| --- | --- | --- | --- |
-| Communication between machines | HTTP request or API call | ![Human-facing access protocol example](fig/FAIRcoursebook-image3_1.png){alt='Example of a human-oriented access workflow'} | A machine requests information using a standard network protocol |
-| Communication between humans | ![UMC Utrecht data request form](fig/FAIRcoursebook-image3_2.png){alt='Screenshot of a human-facing data request form'} | Data request form or email workflow | A person follows explicit instructions to request access |
+| Access Protocol | Example | Note |
+| --- | --- | --- |
+| Communication between machines | HTTP request or API call | A machine requests information using a standard network protocol |
+| Communication between humans | Data request form or email workflow | A person follows explicit instructions to request access |
+
+![Example of a human-facing access protocol](fig/FAIRcoursebook-image3_1.png){alt='screenshot of a statement about the availability of data, giving an email address to contact'} 
+![Example of a data request form](fig/FAIRcoursebook-image3_2.png){alt='Screenshot of a human-facing data request form'} 
 
 ### Protocols are rules communicated in a shared language
 
 Humans may use a written access policy or form written in English, while machines use Application Programming Interfaces (APIs) and network protocols such as [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol). Common [API](https://en.wikipedia.org/wiki/Web_API) styles include [SOAP](https://en.wikipedia.org/wiki/SOAP), [REST](https://en.wikipedia.org/wiki/Representational_state_transfer), and [SPARQL](https://en.wikipedia.org/wiki/SPARQL).
-
 
 ## 2. Is Open Access a data access protocol?
 
