@@ -6,8 +6,6 @@ title: Setup
 ## Recommended Preparation
 
 
-- Create a [GitHub account](https://github.com/).
-- Review a short introduction to Markdown and GitHub Pages.
 - Create a [Harvard Dataverse account](https://dataverse.harvard.edu/).
 
 
