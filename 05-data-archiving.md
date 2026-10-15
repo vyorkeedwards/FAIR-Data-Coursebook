@@ -6,16 +6,17 @@ exercises: 15
 
 ::::::::::::::::: questions
 
-- What is Data Archiving?
-- What are Data Repositories?
+- What is data archiving?
+- What are data repositories?
 - What is a DOI, and why is it important?
 
 ::::::::::::::::::::::
 
 :::::::::::::::: objectives
 
-- The participant will understand the importance of archiving datasets on trusted data repositories.
-- The participant will learn the significance of the Digital Object Identifier (DOI).
+- Understand the role of trusted repositories in long-term preservation.
+- Learn why repositories improve discovery and citation.
+- Understand how DOI supports persistence and citation.
 
 ::::::::::::::::::
 
@@ -28,123 +29,118 @@ exercises: 15
 > FM-A2 (Metadata Longevity) → [doi.org/10.25504/FAIRsharing.A2W4nz](https://doi.org/10.25504/FAIRsharing.A2W4nz)  
 
 
-## 1. What is Data Archiving?
+## 1. What is data archiving?
 
-'Data Archiving' is the practice of placing a digital source in a preservation phase, i.e., the long-term storage of research data. 
+Data archiving is the long-term preservation of research data and related digital objects.
 
-The various academic journals have different policies regarding how much of their data and methods researchers are required to store in a public archive. Similarly, the major grant-giving institutions have varying attitudes toward public archival of data. In general, publications must have attached sufficient information to allow fellow researchers to replicate and test the research.
+Funders and journals increasingly expect enough of the data and methods to be preserved so that results can be inspected, understood, and, where possible, replicated.
 
-## 2. What are Data Repositories?
+## 2. What are data repositories?
 
-Datasets are archived in **Data repositories**. They are storage locations for digital objects. **Data repositories** can help make a researcher's data more discoverable by search engines (e.g., Google) and ultimately lead to potential reuse. Therefore, using storage can lead to increased citations of your work. Data repositories can also serve as backups during rare events where data are lost to the researcher and must be retrieved.
+Data repositories are storage locations for digital objects such as datasets, code, supplementary files, and metadata.
 
-### Note
-Data Archiving is the long-term storage of research data.
-Data repositories can help make research data more discoverable by search engines (e.g., Googlebots). 
+Repositories make research outputs easier to find and can also provide:
+
+- preservation
+- backup
+- citation infrastructure
+- versioning
+- controlled access options
 
 Examples of data repositories:
 
 | Data Repository | About |
 |---|---|
-|[DataverseNL](https://dataverse.nl/dataverse) | DataverseNL is a community-specific repository that focuses on Dutch universities and research centers.|
-|[4TU Data](https://data.4tu.nl/) | 4TU Data is a community repository that was originally created by three technical universities in the Netherlands.|
-|[PANGEA](https://pangaea.de/) | PANGEA is a community-specific repository that focuses on Earth & Environmental Science.| 
-|[FigShare](https://figshare.com/) | FigShare is an open generic data repository for general purposes; it can store data and other digital objects.| 
+|[DataverseNL](https://dataverse.nl/dataverse) | Community repository supporting Dutch universities and research centres |
+|[PANGEA](https://pangaea.de/) | Domain repository for Earth and environmental sciences | 
+|[FigShare](https://figshare.com/) | General-purpose repository for many digital object types | 
 
-Just like FigShare, many data repositories are for general use. They provide a low entry barrier to making data **Findable**, addressing FM-F1A (Identifier Uniqueness) and FM-F3 (Resource Identifier in Metadata). 
+### General repository recommendations
 
+Check the guidance from your institution. Otherwise, aim for a domain-specific or community repository where possible. Registries such as <https://www.re3data.org/> can help you to find one.
 
-### Recommendations for general-purpose data repositories
-[ZENODO](https://zenodo.org/) administrated by [CERN](https://home.cern/)  
-[SURF Repository](https://repository.surfsara.nl/) administrated by [SURF](https://www.surf.nl/)  
-[DataverseNL](https://dataverse.nl/)  administrated by [DANS](https://dans.knaw.nl/en/)
+If there isn't an appropriate domain-specific or community repository, a trusted general repository is usually better than leaving data only on a local drive or project website.
 
-Quick characteristics of general-purpose repositories:  
+- Zenodo: <https://zenodo.org/>
+- Figshare: <https://figshare.com/>
+- Harvard Dataverse (instance of Dataverse available to all researchers): <https://dataverse.harvard.edu/>
 
-- Safe — your research is stored safely for the future in a Data Centre for as long as CERN and/or DANS exist.
-- Citeable — every upload is assigned a Digital Object Identifier (DOI) to make them citable and trackable.
-- No waiting time — Uploads are made available online as soon as you hit publish, and your DOI is registered within seconds.
-- Open or closed — Share, e.g., anonymized clinical trial data with only medical professionals via our restricted access mode.
-- Versioning — Easily update your dataset with our versioning feature.
-- GitHub integration — Easily preserve your GitHub repository in Zenodo.
-- Usage statistics — All uploads display standards-compliant usage statistics.
+Typical strengths of general-purpose repositories include:
 
-![](https://datamanagement.hms.harvard.edu/sites/g/files/mcu941/files/assets/Images/2020-12-10-Repo-Matrix.png){alt="Harvard Medical School, RDM - Data Repositories"}
-Image: Harvard Medical School, RDM - Data Repositories. Accessed Jul-2022 - *datamanagement.hms.harvard.edu/share/data-repositories*
+- persistent identifiers
+- rapid publication
+- versioning
+- backup and preservation
+- usage statistics
+- open or restricted access modes
 
-### [Original Harvard Dataverse](https://dataverse.harvard.edu/dataverse/harvard)
+Additional registries that help identify suitable repositories:
 
-### Some public registries where you can find lists of trusted repositories for Data Archiving
-
-**Registry of Research Data Repositories (re3data)**  → [re3data.org//](https://www.re3data.org/)  
-**PLOS ONE Recommended Repositories**  → [journals.plos.org/plosone/s/recommended-repositories](https://journals.plos.org/plosone/s/recommended-repositories)  
-**NIH Recommended Repositories:**  → [sharing.nih.gov/repositories-for-sharing-scientific-data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data)  
-**Nature - Scientific Data Guidelines:**  → [nature-com.mu.idm.oclc.org/sdata/policies/repositories](https://www-nature-com.mu.idm.oclc.org/sdata/policies/repositories)  
-**OpenDOAR - Directory of Open Access Repositories**  →  [v2.sherpa.ac.uk/opendoar/](https://v2.sherpa.ac.uk/opendoar/)
+- re3data: <https://www.re3data.org/>
+- PLOS recommended repositories:
+  <https://journals.plos.org/plosone/s/recommended-repositories>
+- NIH repositories guidance:
+  <https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data>
+- OpenDOAR: <https://v2.sherpa.ac.uk/opendoar/>
 
 
 :::::::::::::::::::: challenge
 
 Dataverse
 
-Go to **[dataverse.org](https://dataverse.org/)** and scroll down until you see a map. Respond to the following:  
-
-1. How many installations of Dataverse are there?  
-2. How many Dataverse installations are in the Netherlands?  
-3. DataverseNL is the data repository hosted by DANS. It supports all higher education institutions in the Netherlands. How many datasets exist now in DataverseNL? (Aug 2022)   
+Visit <https://dataverse.org/> and scroll down to the map of Dataverse installations
+1. How many installations of Dataverse are there?
+2. Are there any in the UK?
+3. There is a link to a page of metrics. What's the most common subject area of data deposited across the Dataverse?
+The Harvard Dataverse Installation is open to researchers around the world. Navigate to its website.
+4. How many datasets does it contain?
 
 ::::::::::::::::::: solution
 
-1. There are 83 installations worldwide. This means that 83 organizations have a copy of the original Harvard Dataverse layout and have hosted it on their own servers to support researchers.  
-2. There are 3 installations in the Netherlands: DataverseNL, IISH Dataverse, and NIOZ Dataverse.
-3. There are 6,075.
+1. This changes over time (150 on 15th October 2026)
+2. None!
+3. Arts and Humanities
+4. This changes over time (305,529 on 15th October 2026)
 
 ::::::::::::::::
 :::::::::::::::::::
 
 ### 3. What is a DOI, and why is it important?
 
-The DOI is a common identifier used for academic, professional, and governmental information such as articles, datasets, reports, and other supplemental information. The [International DOI Foundation (IDF)](https://www.doi.org/) is the agency that oversees DOIs. [CrossRef](https://www.crossref.org/) and [DataCite](https://datacite.org/) are two prominent not-for-profit registries that provide services to create or mint DOIs. Both have membership models where their clients are able to mint DOIs distinguished by their prefix. For example, DataCite features a [statistics page](https://stats.datacite.org/) where you can see registrations by members.
+DOI is a persistent identifier commonly used for articles, datasets, reports, and other scholarly outputs.
 
-A DOI has three main parts:
+Two major DOI registration services in research are:
 
-- Proxy or DOI resolver service
-- Prefix which is unique to the registrant or member
-- Suffix, a unique identifier assigned locally by the registrant to an object
+- Crossref: <https://www.crossref.org/>
+- DataCite: <https://datacite.org/>
 
-![](https://authorcarpentry.github.io/CODATA-RDA-Trieste-2016/Figure1.jpg){alt="Digital Object Anatomy" width=800 height=400}
+Repositories and journals usually register scholarly outputs for DOIs as an automatic part of the publication process.
 
-In the example above, the prefix is used by the Australian National Data Service (ANDS), now called the Australia Research Data Commons (ARDC), and the suffix is a unique identifier for an object at Griffith University. DataCite provides DOI [display guidance](https://support.datacite.org/docs/datacite-doi-display-guidelines) so that they are easy to recognize and use, for both humans and machines.
+A DOI has three conceptual parts:
 
-::::::::::::: challenge
+- the resolver service
+- the registrant prefix
+- the locally assigned suffix
 
-Upload a dataset in the [DEMO DataverseNL](https://demo.dataverse.nl/) repository.
+![Diagram explaining DOI structure](https://authorcarpentry.github.io/CODATA-RDA-Trieste-2016/Figure1.jpg){alt='Illustration of DOI components'}
 
-Download the following mock dataset: [MOCK DATA](../data/MOCK_DATA_BOOTCAMP.xlsx).  
-
-What is the DOI of your dataset?
-
-::::::::::::::: solution
-
-There is no one single answer 🤓
-
-:::::::::::::::::
-:::::::::::::::::
+DOIs make resources easier to cite and track, and they continue resolving even when storage details change. 
 
 ::::::::::::: discussion  
 
 Archiving Scenario
 
-You are a researcher of Migration studies, and you conducted personal interviews. So naturally, you want your research data to be visible in your community, given the impact on the topic. Still, obviously, you can't upload the transcripts, not even in a restricted form, since it's an ethnographic study.  
+You conducted personal interviews for an ethnographic migration study. The raw transcripts cannot be openly shared, even under restricted access.
 
-Discuss with your team how it would be best to handle data archiving in situations like this type of data. 
+How should archiving be handled in this case? What metadata, derived outputs, or access statements should still be preserved and published?
 
 ::::::::::::::::::::
 
 :::::::::::::::::: keypoints
 
-- **Data repositories** can make research data more discoverable by machines (e.g., Google search engine).
-- Always aim for a repository that fits your community (e.g., DataverseNL). Else, deposit your dataset on generic repositories (e.g., Zenodo).
-- If the data is about human subjects or includes demographics, you can always choose to make it private or deposit an aggregated subset.
+- Repositories improve preservation, discovery, and citation.
+- Prefer a trusted community repository when one fits your discipline.
+- General repositories such as Zenodo still provide a strong baseline for FAIR publication.
+- DOI is a key persistent identifier for datasets and publications.
 
 ::::::::::::::::::::::
