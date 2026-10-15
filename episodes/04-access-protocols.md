@@ -108,7 +108,6 @@ If you expose a FAIR API or similar service endpoint, register it in an appropri
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::
 ::::::::::::::::::: challenge
 
 ### Optional API Exercise
