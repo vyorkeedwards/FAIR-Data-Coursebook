@@ -751,7 +751,7 @@ projects place the statement in a <code>README</code>,
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ul>
 <li>It is a terms-of-use style statement published for city-maintained
@@ -789,7 +789,7 @@ Dataverse</a> documentation to find the answer.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Yes. After uploading a dataset, you can go to the Terms tab, click on
 “Edit Terms Requirements” and choose a license from the dropdown or
@@ -873,7 +873,7 @@ with the following conditions:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>Attribution-NoDerivatives 4.0 International, or CC BY-ND 4.0</p>
 </div>
@@ -1129,7 +1129,7 @@ does it provide?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>There is more than one possible match, but a valid answer is to
 identify a term such as the clinical measurement concept and record its
@@ -1232,7 +1232,7 @@ attributes?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>There is no single correct answer. The important part is to reuse
 existing ontology terms where possible and document the choices you
@@ -1283,7 +1283,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-04-access-protocols"><p>Content from <a href="04-access-protocols.html">Securely share</a></p>
 <hr>
-<p>Last updated on 2026-09-16 |
+<p>Last updated on 2026-10-15 |
 
         <a href="https://github.com/vyorkeedwards/FAIR-Data-Coursebook/edit/main/episodes/04-access-protocols.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 25 minutes</p>
@@ -1299,8 +1299,8 @@ any links that you are not going to use.
 <h3 class="card-title">Questions</h3>
 <ul>
 <li>What are data access protocols?</li>
-<li>Is Open Access a data access protocol?</li>
-<li>Can I expose my data as a service using FAIR API protocols?</li>
+<li>Is open access a data access protocol?</li>
+<li>Can data be exposed as a service through FAIR API protocols?</li>
 </ul>
 </div>
 </div>
@@ -1310,9 +1310,10 @@ any links that you are not going to use.
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>The participant will learn what data access protocols are.</li>
-<li>The participant will explore the aspects of an access protocol for
-humans and machines.</li>
+<li>Learn what data access protocols are.</li>
+<li>Distinguish between human-facing and machine-facing access
+instructions.</li>
+<li>Explore how FAIR API protocols can expose data as a service.</li>
 </ul>
 </div>
 </div>
@@ -1330,19 +1331,12 @@ FM-I3 (Use Qualified References) → <a href="https://doi.org/10.25504/FAIRshari
 <section><h2 class="section-heading" id="what-are-data-access-protocols">1. What are Data Access Protocols?<a class="anchor" aria-label="anchor" href="#what-are-data-access-protocols"></a>
 </h2>
 <hr class="half-width">
-<p>Data Access Protocols are a set of formatting and processing rules
-for data communication. In practice, Data Access Protocols are the
-<strong>explicit instructions</strong> for humans and machines to access
-a data source.</p>
-<p>Imagine you enter a security room. You need to follow specific steps
-or possess specific keys for accessing the room. The same is with data.
-Moreover, if the door of the room is <em>open</em> we can say it is
-<strong>Open Access</strong>.</p>
+<p>Data access protocols are the explicit rules and steps that tell
+humans or machines how to access a data source.</p>
 <figure><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Electronic_access_control_%28BSL3_Lab%29_using_personal_identification_number_%28PIN%29.jpg" width="800" alt="access" class="figure mx-auto d-block"><div class="figcaption">Access</div>
-</figure><p>Following the premise that “Data Access Protocols” are a common set
-of rules in a standard language, they exist in various ranges. For
-example, some messages are directed to humans, and some protocols are
-meant for machines.</p>
+</figure><p>Just as you need the correct key, code, or procedure to enter a
+secure room, data access often depends on following the correct
+process.</p>
 <table class="table">
 <colgroup>
 <col width="33%">
@@ -1357,93 +1351,57 @@ meant for machines.</p>
 <tbody>
 <tr>
 <td>Communication between machines</td>
-<td><img src="https://study-ccna.com/wp-content/images/http_process_explained.jpg" class="figure"></td>
-<td>A PC requesting information using HTTP protocol</td>
+<td>HTTP request or API call</td>
+<td>A machine requests information using a standard network
+protocol</td>
 </tr>
 <tr>
 <td>Communication between humans</td>
-<td><img src="../fig/FAIRcoursebook-image3_1.png" alt="CbCM Protocol" class="figure"></td>
-<td>Data owner requesting users to contact directly for data access</td>
+<td>Data request form or email workflow</td>
+<td>A person follows explicit instructions to request access</td>
 </tr>
 </tbody>
 </table>
-<p>Image: <strong>Mapping EU Company Mobility &amp;
-Abuse-Detection</strong> → <a href="https://eu-corporate-mobility.org/" class="external-link">LINK TO EXAMPLE</a></p>
-<p>In a strict sense, data access protocols relate to network protocol
-definitions. However, regarding Research Data, the human factor plays a
-part. Therefore, we can explicitly mention the rules and instructions
-for accessing data depending on the use case. Sometimes the data can’t
-be publicly available, and there is no particular repository for it.
-Therefore, you request the user to contact you to get access. We could
-say it is a <strong>human-friendly</strong> access protocol.</p>
-<p>For example:<br><img src="../fig/FAIRcoursebook-image3_2.png" alt="UMC Utrecht Access Protocol" class="figure"></p>
-<p>In <strong>Data Request Form UMC Utrecht</strong> → <a href="https://preview.umcutrecht.nl/en/data-request-form-umc-utrecht" class="external-link">LINK
-TO EXAMPLE</a><br>
-The University Medical Center at Utrecht (UMC Utrecht) has an open
-<em>data request form</em> for users to access clinical data for
-research purposes. The form asks general things related to the
-researcher’s identification and affiliation, research context, and
-methodologies. Furthermore, they explicitly mention that the <em>Data
-Access Committee</em> will review and consider applications and respond
-within 4 weeks.</p>
+<p><img src="../fig/FAIRcoursebook-image3_1.png" alt="screenshot of a statement about the availability of data, giving an email address to contact" class="figure"><img src="../fig/FAIRcoursebook-image3_2.png" alt="Screenshot of a human-facing data request form" class="figure"></p>
 <div class="section level3">
-<h3 id="protocols-are-like-standard-rules-communicated-in-a-standard-language-for-humans-and-machines-">Protocols are like standard rules communicated in a standard
-language for humans and machines.<a class="anchor" aria-label="anchor" href="#protocols-are-like-standard-rules-communicated-in-a-standard-language-for-humans-and-machines-"></a>
+<h3 id="protocols-are-rules-communicated-in-a-shared-language">Protocols are rules communicated in a shared language<a class="anchor" aria-label="anchor" href="#protocols-are-rules-communicated-in-a-shared-language"></a>
 </h3>
-<p>We humans predominantly use the English language for communication in
-science.</p>
-<p>Likewise, Machines need a “medium” to talk to each other such as an
-<strong>API <a href="https://en.wikipedia.org/wiki/Web_API" class="external-link">(Application
-Programming Interface)</a></strong>, and they use a “communication
-language” such as <strong>HTTP <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" class="external-link">Hypertext
-Transfer Protocol</a></strong> to share information between one
-another.</p>
-<p>Relevant API protocols are:</p>
-<ul>
-<li>
-<a href="https://en.wikipedia.org/wiki/SOAP" class="external-link">SOAP</a> API<br>
-</li>
-<li>
-<a href="https://en.wikipedia.org/wiki/SPARQL" class="external-link">SPARQL</a> API<br>
-</li>
-<li>
-<a href="https://en.wikipedia.org/wiki/Representational_state_transfer" class="external-link">REST</a>
-API</li>
-</ul>
+<p>Humans may use a written access policy or form written in English,
+while machines use Application Programming Interfaces (APIs) and network
+protocols such as <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" class="external-link">HTTP</a>.
+Common <a href="https://en.wikipedia.org/wiki/Web_API" class="external-link">API</a> styles
+include <a href="https://en.wikipedia.org/wiki/SOAP" class="external-link">SOAP</a>, <a href="https://en.wikipedia.org/wiki/Representational_state_transfer" class="external-link">REST</a>,
+and <a href="https://en.wikipedia.org/wiki/SPARQL" class="external-link">SPARQL</a>.</p>
 </div>
 </section><section><h2 class="section-heading" id="is-open-access-a-data-access-protocol">2. Is Open Access a data access protocol?<a class="anchor" aria-label="anchor" href="#is-open-access-a-data-access-protocol"></a>
 </h2>
 <hr class="half-width">
-<p>Open Access is a policy framework in the strict sense but yes! We
-could say it’s a data access protocol. Within the Open Science
-recommendations, it is endorsed to standardize open access datasets when
-it is possible to make them publicly available and does not violate
-legal or ethical considerations. More information at <a href="https://www.openaccess.nl/en/what-is-open-access" class="external-link">Open
-Access</a>.</p>
-<p><a href="https://www.openaccess.nl/en/what-is-open-access/open-data" class="external-link">openaccess.nl</a></p>
-<p>Depositing datasets in public data repositories can grant them open
-access protocol automatically. In addition, data repositories typically
-work as a data archiving instrument, which we cover in the Publish and
-Preserve Episode.</p>
-<p>Moreover, Open Access data sources can be made available using FAIR
-protocols such as SPARQL API endpoints.</p>
-<p>An example is:</p>
-<p><strong>The European Union Public Data</strong> → <a href="https://data.europa.eu/data/sparql" class="external-link">LINK TO EXAMPLE</a><br>
-Which makes available all public datasets. The following endpoint
-(permanent link) <a href="https://data.europa.eu/sparql" class="external-link">https://data.europa.eu/sparql</a></p>
-<figure><img src="../fig/FAIRcoursebook-image3_3.png" width="800" alt="sparql" class="figure mx-auto d-block"><div class="figcaption">sparql</div>
-</figure><div id="challenge1" class="callout challenge">
+<p>Strictly speaking, open access is a policy framework rather than a
+network protocol, but in practice it functions as an access model with
+explicit rules: the data can be retrieved openly without individual
+authorization.</p>
+<p>Depositing data in a public repository often gives the resource an
+open-access access route automatically. Some open datasets also expose
+machine-readable access through APIs or SPARQL endpoints.</p>
+<p>Example:</p>
+<ul>
+<li>EU public data SPARQL interface: <a href="https://data.europa.eu/data/sparql" class="external-link uri">https://data.europa.eu/data/sparql</a>
+</li>
+<li>Endpoint: <a href="https://data.europa.eu/sparql" class="external-link uri">https://data.europa.eu/sparql</a>
+</li>
+</ul>
+<figure><img src="../fig/FAIRcoursebook-image3_3.png" alt="Screenshot of a SPARQL endpoint example" class="figure mx-auto d-block"><div class="figcaption">EU public data SPARQL example</div>
+</figure><div id="zenodo" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <span class="callout-header">Challenge</span>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
+<div id="zenodo" class="callout-inner">
+<h3 class="callout-title">Zenodo</h3>
 <div class="callout-content">
-<p>Go to <a href="https://zenodo.org/communities/covid-19/" class="external-link">ZENODO Covid
-19 Community</a>.</p>
-<p>Can you tell what the default “Data Access Protocol” is for the
-Digital Objects displayed?</p>
+<p>Visit the Zenodo COVID-19 community: <a href="https://zenodo.org/communities/covid-19/" class="external-link uri">https://zenodo.org/communities/covid-19/</a></p>
+<p>What is the default data access protocol visible for the displayed
+records?</p>
 </div>
 </div>
 </div>
@@ -1452,34 +1410,28 @@ Digital Objects displayed?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
-<p>It is <em>Open Access</em>. It is indicated in the green tag on top
-of the titles.</p>
+<p>The records are presented as open access resources, which is visible
+through the repository interface and download behaviour.</p>
 </div>
 </div>
 </div>
 </div>
 <div class="section level3">
-<h3 id="open-access-is-a-human-and-machine-friendly-data-access-protocol">Open Access is a human and machine-friendly Data Access
-Protocol<a class="anchor" aria-label="anchor" href="#open-access-is-a-human-and-machine-friendly-data-access-protocol"></a>
+<h3 id="open-access-can-be-human-friendly-and-machine-friendly">Open Access can be human-friendly and machine-friendly<a class="anchor" aria-label="anchor" href="#open-access-can-be-human-friendly-and-machine-friendly"></a>
 </h3>
-<p>Humans see a “Download” button<br>
-Machines see an HTTPS request</p>
+<p>Humans see direct download options. Machines see stable web requests
+and, insome systems, structured service endpoints.</p>
 </div>
-</section><section><h2 class="section-heading" id="can-i-expose-my-data-as-a-service-using-fair-api-protocols">3. Can I expose my data as a service using FAIR API protocols?<a class="anchor" aria-label="anchor" href="#can-i-expose-my-data-as-a-service-using-fair-api-protocols"></a>
+</section><section><h2 class="section-heading" id="can-data-be-exposed-as-a-service-through-fair-api-protocols">3. Can data be exposed as a service through FAIR API protocols?<a class="anchor" aria-label="anchor" href="#can-data-be-exposed-as-a-service-through-fair-api-protocols"></a>
 </h2>
 <hr class="half-width">
-<p>Yes, it is possible; however, it is not an easy road and requires
-technical skills.<br>
-We must remember that exposing data as a service would mean we need a
-server to host it, which we don’t always have. Moreover, one of the main
-motivations to expose our data using FAIR protocols is to make it
-accessible for other data sources to integrate. But for that, you would
-need some basic understanding of <a href="https://en.wikipedia.org/wiki/Knowledge_graph" class="external-link">Knowledge
-Graphs</a> technologies. More information about this can be found in the
-<a href="https://faircookbook.elixir-europe.org/content/recipes/introduction/FAIR-and-knowledge-graphs.html" class="external-link">FAIR
+<p>Yes, but it requires technical infrastructure and some familiarity
+with linked data or <a href="https://en.wikipedia.org/wiki/Knowledge_graph" class="external-link">knowledge graph</a>
+tooling. More information about this can be found in the <a href="https://faircookbook.elixir-europe.org/content/recipes/introduction/FAIR-and-knowledge-graphs.html" class="external-link">FAIR
 Elixir Cookbook</a>.</p>
+<p>Useful tools include:</p>
 <table class="table">
 <colgroup>
 <col width="25%">
@@ -1498,55 +1450,78 @@ Elixir Cookbook</a>.</p>
 <td>TriplyDB</td>
 <td><a href="https://triplydb.com/" class="external-link">https://triplydb.com/</a></td>
 <td>✅</td>
-<td>Free account, you can expose your data on their servers for a
-limited time</td>
+<td>Quick hosted option for exposing data</td>
 </tr>
 <tr>
 <td>GraphDB</td>
 <td><a href="https://www.ontotext.com/products/graphdb/" class="external-link">https://www.ontotext.com/products/graphdb/</a></td>
 <td>✅</td>
-<td>Nice interface; you need to rely on a server</td>
+<td>Requires a server or managed deployment</td>
 </tr>
 <tr>
 <td>FAIR Data Point</td>
 <td><a href="https://github.com/fair-data/fairdatapoint" class="external-link">https://github.com/fair-data/fairdatapoint</a></td>
 <td>❌</td>
-<td>Highly technical, requires programming language knowledge</td>
+<td>Powerful but technical</td>
 </tr>
 <tr>
 <td>RDFlib Endpoint</td>
 <td><a href="https://pypi.org/project/rdflib-endpoint/" class="external-link">https://pypi.org/project/rdflib-endpoint/</a></td>
 <td>❌</td>
-<td>Requires familiarity with terminal, but is the quickest way to get
-started</td>
+<td>Fast local route for experimentation</td>
 </tr>
 </tbody>
-</table></section><section><h2 class="section-heading" id="important">Important!<a class="anchor" aria-label="anchor" href="#important"></a>
-</h2>
-<hr class="half-width">
-<p>When you expose your data using FAIR API protocols, you must register
-your service in a registry for FAIR APIs such as <a href="https://www.smart-api.info/" class="external-link">SMART API</a></p>
-<div id="optional-exercise" class="callout challenge">
+</table>
+<div id="register-fair-apis-where-others-can-find-them" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="register-fair-apis-where-others-can-find-them" class="callout-inner">
+<h3 class="callout-title">Register FAIR APIs where others can find
+them</h3>
+<div class="callout-content">
+<p>If you expose a FAIR API or similar service endpoint, register it in
+an appropriate service registry such as SMART API: <a href="https://www.smart-api.info/" class="external-link uri">https://www.smart-api.info/</a></p>
+</div>
+</div>
+</div>
+<div id="optional-api-exercise" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <span class="callout-header">Challenge</span>
-<div id="optional-exercise" class="callout-inner">
-<h3 class="callout-title">Optional Exercise</h3>
+<div id="optional-api-exercise" class="callout-inner">
+<h3 class="callout-title">Optional API Exercise</h3>
 <div class="callout-content">
-<p>Expose your RDF data to a service endpoint using a FAIR API
-protocol</p>
 <ol style="list-style-type: decimal">
-<li>Use the RDF data you generated in Episode 2 (data descriptions) else
-you can download it here</li>
-<li>In your terminal, install the following library using the default
-Python installation
-<code>pip install rdflib-endpoint@git+https://github.com/vemonet/rdflib-endpoint@main</code><br>
-</li>
-<li>Next, execute the following command to locally expose your data
-<code>rdflib-endpoint serve data-file.nt</code>
-</li>
+<li>Register for <code>TriplyDB</code> using a google or github
+account</li>
+<li>Click on Create Dataset. Name your dataset TEST and then click “Add
+Dataset”</li>
+<li>Using the option to add data from files, upload the RDF data you
+generated in the data descriptions episode (it is a .ttl file), clicking
+“Import from files”.</li>
+<li>Once uploaded, copy the URL from the browser and then log out of
+your account. You should be able to return to that page and still see
+the data.</li>
+<li>Click on Triples in the menu on the left-hand side of the page and
+search for all the entries for “Pink” in the object box</li>
 </ol>
+<p>How many entries were there for the colour pink?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>There are three. Well done for exposing your data through a public
+API!</p>
+</div>
 </div>
 </div>
 </div>
@@ -1558,15 +1533,11 @@ Python installation
 <div id="data-access" class="callout-inner">
 <h3 class="callout-title">Data Access</h3>
 <div class="callout-content">
-<p>You are a researcher of Sustainable Investment from the Economics
-department. After your research, you ended up possessing sensitive
-financial information of company figures that cannot be disclosed since
-competitors could misuse this information. You will store the data in a
-secure environment but you would like to make it available for research
-purposes.<br>
-Note: The data is not about personal data.</p>
-<p>Discuss with your team what type of access protocols shall be
-considered in this case.</p>
+<p>You have sensitive financial information that cannot be openly
+disclosed, but still want to enable legitimate research access.</p>
+<p>What kind of human and machine access protocols would you design?
+What should be openly visible, and what should only be available behind
+review or controlled authorization?</p>
 </div>
 </div>
 </div>
@@ -1578,11 +1549,14 @@ considered in this case.</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>Data Access Protocols are a set of formatting and processing rules
-for data communication. For example, imagine you enter a security room.
-You must follow certain steps or possess keys to access the room.</li>
-<li>When you expose your data using FAIR protocols, you must register
-your service in a registry for FAIR APIs such as <a href="https://www.smart-api.info/" class="external-link">SMART API</a>.</li>
+<li>Data access protocols describe how humans and machines gain access
+to data.</li>
+<li>Open access is an access model that can still be expressed through
+explicit rules and interfaces.</li>
+<li>Human-facing request forms and machine-facing APIs are both
+important access patterns in FAIR data practice.</li>
+<li>FAIR service endpoints are more useful when they are registered and
+discoverable.</li>
 </ul>
 </div>
 </div>
@@ -1768,7 +1742,7 @@ exist now in DataverseNL? (Aug 2022)</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>There are 83 installations worldwide. This means that 83
@@ -1828,7 +1802,7 @@ DataverseNL</a> repository.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>There is no one single answer 🤓</p>
 </div>
@@ -2233,7 +2207,7 @@ the browser and put it on the <a href="https://search.google.com/test/rich-resul
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Nope 🙁<br>
 They did not. This is a clear example that a data source can be
@@ -2304,7 +2278,7 @@ Download the Rich Metadata file (JSON-LD) format.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>The format is JSON-LD: type=“application/ld+json”</p>
 <p>The vocabulary is Schema.Org: “<span class="citation">@context</span>”:“<a href="https://schema.org/" class="external-link uri">https://schema.org/</a>”</p>
@@ -2395,9 +2369,9 @@ any links that you are not going to use.
   "creativeWorkStatus": "active",
   "url": "https://vyorkeedwards.github.io/FAIR-Data-Coursebook/instructor/aio.html",
   "identifier": "https://vyorkeedwards.github.io/FAIR-Data-Coursebook/instructor/aio.html",
-  "dateCreated": "2026-10-12",
-  "dateModified": "2026-10-12",
-  "datePublished": "2026-10-12"
+  "dateCreated": "2026-10-15",
+  "dateModified": "2026-10-15",
+  "datePublished": "2026-10-15"
 }
 
   </script><script>
