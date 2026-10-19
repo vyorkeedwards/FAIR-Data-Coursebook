@@ -149,7 +149,7 @@ Tools that can help with this include:
 
 ::::::::::::::::::: challenge
 
-###Transforming to RDF
+### Transforming to RDF
 
 Download the mock dataset if you haven't already and save to your Desktop: [MOCK DATA](../data/MOCK_DATA_BOOTCAMP.xlsx)  
 Convert the dataset into RDF using [UM LDWizard](https://github.com/MaastrichtU-IDS/ldwizard-humanities)  
