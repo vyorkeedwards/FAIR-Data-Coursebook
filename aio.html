@@ -735,7 +735,7 @@ projects place the statement in a <code>README</code>,
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ul>
 <li>It is a terms-of-use style statement published for city-maintained
@@ -773,7 +773,7 @@ Dataverse</a> documentation to find the answer.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Yes. After uploading a dataset, you can go to the Terms tab, click on
 “Edit Terms Requirements” and choose a license from the dropdown or
@@ -857,7 +857,7 @@ with the following conditions:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>Attribution-NoDerivatives 4.0 International, or CC BY-ND 4.0</p>
 </div>
@@ -906,7 +906,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-03-data-descriptions"><p>Content from <a href="03-data-descriptions.html">Speak the same language</a></p>
 <hr>
-<p>Last updated on 2026-10-12 |
+<p>Last updated on 2026-10-19 |
 
         <a href="https://github.com/vyorkeedwards/FAIR-Data-Coursebook/edit/main/episodes/03-data-descriptions.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1047,29 +1047,35 @@ definition</li>
 <p>Some general-purpose vocabularies and metadata schemas include:</p>
 <table class="table">
 <colgroup>
-<col width="50%">
-<col width="50%">
+<col width="33%">
+<col width="33%">
+<col width="33%">
 </colgroup>
 <thead><tr>
 <th>Ontology</th>
 <th>Link</th>
+<th>Use</th>
 </tr></thead>
 <tbody>
 <tr>
 <td>Schema.org</td>
 <td><a href="https://schema.org/" class="external-link">https://schema.org/</a></td>
+<td>Generic web concepts</td>
 </tr>
 <tr>
 <td>DBpedia</td>
 <td><a href="https://www.dbpedia.org/resources/lookup/" class="external-link">https://www.dbpedia.org/resources/lookup/</a></td>
+<td>Concepts derived from Wikipedia</td>
 </tr>
 <tr>
 <td>Data Catalog Vocabulary (DCAT)</td>
 <td><a href="https://www.w3.org/TR/vocab-dcat-2/" class="external-link">https://www.w3.org/TR/vocab-dcat-2/</a></td>
+<td>Data catalogue concepts</td>
 </tr>
 <tr>
 <td>Dublin Core</td>
 <td><a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" class="external-link">https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</a></td>
+<td>General metadata terms</td>
 </tr>
 </tbody>
 </table>
@@ -2125,7 +2131,7 @@ remain hard for search engines or data aggregators to interpret.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>No. This is a useful reminder that a human-friendly page is not
 automatically a machine-friendly dataset description.</p>
@@ -2182,7 +2188,7 @@ Download the Rich Metadata file (JSON-LD) format.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>The format is JSON-LD: type=“application/ld+json”</p>
 <p>The vocabulary is Schema.Org: “<span class="citation">@context</span>”:“<a href="https://schema.org/" class="external-link uri">https://schema.org/</a>”</p>
@@ -2273,9 +2279,9 @@ any links that you are not going to use.
   "creativeWorkStatus": "active",
   "url": "https://vyorkeedwards.github.io/FAIR-Data-Coursebook/aio.html",
   "identifier": "https://vyorkeedwards.github.io/FAIR-Data-Coursebook/aio.html",
-  "dateCreated": "2026-10-15",
-  "dateModified": "2026-10-15",
-  "datePublished": "2026-10-15"
+  "dateCreated": "2026-10-19",
+  "dateModified": "2026-10-19",
+  "datePublished": "2026-10-19"
 }
 
   </script><script>
