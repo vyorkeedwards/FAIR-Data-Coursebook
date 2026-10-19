@@ -92,8 +92,8 @@ There is no single universal format, but the minimum useful description usually 
 
 Some general-purpose vocabularies and metadata schemas include:
 
-|Ontology | Link | Use|
-| ---| ---|
+| Ontology | Link | Use |
+| --- | --- | --- |
 |Schema.org | [https://schema.org/](https://schema.org/)| Generic web concepts |
 |DBpedia | [https://www.dbpedia.org/resources/lookup/](https://www.dbpedia.org/resources/lookup/)| Concepts derived from Wikipedia |
 |Data Catalog Vocabulary (DCAT) | [https://www.w3.org/TR/vocab-dcat-2/](https://www.w3.org/TR/vocab-dcat-2/)| Data catalogue concepts |
