@@ -7,7 +7,7 @@ site: sandpaper::sandpaper_site
 
 ![](episodes/fig/FAIRcoursebook-image0_0.png){alt="FAIR Research Data Logo" width=800}
 
-📢 **This coursebook was last updated in January 2025.**
+📢 **This coursebook was last updated in November 2026.**
 
 ## About 📗
 
